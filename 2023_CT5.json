@@ -1,0 +1,2861 @@
+[
+    {
+        "category": "date", 
+        "correctAsOf": "2022/11/8"
+    }, 
+    {
+        "category": "camera", 
+        "elements": [
+            {
+                "type": "EXT", 
+                "code": "01", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "02", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "03", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "04", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "05", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "06", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "07", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "INT", 
+                "code": "01", 
+                "group": "Interior"
+            }, 
+            {
+                "type": "INT", 
+                "code": "02", 
+                "group": "Interior"
+            }, 
+            {
+                "type": "INT", 
+                "code": "03", 
+                "group": "Interior"
+            }, 
+            {
+                "type": "INT", 
+                "code": "04", 
+                "group": "Interior"
+            }
+        ]
+    }, 
+    {
+        "category": "default", 
+        "elements": [
+            {
+                "category": "style", 
+                "code": "MAH-6DB79-1SB"
+            }, 
+            {
+                "category": "mmc", 
+                "code": "6DB79"
+            }, 
+            {
+                "category": "market", 
+                "code": "MAH"
+            }, 
+            {
+                "category": "drivetrain", 
+                "code": "RWD"
+            }, 
+            {
+                "category": "peg", 
+                "code": "1SB"
+            }, 
+            {
+                "category": "bodystyle", 
+                "code": "SED"
+            }, 
+            {
+                "category": "color", 
+                "code": "G1W"
+            }, 
+            {
+                "category": "leather", 
+                "code": "H2G"
+            }, 
+            {
+                "category": "wheels", 
+                "code": "Q81"
+            }
+        ]
+    }, 
+    {
+        "category": "style", 
+        "elements": [
+            {
+                "code": "MAH-6DB79-1SB", 
+                "available": "MAH&6DB79&1SB"
+            }, 
+            {
+                "code": "MAH-6DC79-1SD", 
+                "available": "MAH&6DC79&1SD"
+            }, 
+            {
+                "code": "MAH-6DD79-1SE", 
+                "available": "MAH&6DD79&1SE"
+            }, 
+            {
+                "code": "MAH-6DE79-1SF", 
+                "available": "MAH&6DE79&1SF"
+            }, 
+            {
+                "code": "MAH-6DF79-1SV", 
+                "available": "MAH&6DF79&1SV"
+            }
+        ]
+    }, 
+    {
+        "category": "mmc", 
+        "elements": [
+            {
+                "code": "6DB79", 
+                "available": "MAH&RWD&1SB&SED"
+            }, 
+            {
+                "code": "6DC79", 
+                "available": "MAH&RWD&1SD&SED"
+            }, 
+            {
+                "code": "6DD79", 
+                "available": "MAH&RWD&1SE&SED"
+            }, 
+            {
+                "code": "6DE79", 
+                "available": "MAH&RWD&1SF&SED"
+            }, 
+            {
+                "code": "6DF79", 
+                "available": "MAH&RWD&1SV&SED"
+            }
+        ]
+    }, 
+    {
+        "category": "market", 
+        "elements": [
+            {
+                "code": "MAH", 
+                "available": "", 
+                "label": "USA", 
+                "type": "radiobutton", 
+                "hoverText": "MAH"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/market.png"
+    }, 
+    {
+        "category": "drivetrain", 
+        "elements": [
+            {
+                "code": "RWD", 
+                "available": "", 
+                "label": "Rear Wheel Drive", 
+                "type": "radiobutton", 
+                "hoverText": "RWD"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/train.png"
+    }, 
+    {
+        "category": "peg", 
+        "elements": [
+            {
+                "code": "1SB", 
+                "available": "", 
+                "label": "Luxury", 
+                "type": "radiobutton", 
+                "hoverText": "1SB"
+            }, 
+            {
+                "code": "1SD", 
+                "available": "", 
+                "label": "Premium Luxury", 
+                "type": "radiobutton", 
+                "hoverText": "1SD"
+            }, 
+            {
+                "code": "1SE", 
+                "available": "", 
+                "label": "Sport", 
+                "type": "radiobutton", 
+                "hoverText": "1SE"
+            }, 
+            {
+                "code": "1SF", 
+                "available": "", 
+                "label": "VSeries", 
+                "type": "radiobutton", 
+                "hoverText": "1SF"
+            }, 
+            {
+                "code": "1SV", 
+                "available": "", 
+                "label": "Blackwing", 
+                "type": "radiobutton", 
+                "hoverText": "1SV"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/seat.png"
+    }, 
+    {
+        "category": "bodystyle", 
+        "elements": [
+            {
+                "code": "SED", 
+                "available": "", 
+                "label": "Sedan", 
+                "type": "radiobutton", 
+                "hoverText": "SED"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/body.png"
+    }, 
+    {
+        "category": "color", 
+        "elements": [
+            {
+                "code": "G1W", 
+                "available": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "label": "Abalone White Tricoat", 
+                "type": "swatch", 
+                "hoverText": "G1W"
+            }, 
+            {
+                "code": "GAZ", 
+                "available": "", 
+                "label": "Summit White", 
+                "type": "swatch", 
+                "hoverText": "GAZ"
+            }, 
+            {
+                "code": "GBA", 
+                "available": "", 
+                "label": "Black", 
+                "type": "swatch", 
+                "hoverText": "GBA"
+            }, 
+            {
+                "code": "GCF", 
+                "available": "(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                "label": "Vivid Metallic", 
+                "type": "swatch", 
+                "hoverText": "GCF"
+            }, 
+            {
+                "code": "GKK", 
+                "available": "", 
+                "label": "Oconus Metallic", 
+                "type": "swatch", 
+                "hoverText": "GKK"
+            }, 
+            {
+                "code": "GMO", 
+                "available": "(6DE79&1SF)|(6DF79&1SV)", 
+                "label": "Rapid Metallic", 
+                "type": "swatch", 
+                "hoverText": "GMO"
+            }, 
+            {
+                "code": "GNT", 
+                "available": "", 
+                "label": "Radiant Red Tint Metallic", 
+                "type": "swatch", 
+                "hoverText": "GNT"
+            }, 
+            {
+                "code": "GNW", 
+                "available": "6DF79&1SV", 
+                "label": "Maverick Noir Frost", 
+                "type": "swatch", 
+                "hoverText": "GNW"
+            }, 
+            {
+                "code": "GRW", 
+                "available": "(6DE79&1SF)|(6DF79&1SV)", 
+                "label": "Rift Metallic", 
+                "type": "swatch", 
+                "hoverText": "GRW"
+            }, 
+            {
+                "code": "GXD", 
+                "available": "", 
+                "label": "Argent Silver Metallic", 
+                "type": "swatch", 
+                "hoverText": "GXD"
+            }, 
+            {
+                "code": "GXU", 
+                "available": "", 
+                "label": "Midnight Steel Metallic", 
+                "type": "swatch", 
+                "hoverText": "GXU"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/color.png"
+    }, 
+    {
+        "category": "leather", 
+        "elements": [
+            {
+                "code": "H1Y", 
+                "available": "6DC79&1SD", 
+                "label": "Jet Black Leather Lvl.2", 
+                "type": "swatch", 
+                "hoverText": "H1Y"
+            }, 
+            {
+                "code": "H2G", 
+                "available": "6DB79&1SB", 
+                "label": "Jet Black Vinyl Lvl. 1", 
+                "type": "swatch", 
+                "hoverText": "H2G"
+            }, 
+            {
+                "code": "H2X", 
+                "available": "(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Jet Black Leather Lvl.4", 
+                "type": "swatch", 
+                "hoverText": "H2X"
+            }, 
+            {
+                "code": "HAV", 
+                "available": "6DC79&1SD", 
+                "label": "Jet Black / Maple Sugar Leather Lvl. 2", 
+                "type": "swatch", 
+                "hoverText": "HAV"
+            }, 
+            {
+                "code": "HEA", 
+                "available": "6DF79&1SV", 
+                "label": "Jet Black Leather Lvl. 5.5", 
+                "type": "swatch", 
+                "hoverText": "HEA"
+            }, 
+            {
+                "code": "HEB", 
+                "available": "6DF79&1SV", 
+                "label": "Jet Black / Sky Cool Gray Leather Lvl. 5.5", 
+                "type": "swatch", 
+                "hoverText": "HEB"
+            }, 
+            {
+                "code": "HGM", 
+                "available": "6DF79&1SV", 
+                "label": "Jet Black Leather Lvl. 4.1", 
+                "type": "swatch", 
+                "hoverText": "HGM"
+            }, 
+            {
+                "code": "HIK", 
+                "available": "6DC79&1SD", 
+                "label": "Jet Black / Light Vanilla Leather Lvl. 2", 
+                "type": "swatch", 
+                "hoverText": "HIK"
+            }, 
+            {
+                "code": "HIT", 
+                "available": "6DB79&1SB", 
+                "label": "Jet Black / Light Vanilla Vinyl Lvl. 1", 
+                "type": "swatch", 
+                "hoverText": "HIT"
+            }, 
+            {
+                "code": "HJC", 
+                "available": "6DF79&1SV", 
+                "label": "Jet Black / Natural Tan Lvl. 6", 
+                "type": "swatch", 
+                "hoverText": "HJC"
+            }, 
+            {
+                "code": "HJD", 
+                "available": "6DF79&1SV", 
+                "label": "Jet Black / Sky Cool Gray lvl. 6", 
+                "type": "swatch", 
+                "hoverText": "HJD"
+            }, 
+            {
+                "code": "HMR", 
+                "available": "6DF79&1SV", 
+                "label": "Jet Black Leather Lvl. 6", 
+                "type": "swatch", 
+                "hoverText": "HMR"
+            }, 
+            {
+                "code": "HND", 
+                "available": "(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Jet Black / Whisper Beige Leather Lvl. 4", 
+                "type": "swatch", 
+                "hoverText": "HND"
+            }, 
+            {
+                "code": "HXR", 
+                "available": "(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Jet Black Vinyl Lvl. 2", 
+                "type": "swatch", 
+                "hoverText": "HXR"
+            }, 
+            {
+                "code": "HZK", 
+                "available": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Jet Black / Sedona Sauvage Leather Lvl. 5", 
+                "type": "swatch", 
+                "hoverText": "HZK"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/trim.png"
+    }, 
+    {
+        "category": "wheels", 
+        "elements": [
+            {
+                "code": "57M", 
+                "available": "(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Wheels 19in 57M", 
+                "type": "swatch", 
+                "hoverText": "57M"
+            }, 
+            {
+                "code": "57R", 
+                "standard": "6DC79&1SD", 
+                "label": "Wheels 18in 57R", 
+                "type": "swatch", 
+                "hoverText": "57R"
+            }, 
+            {
+                "code": "Q61", 
+                "available": "6DF79&1SV", 
+                "label": "Wheels 19in Polish Forged Q61", 
+                "type": "swatch", 
+                "hoverText": "Q61"
+            }, 
+            {
+                "code": "Q63", 
+                "standard": "6DF79&1SV", 
+                "label": "Wheels 19in Satin Graphite Q63", 
+                "type": "swatch", 
+                "hoverText": "Q63"
+            }, 
+            {
+                "code": "Q7N", 
+                "available": "6DC79&1SD", 
+                "label": "Wheels 20in Alloy w Polished Finish Q7N", 
+                "type": "swatch", 
+                "hoverText": "Q7N"
+            }, 
+            {
+                "code": "Q81", 
+                "standard": "6DB79&1SB", 
+                "label": "Wheels 18in Q81", 
+                "type": "swatch", 
+                "hoverText": "Q81"
+            }, 
+            {
+                "code": "Q82", 
+                "available": "(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Wheels 19in Q82", 
+                "type": "swatch", 
+                "hoverText": "Q82"
+            }, 
+            {
+                "code": "Q83", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Wheels 19in Uplevel Q83 NO GEO", 
+                "type": "swatch", 
+                "hoverText": "Q83"
+            }, 
+            {
+                "code": "Q84", 
+                "available": "6DC79&1SD", 
+                "label": "Wheels 19in Q84", 
+                "type": "swatch", 
+                "hoverText": "Q84"
+            }, 
+            {
+                "code": "RHL", 
+                "available": "6DF79&1SV", 
+                "label": "Wheels 19in Magnesium RHL", 
+                "type": "swatch", 
+                "hoverText": "RHL"
+            }, 
+            {
+                "code": "RQL", 
+                "available": "6DC79&1SD", 
+                "label": "Wheels 18in RQL", 
+                "type": "swatch", 
+                "hoverText": "RQL"
+            }, 
+            {
+                "code": "SKW", 
+                "available": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Wheel 20in Black w Technical Bronze SKW", 
+                "type": "swatch", 
+                "hoverText": "SKW", 
+                "enableCodes": [
+                    {
+                        "packaging and accessories": "PDJ", 
+                        "attach": "", 
+                        "wheels": "", 
+                        "leather": "", 
+                        "color": ""
+                    }
+                ]
+            }, 
+            {
+                "code": "SQ9", 
+                "available": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Wheel 20in Black SQ9", 
+                "type": "swatch", 
+                "hoverText": "SQ9"
+            }, 
+            {
+                "code": "SSE", 
+                "available": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Wheels 20in SSE", 
+                "type": "swatch", 
+                "hoverText": "SSE"
+            }, 
+            {
+                "code": "SSJ", 
+                "available": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "label": "Wheels 20in SSJ", 
+                "type": "swatch", 
+                "hoverText": "SSJ"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/rims.png"
+    }, 
+    {
+        "category": "packaging and accessories", 
+        "elements": [
+            {
+                "type": "group", 
+                "group": "packages", 
+                "label": "Packages", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Package", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "package", 
+                        "elements": [
+                            {
+                                "code": "PCJ", 
+                                "available": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "label": "Platinum Package", 
+                                "hoverText": "PCJ - OSRVM Body Color Power Fold DXR (DXR) | Steering Wheel NK4, Roof Sunroof C3U (C3U) | OSRVM Body Color Power Fold DXR (DXR) | NO GEO PART, NO GEO CODE (NK4) | Heated Seats Front KA1, Camera 360 Front and Rear UV2 (UV2) | Navigation and Bose Package (Y26) | Lighting Package (HME) | Parking Package (Y6L) | Premium Package (PCK), 3DEXCITE USE ONLY GEO (KA1) | Ventilated Seats Front KU9, 3DEXCITE USE ONLY NO GEO (KU9) | Controls Lane Keep Assist UHX, 3DEXCITE USE ONLY GEO (UHX) | Seat Control Driver Massage AF6 (AF6) | Seat Control Pass Massage AKE (AKE) | Park Assist Lateral UKG, 3DEXCITE USE ONLY GEO (UKG) | Camera 360 Front and Rear UV2, 3DEXCITE USE ONLY GEO (UV2) | Roof, Sunroof C3U (C3U) | NO GEO PART, Suede Headliner IWE (IWE) | Jet Black / Sedona Sauvage Leather Lvl. 5 (HZK) | Navigation and Bose Package (Y26) | Parking Package (Y6L) | Sales Package Technology (CWM) | Climate Package Root Y6F (Y6F) | Premium Package (PCK)", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "Y26&Y6L&CWM&Y6F&HME", 
+                                        "attach": "C3U&DXR", 
+                                        "wheels": "", 
+                                        "leather": "HZK", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DD79-1SE"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "Y26&Y6L&PCK", 
+                                        "attach": "C3U&IWE", 
+                                        "wheels": "", 
+                                        "leather": "HZK", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DE79-1SF"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "Y26&Y6F&Y6L&CWM&HME", 
+                                        "attach": "NK4&AF6&AKE&C3U&KA1&KU9&UHX&UKG&UV2&DXR", 
+                                        "wheels": "", 
+                                        "leather": "HZK", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DC79-1SD"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "Y19", 
+                                "available": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "label": "Cold Weather Package", 
+                                "hoverText": "Y19 - Controls Heated Steering Wheel KI3 3DEXCITE USE ONLY (KI3) | Heated Seats Front KA1, 3DEXCITE USE ONLY GEO (KA1) | Ventilated Seats Front KU9, 3DEXCITE USE ONLY NO GEO (KU9) | Jet Black Vinyl Lvl. 2 (HXR)", 
+                                "view": "INT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "KI3&KA1", 
+                                        "wheels": "", 
+                                        "leather": "HXR", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DD79-1SE"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "KI3&KA1", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DB79-1SB"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "KI3", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DC79-1SD"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "KA1&KI3", 
+                                        "wheels": "", 
+                                        "leather": "HXR", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DE79-1SF"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Package1", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "package1", 
+                        "elements": [
+                            {
+                                "code": "WK7", 
+                                "available": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "label": "SuperCruise Level 1 Package", 
+                                "hoverText": "WK7 - Controls Heated Steering Wheel KI3 3DEXCITE USE ONLY (KI3) | Camera 360 Front and Rear UV2, NO GEO PART, 3DEXCITE USE ONLY GEO (UV2) | NO GEO PART, Camera 360 Front and Rear UV2 (UV2), Cluster UDV (UDV) | Steering Wheel, Leather, Super Cruise, N30 3DEXCITE USE ONLY (N30) | Steering Column, Super Cruise (S0427) | Shifter Graphics UKL (S0502) | Steering Wheel, Vinyl, N30 (S0520) | Steering Wheel Shift Paddles Uplevel KB7, Magnesium Paddles 3DEXCITE USE ONLY (KB7) | Steering Wheel, Super Cruise N30 (S0519)", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "KI3&UV2&UDV&KB7&N30&S0427&S0502", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": ""
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "WKA", 
+                                "available": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                                "label": "SuperCruise Level 2 Package", 
+                                "hoverText": "WKA - Controls Heated Steering Wheel KI3 3DEXCITE USE ONLY (KI3) | Steering Wheel Shift Paddles Uplevel KB7, Badge Front Grille Uplevel, Magnesium Paddles 3DEXCITE USE ONLY (KB7) | Camera 360 Front and Rear UV2, Adaptive Cruise KSG (S0223) | Navigation and Bose Package (Y26) | Lighting Package (HME) | Parking Package (Y6L), 3DEXCITE USE ONLY GEO (UV2) | Steering Wheel, Leather, Super Cruise, N30 3DEXCITE USE ONLY (N30) | Steering Column, Super Cruise (S0427) | Shifter Graphics UKL (S0502) | Steering Wheel, Super Cruise N30 (S0519) | Transmission Auto 10spd MHX 3DEXCITE USE ONLY (MHX) | Navigation and Bose Package (Y26) | Parking Package (Y6L) | Sales Package Technology (CWM) | Climate Package Root Y6F (Y6F) | Driver Assist and Advanced Security Package (Y5Y)", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "Y26&Y6L&CWM&Y6F&HME", 
+                                        "attach": "KI3&N30&KB7&S0427&S0502", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Package2", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "package2", 
+                        "elements": [
+                            {
+                                "code": "PDB", 
+                                "available": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "label": "Onyx Package", 
+                                "hoverText": "PDB - Accessory Wheels, 20in SSJ, High Black Gloss (SSJ) | Accessory Grille Dark Finish 5XR (5XR) | Accessory, Badge Front Crest Rear Crest Monochromatic SFZ (SFZ) | Accessory, Grille Lower Inserts, Standard Black Gloss_E5K (E5K) | Accessory, Molding Rear Trunk Applique, Black Gloss RXX (RXX) | Grille Surround Upper and Lower Delete NO GEO (S0250) | NO GEO, Badge, Rear Black Gloss Nameplate and Badges Kit RIK (RIK) | Accessory OSRVM Cap Black 5JS (5JS)", 
+                                "view": "EXT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "5XR", 
+                                        "attach": "RXX", 
+                                        "wheels": "SSJ", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DD79-1SE"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "5XR&SFZ", 
+                                        "attach": "E5K&RXX", 
+                                        "wheels": "SSJ", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DB79-1SB"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "5XR", 
+                                        "attach": "E5K&RXX", 
+                                        "wheels": "SSJ", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DC79-1SD"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "RIK&5JS", 
+                                        "wheels": "SSJ", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DE79-1SF"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "PDV", 
+                                "available": "(6DC79&1SD)|(6DB79&1SB)", 
+                                "label": "Radiant Package", 
+                                "hoverText": "PDV - Accessory Wheels, 20in SSE, Polished Face with Dark Android High Gloss (SSE) | Accessory Grille Bright Galvano Mesh with Galvano Surround VAS (VAS) | Accessory, Badge Front Crest Rear Crest Monochromatic SFZ (SFZ) | Grille Surround Upper and Lower Delete NO GEO (S0250)", 
+                                "view": "EXT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "VAS&SFZ", 
+                                        "attach": "", 
+                                        "wheels": "SSE", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DB79-1SB"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "VAS", 
+                                        "attach": "", 
+                                        "wheels": "SSE", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DC79-1SD"
+                                    }
+                                ]
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "None", 
+                        "type": "none", 
+                        "multipleSelection": true, 
+                        "subGroup": "package-none", 
+                        "elements": [
+                            {
+                                "code": "CFV", 
+                                "available": "6DF79&1SV", 
+                                "label": "Carbon Fiber Package 1", 
+                                "hoverText": "CFV - Molding Rocker, CarbonFiber B6A (S0368) | Fascia Rear CarbonFiber BlackWing (S0384) | Carbon Fiber Package 2 (CFZ)", 
+                                "view": "EXT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "CFZ", 
+                                        "attach": "B6A&S0354", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": ""
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "CFZ", 
+                                "available": "6DF79&1SV", 
+                                "label": "Carbon Fiber Package 2", 
+                                "hoverText": "CFZ - Accessory, Spoiler, Rear, Carbon Fiber, 5ZU (5ZU) | Fascia Front Carbon Air Deflector (S0354) | Grille Surround Carbon Fiber (S0376)", 
+                                "view": "EXT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "B6A&D52&S0376", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": ""
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "CWM", 
+                                "available": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "label": "Sales Package Technology", 
+                                "hoverText": "CWM - IP Uplevel, UV6 (S0401) | Controls IP Uplevel, with HUD, UV6 (S0403) | NO GEO PART, Cluster UDV (UDV) | NO GEO, Head Up Display HUD UV6 (UV6)", 
+                                "view": "INT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "UDV&UV6", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": ""
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "HME", 
+                                "available": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "label": "Lighting Package", 
+                                "hoverText": "HME - Door Handles Illuminated HD7, 3DEXCITE USE ONLY NO GEO (HD7) | NO_GEO, Headlamps DRL Conering T87 (T87) | Door Handles with Chrome Strip D7A (D7A) | Door Handles Body Color D75 (D75)", 
+                                "view": "EXT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "HD7", 
+                                        "attach": "", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DD79-1SE"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "HD7", 
+                                        "attach": "", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DE79-1SF"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "T87", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DC79-1SD"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "PCK", 
+                                "available": "6DE79&1SF", 
+                                "label": "Premium Package", 
+                                "hoverText": "PCK - Jet Black Leather Lvl.4 (H2X) | Jet Black / Whisper Beige Leather Lvl. 4 (HND) | Navigation and Bose Package (Y26) | Sales Package Technology (CWM), Lighting Package (HME)", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "Y26&CWM&HME&Y6F", 
+                                        "attach": "", 
+                                        "wheels": "", 
+                                        "leather": "H2X|HND", 
+                                        "color": ""
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "PCM", 
+                                "available": "6DB79&1SB", 
+                                "label": "Sun and Sound Package", 
+                                "hoverText": "PCM - Console Center Wireless Charging Mat K4C, Roof Sunroof C3U (C3U) | Navigation and Bose Package (Y26), NO GEO CODE (K4C) | Roof Sunroof C3U (C3U) | Navigation and Bose Package (Y26)", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "Y26", 
+                                        "attach": "K4C&C3U", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": ""
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "PDJ", 
+                                "available": "", 
+                                "label": "Bronze Accent Package", 
+                                "hoverText": "PDJ - Accessory Wheels, 20in Black with Technical Bronze SKW (SKW) | NO GEO PART, Accessory Wheel Lugs Black SPY (SPY) | Wheel Lug Nuts, Black Gloss, for SKX, SKW and SQ9 (S0252) | NO GEO, Accessory Decal Package, with Luxury and Premium Luxury, 5KB (5KB) | Decal, Front, Hood Accent, Bronze, with 5KB, SB9, and SFD (S0280) | Decal, Rear, Closure Accent, Bronze, with 5KB, SB9, and SFD (S0281) | NO GEO, Accessory Wheel Center Cap, Modular, Technical Bronze, 5ZD (5ZD) | Decal, Front, Hood Accent, Bronze on White GAZ or G1W, with 5KB, SB9, and SFD (S0285) | Decal, Rear, Closure Accent, Bronze on White GAZ or G1W, with 5KB, SB9, and SFD (S0286) | NO GEO, Accessory Decal Package, with Sport and VSeries, SB9 (SB9) | Decal, Side Rockers Accent, Sport and VSreies B6A, Bronze, with SB9 (S0282)", 
+                                "view": "EXT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "SPY", 
+                                        "attach": "SB9", 
+                                        "wheels": "SKW", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DD79-1SE"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "SPY", 
+                                        "attach": "5ZD&SFD", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DF79-1SV"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "SPY", 
+                                        "attach": "5KB", 
+                                        "wheels": "SKW", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DB79-1SB"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "SPY", 
+                                        "attach": "5KB", 
+                                        "wheels": "SKW", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DC79-1SD"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "SPY", 
+                                        "attach": "SB9", 
+                                        "wheels": "SKW", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DE79-1SF"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "Y26", 
+                                "available": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "label": "Navigation and Bose Package", 
+                                "hoverText": "Y26 - Speakers Uplevel Branded UQP (UQP) | Floor Console, Engine, Navigation Buttons (S0429), 3.0L Turbo, LGY 3DEXCITE USE ONLY (LGY)", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "IOT&UQP&S0429&S0228", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": ""
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "Y5Y", 
+                                "standard": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "available": "6DF79&1SV", 
+                                "label": "Driver Assist and Advanced Security Package", 
+                                "hoverText": "Y5Y - Steering Wheel Shift Paddles Uplevel KB7, Magnesium Paddles 3DEXCITE USE ONLY (KB7) | Shifter Knob Automatic (S0408) | Floor Console for Automatic Transmission (S0608) | Radio Trim without Rotary Knobs, with Auto ETRS Shifter (S0528)", 
+                                "view": "INT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "KB7", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": ""
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "Y6F", 
+                                "available": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "label": "Climate Package Root Y6F", 
+                                "hoverText": "Y6F - Heated Seats Front KA1, 3DEXCITE USE ONLY GEO (KA1) | Ventilated Seats Front KU9, 3DEXCITE USE ONLY NO GEO (KU9)", 
+                                "view": "INT", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "KI3&KA1&KU9&AF6&AKE", 
+                                        "wheels": "", 
+                                        "leather": "H2X|HND", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DD79-1SE"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "KI3&KA1&KU9&AF6&AKE", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DE79-1SF"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "KA1&KI3&KU9", 
+                                        "wheels": "", 
+                                        "leather": "(HZK|HIK|HAV|H1Y|H2X|HND)&~HXR", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DC79-1SD"
+                                    }
+                                ]
+                            }, 
+                            {
+                                "code": "Y6L", 
+                                "available": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                                "label": "Parking Package", 
+                                "hoverText": "Y6L - OSRVM Body Color Power Fold DXR (DXR) | ISRVM, ISRVM, Light Sensitive Full Video DRZ (DRZ) | Controls IP Uplevel, Light Sensitive Full Video DRZ (DRZ) | Antenna Body Color with Camera, with HUD, UKK (S0206) | Fascia Rear with Lateral Park Assist UKG (S0216) | OSRVM Body Color Power Fold DXR (DXR) | Fascia Front with Lateral Park Assist Standard UKG (S0372) | NO GEO PART, UV6 (S0403) | Park Assist Lateral UKG, Camera 360 Front and Rear UV2 (UV2) | Fascia Front with Lateral Park Assist Vseries UKG (S0373) | Fascia Front with Lateral Park Assist Vseries UKG (S0374), 3DEXCITE USE ONLY GEO (UKG) | Camera 360 Front and Rear UV2, 3DEXCITE USE ONLY GEO (UV2) | Lock Control Windows Uplevel, Window Lock with OSRVM Power Fold (S0426) | NO GEO, Head Up Display HUD UV6 (UV6)", 
+                                "enableCodes": [
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "DXR&DRZ&S0206&N38&UKG&UV2&UV6", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DD79-1SE"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "DXR&DRZ&S0206&N38&UKG&UV2&UV6", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DE79-1SF"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "Y6F", 
+                                        "attach": "DXR&DRZ&S0206&UKG&UV2", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DC79-1SD"
+                                    }, 
+                                    {
+                                        "packaging and accessories": "", 
+                                        "attach": "DRZ&UV6&UKG", 
+                                        "wheels": "", 
+                                        "leather": "", 
+                                        "color": "", 
+                                        "styleRef": "MAH-6DF79-1SV"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "badges", 
+                "label": "Badges", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Badges", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "badges", 
+                        "elements": [
+                            {
+                                "code": "S0223", 
+                                "standard": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                                "available": "6DF79&1SV", 
+                                "label": "Badge Front Grille Uplevel", 
+                                "hoverText": "S0223", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "SFZ", 
+                                "available": "6DB79&1SB", 
+                                "label": "Badge Front Crest Rear Crest Monochromatic SFZ", 
+                                "hoverText": "SFZ", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "None", 
+                        "type": "none", 
+                        "multipleSelection": false, 
+                        "subGroup": "badges-none", 
+                        "elements": [
+                            {
+                                "code": "F46", 
+                                "available": "", 
+                                "label": "Badge AWD F46 NO GEO", 
+                                "hoverText": "F46", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "brakes", 
+                "label": "Brakes", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Brakes", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "brakes", 
+                        "elements": [
+                            {
+                                "code": "J56", 
+                                "standard": "6DE79&1SF", 
+                                "available": "6DD79&1SE", 
+                                "label": "Brakes Front Rear Disc J56", 
+                                "hoverText": "J56", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "J57", 
+                                "available": "6DF79&1SV", 
+                                "label": "Brakes Front Rear Carbon Ceramic Rotors J57", 
+                                "hoverText": "J57", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "J6H", 
+                                "standard": "6DF79&1SV", 
+                                "label": "Brakes Front Rear Disc J6H", 
+                                "hoverText": "J6H", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Driver Van Panel Window", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "drivervanpanelwindow", 
+                        "elements": [
+                            {
+                                "code": "J6B", 
+                                "available": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                                "label": "Brakes Caliper Blue J6B NO GEO", 
+                                "hoverText": "J6B", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "J6F", 
+                                "available": "(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                                "label": "Brakes Caliper Red J6F NO GEO", 
+                                "hoverText": "J6F", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "J6O", 
+                                "available": "6DF79&1SV", 
+                                "label": "Brakes Caliper Bronze J6O NO GEO", 
+                                "hoverText": "J6O", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "J6P", 
+                                "standard": "6DF79&1SV", 
+                                "label": "Brakes Caliper Grey J6P NO GEO", 
+                                "hoverText": "J6P", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "cargo", 
+                "label": "Cargo", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "RWU", 
+                        "available": "", 
+                        "label": "Rear Cargo Organizer RWU", 
+                        "hoverText": "RWU", 
+                        "view": "INT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "doorhandles", 
+                "label": "Door Handles", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Door Handles", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "doorhandles", 
+                        "elements": [
+                            {
+                                "code": "D75", 
+                                "standard": "(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                                "label": "Door Handles Body Color D75", 
+                                "hoverText": "D75", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "None", 
+                        "type": "none", 
+                        "multipleSelection": false, 
+                        "subGroup": "doorhandles-none", 
+                        "elements": [
+                            {
+                                "code": "HD7", 
+                                "standard": "(6DC79&1SD)|(6DF79&1SV)", 
+                                "available": "(6DE79&1SF)|(6DD79&1SE)", 
+                                "label": "Door Handles Illuminated HD7 NO GEO", 
+                                "hoverText": "HD7", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "floormats", 
+                "label": "Floor Mats", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "RWS", 
+                        "available": "", 
+                        "label": "Floor Mats Carpet RWS", 
+                        "hoverText": "RWS", 
+                        "view": "INT"
+                    }, 
+                    {
+                        "code": "VAV", 
+                        "available": "", 
+                        "label": "Floor Mats All Weather VAV", 
+                        "hoverText": "VAV", 
+                        "view": "INT"
+                    }, 
+                    {
+                        "code": "VYW", 
+                        "available": "", 
+                        "label": "Floor Mats Premium Carpet VYW", 
+                        "hoverText": "VYW", 
+                        "view": "INT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "frontgrille", 
+                "label": "Front Grille", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "5XR", 
+                        "available": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                        "label": "Grille Dark Finish 5XR", 
+                        "hoverText": "5XR", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "VAS", 
+                        "available": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                        "label": "Grille Bright Galvano Mesh w Surround VAS", 
+                        "hoverText": "VAS", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "headrest", 
+                "label": "Head Rest", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SKO", 
+                        "available": "", 
+                        "label": "SeatBack Organizer SKO NO GEO", 
+                        "hoverText": "SKO", 
+                        "view": "INT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "licenseplates", 
+                "label": "License Plates", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VK3", 
+                        "available": "", 
+                        "label": "License Plate Front VK3", 
+                        "hoverText": "VK3", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "multimedia", 
+                "label": "Multimedia", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "UQT", 
+                        "available": "(6DE79&1SF)|(6DF79&1SV)", 
+                        "label": "Performance Data Recorder UQT NO GEO PART", 
+                        "hoverText": "UQT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "seats", 
+                "label": "Seats", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "709", 
+                        "available": "(6DE79&1SF)|(6DF79&1SV)", 
+                        "label": "Seat Belt Torch Red 709", 
+                        "hoverText": "709", 
+                        "view": "INT"
+                    }, 
+                    {
+                        "code": "719", 
+                        "standard": "", 
+                        "label": "Seat Belt Black 719", 
+                        "hoverText": "719", 
+                        "view": "INT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "spoiler", 
+                "label": "Spoiler", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "5V5", 
+                        "available": "(6DC79&1SD)|(6DB79&1SB)", 
+                        "label": "Spoiler Rear Body Color 5V5", 
+                        "hoverText": "5V5", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "5ZU", 
+                        "available": "", 
+                        "label": "Spoiler Rear Carbon Fiber 5ZU", 
+                        "hoverText": "5ZU", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "steeringwheel", 
+                "label": "Steering Wheel", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Misc1", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "misc1", 
+                        "elements": [
+                            {
+                                "code": "53S", 
+                                "available": "(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                                "label": "Steering Wheel Uplevel 53S NO GEO", 
+                                "hoverText": "53S", 
+                                "view": "INT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Steering Wheel Buttons2", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "steeringwheelbuttons2", 
+                        "elements": [
+                            {
+                                "code": "B4Z", 
+                                "standard": "(6DE79&1SF)|(6DF79&1SV)", 
+                                "label": "Steering Controls V Mode B4Z", 
+                                "hoverText": "B4Z", 
+                                "view": "INT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "taillamps", 
+                "label": "Tail Lamps", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SCY", 
+                        "available": "(6DC79&1SD)|(6DB79&1SB)", 
+                        "label": "Tail Lamp SCY", 
+                        "hoverText": "SCY", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "transmission", 
+                "label": "Transmission", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "MHX", 
+                        "available": "6DF79&1SV", 
+                        "label": "Transmission Auto 10spd MHX NO GEO", 
+                        "hoverText": "MHX", 
+                        "view": "INT", 
+                        "enableCodes": [
+                            {
+                                "packaging and accessories": "", 
+                                "attach": "KB7", 
+                                "wheels": "", 
+                                "leather": "", 
+                                "color": ""
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "wheelcaps", 
+                "label": "Wheel Caps", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SPY", 
+                        "available": "", 
+                        "label": "Wheel Lugs Black SPY NO GEO PART", 
+                        "hoverText": "SPY", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "wheelsplashguards", 
+                "label": "Wheel Splash Guards", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VRV", 
+                        "available": "(6DC79&1SD)|(6DB79&1SB)", 
+                        "label": "Splash Guards Body Color VRV", 
+                        "hoverText": "VRV", 
+                        "view": "EXT"
+                    }
+                ]
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/accesories.png"
+    }, 
+    {
+        "category": "standard part", 
+        "elements": [
+            {
+                "code": "6DB79", 
+                "standard": "6DB79&1SB", 
+                "mutuallyExcluded": [
+                    "6DF79", 
+                    "6DE79", 
+                    "6DD79", 
+                    "6DC79"
+                ]
+            }, 
+            {
+                "code": "6DC79", 
+                "standard": "6DC79&1SD", 
+                "mutuallyExcluded": [
+                    "6DF79", 
+                    "6DE79", 
+                    "6DD79", 
+                    "6DB79"
+                ]
+            }, 
+            {
+                "code": "6DD79", 
+                "standard": "6DD79&1SE", 
+                "mutuallyExcluded": [
+                    "6DF79", 
+                    "6DE79", 
+                    "6DB79", 
+                    "6DC79"
+                ]
+            }, 
+            {
+                "code": "6DE79", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "6DF79", 
+                    "6DD79", 
+                    "6DB79", 
+                    "6DC79"
+                ]
+            }, 
+            {
+                "code": "6DF79", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "6DE79", 
+                    "6DD79", 
+                    "6DB79", 
+                    "6DC79"
+                ]
+            }, 
+            {
+                "code": "A2X", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0509", 
+                    "S0508", 
+                    "S0510", 
+                    "S0511", 
+                    "AF6", 
+                    "S0555"
+                ]
+            }, 
+            {
+                "code": "A7J", 
+                "standard": "6DB79&1SB", 
+                "mutuallyExcluded": [
+                    "A7K", 
+                    "AKE"
+                ]
+            }, 
+            {
+                "code": "A7K", 
+                "standard": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "A7J", 
+                    "AKE"
+                ]
+            }, 
+            {
+                "code": "AF6", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0509", 
+                    "S0508", 
+                    "S0510", 
+                    "S0511", 
+                    "S0555", 
+                    "A2X"
+                ]
+            }, 
+            {
+                "code": "AKE", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "A7K", 
+                    "A7J"
+                ]
+            }, 
+            {
+                "code": "AKP", 
+                "standard": ""
+            }, 
+            {
+                "code": "AM9", 
+                "standard": ""
+            }, 
+            {
+                "code": "AQ9", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "AQJ"
+                ]
+            }, 
+            {
+                "code": "B34", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "VYW", 
+                    "B53", 
+                    "RWS", 
+                    "VAV"
+                ]
+            }, 
+            {
+                "code": "B53", 
+                "standard": "(6DE79&1SF)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "VYW", 
+                    "B34", 
+                    "RWS", 
+                    "VAV"
+                ]
+            }, 
+            {
+                "code": "B56", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "B6A"
+                ]
+            }, 
+            {
+                "code": "B6A", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "B56"
+                ]
+            }, 
+            {
+                "code": "B7G", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "BASE", 
+                "standard": ""
+            }, 
+            {
+                "code": "BASEINT", 
+                "standard": ""
+            }, 
+            {
+                "code": "BTH", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "NP5", 
+                    "N30", 
+                    "NK4"
+                ]
+            }, 
+            {
+                "code": "C70", 
+                "standard": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)"
+            }, 
+            {
+                "code": "C73", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "SCY", 
+                    "S0336"
+                ]
+            }, 
+            {
+                "code": "D31", 
+                "standard": "6DB79&1SB", 
+                "mutuallyExcluded": [
+                    "DRZ", 
+                    "DD8"
+                ]
+            }, 
+            {
+                "code": "D52", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "5V5", 
+                    "5ZU"
+                ]
+            }, 
+            {
+                "code": "D7A", 
+                "standard": "6DC79&1SD", 
+                "mutuallyExcluded": [
+                    "D75"
+                ]
+            }, 
+            {
+                "code": "DD8", 
+                "standard": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "DRZ", 
+                    "D31"
+                ]
+            }, 
+            {
+                "code": "DMB", 
+                "standard": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "DWK", 
+                    "DXR"
+                ]
+            }, 
+            {
+                "code": "DWK", 
+                "standard": "6DB79&1SB", 
+                "mutuallyExcluded": [
+                    "DMB", 
+                    "DXR"
+                ]
+            }, 
+            {
+                "code": "DXR", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "DMB", 
+                    "DWK"
+                ]
+            }, 
+            {
+                "code": "IOS", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "IOT", 
+                    "S0557"
+                ]
+            }, 
+            {
+                "code": "IOT", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0557", 
+                    "IOS"
+                ]
+            }, 
+            {
+                "code": "JF5", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0532", 
+                    "S0405"
+                ]
+            }, 
+            {
+                "code": "JL9", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "J6H", 
+                    "J56", 
+                    "J57"
+                ]
+            }, 
+            {
+                "code": "K4C", 
+                "standard": ""
+            }, 
+            {
+                "code": "KA1", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "KB7", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0612", 
+                    "KBC"
+                ]
+            }, 
+            {
+                "code": "KBC", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "S0612", 
+                    "KB7"
+                ]
+            }, 
+            {
+                "code": "KI3", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "KU9", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "LGY", 
+                "standard": "6DE79&1SF"
+            }, 
+            {
+                "code": "LSY", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)"
+            }, 
+            {
+                "code": "MDB", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "MDE"
+                ]
+            }, 
+            {
+                "code": "MDE", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "MDB"
+                ]
+            }, 
+            {
+                "code": "MHS", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "MHX", 
+                    "MQ2"
+                ]
+            }, 
+            {
+                "code": "MJK", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0608"
+                ]
+            }, 
+            {
+                "code": "MQ2", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "MHX", 
+                    "MHS"
+                ]
+            }, 
+            {
+                "code": "N37", 
+                "standard": "6DB79&1SB", 
+                "mutuallyExcluded": [
+                    "S0269", 
+                    "S0427", 
+                    "N38"
+                ]
+            }, 
+            {
+                "code": "N38", 
+                "standard": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "S0269", 
+                    "S0427", 
+                    "N37"
+                ]
+            }, 
+            {
+                "code": "NEA", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "NED"
+                ]
+            }, 
+            {
+                "code": "NED", 
+                "standard": "(6DE79&1SF)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "NEA"
+                ]
+            }, 
+            {
+                "code": "NK4", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "NP5", 
+                    "BTH", 
+                    "N30"
+                ]
+            }, 
+            {
+                "code": "NP5", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "BTH", 
+                    "N30", 
+                    "NK4"
+                ]
+            }, 
+            {
+                "code": "S0101", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "C3U"
+                ]
+            }, 
+            {
+                "code": "S0105", 
+                "standard": ""
+            }, 
+            {
+                "code": "S0110", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "5JS"
+                ]
+            }, 
+            {
+                "code": "S0200", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0206"
+                ]
+            }, 
+            {
+                "code": "S0201", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)"
+            }, 
+            {
+                "code": "S0202", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "S0216"
+                ]
+            }, 
+            {
+                "code": "S0203", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "S0900", 
+                    "S0204", 
+                    "S0205"
+                ]
+            }, 
+            {
+                "code": "S0204", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0900", 
+                    "S0203", 
+                    "S0205"
+                ]
+            }, 
+            {
+                "code": "S0206", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0200"
+                ]
+            }, 
+            {
+                "code": "S0207", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0250", 
+                    "S0208", 
+                    "S0376", 
+                    "S0377"
+                ]
+            }, 
+            {
+                "code": "S0208", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "S0250", 
+                    "S0207", 
+                    "S0376", 
+                    "S0377"
+                ]
+            }, 
+            {
+                "code": "S0210", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "S0383", 
+                    "S0382", 
+                    "VAS", 
+                    "S0211", 
+                    "5XR", 
+                    "S0375"
+                ]
+            }, 
+            {
+                "code": "S0211", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0383", 
+                    "S0382", 
+                    "S0210", 
+                    "VAS", 
+                    "5XR", 
+                    "S0375"
+                ]
+            }, 
+            {
+                "code": "S0212", 
+                "standard": "6DC79&1SD", 
+                "mutuallyExcluded": [
+                    "S0374", 
+                    "S0372", 
+                    "S0219", 
+                    "S0213", 
+                    "S0369", 
+                    "S0373"
+                ]
+            }, 
+            {
+                "code": "S0213", 
+                "standard": "6DB79&1SB", 
+                "mutuallyExcluded": [
+                    "S0374", 
+                    "S0372", 
+                    "S0219", 
+                    "S0369", 
+                    "S0373", 
+                    "S0212"
+                ]
+            }, 
+            {
+                "code": "S0217", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0218", 
+                    "S0378"
+                ]
+            }, 
+            {
+                "code": "S0218", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "S0217", 
+                    "S0378"
+                ]
+            }, 
+            {
+                "code": "S0219", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0374", 
+                    "S0372", 
+                    "S0213", 
+                    "S0369", 
+                    "S0373", 
+                    "S0212"
+                ]
+            }, 
+            {
+                "code": "S0220", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "S0221"
+                ]
+            }, 
+            {
+                "code": "S0222", 
+                "standard": "(6DB79&1SB)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "SFZ", 
+                    "S0223"
+                ]
+            }, 
+            {
+                "code": "S0224", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0267", 
+                    "S0371", 
+                    "S0268", 
+                    "S0225"
+                ]
+            }, 
+            {
+                "code": "S0225", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "S0267", 
+                    "S0371", 
+                    "S0268", 
+                    "S0224"
+                ]
+            }, 
+            {
+                "code": "S0226", 
+                "standard": "(6DE79&1SF)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "S0266", 
+                    "S0264", 
+                    "S0265", 
+                    "S0228", 
+                    "S0227"
+                ]
+            }, 
+            {
+                "code": "S0227", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0266", 
+                    "S0264", 
+                    "S0265", 
+                    "S0228", 
+                    "S0226"
+                ]
+            }, 
+            {
+                "code": "S0238", 
+                "standard": "6DC79&1SD", 
+                "mutuallyExcluded": [
+                    "S0252", 
+                    "S0240", 
+                    "S0241", 
+                    "S0243", 
+                    "S0244", 
+                    "S0251", 
+                    "S0239", 
+                    "S0235", 
+                    "S0234", 
+                    "S0237", 
+                    "S0236", 
+                    "S0231", 
+                    "S0230", 
+                    "S0233", 
+                    "S0232", 
+                    "S0229", 
+                    "S0245", 
+                    "S0242", 
+                    "S0246"
+                ]
+            }, 
+            {
+                "code": "S0239", 
+                "standard": "6DB79&1SB", 
+                "mutuallyExcluded": [
+                    "S0252", 
+                    "S0240", 
+                    "S0241", 
+                    "S0243", 
+                    "S0244", 
+                    "S0251", 
+                    "S0238", 
+                    "S0235", 
+                    "S0234", 
+                    "S0237", 
+                    "S0236", 
+                    "S0231", 
+                    "S0230", 
+                    "S0233", 
+                    "S0232", 
+                    "S0229", 
+                    "S0245", 
+                    "S0242", 
+                    "S0246"
+                ]
+            }, 
+            {
+                "code": "S0241", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0252", 
+                    "S0240", 
+                    "S0243", 
+                    "S0244", 
+                    "S0251", 
+                    "S0239", 
+                    "S0238", 
+                    "S0235", 
+                    "S0234", 
+                    "S0237", 
+                    "S0236", 
+                    "S0231", 
+                    "S0230", 
+                    "S0233", 
+                    "S0232", 
+                    "S0229", 
+                    "S0245", 
+                    "S0242", 
+                    "S0246"
+                ]
+            }, 
+            {
+                "code": "S0244", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0252", 
+                    "S0240", 
+                    "S0241", 
+                    "S0243", 
+                    "S0251", 
+                    "S0239", 
+                    "S0238", 
+                    "S0235", 
+                    "S0234", 
+                    "S0237", 
+                    "S0236", 
+                    "S0231", 
+                    "S0230", 
+                    "S0233", 
+                    "S0232", 
+                    "S0229", 
+                    "S0245", 
+                    "S0242", 
+                    "S0246"
+                ]
+            }, 
+            {
+                "code": "S0247", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "S0248"
+                ]
+            }, 
+            {
+                "code": "S0248", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0247"
+                ]
+            }, 
+            {
+                "code": "S0260", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "S0261"
+                ]
+            }, 
+            {
+                "code": "S0269", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0427", 
+                    "N38", 
+                    "N37"
+                ]
+            }, 
+            {
+                "code": "S0288", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "5ZD", 
+                    "S0289", 
+                    "S0291", 
+                    "S0290"
+                ]
+            }, 
+            {
+                "code": "S0330", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "RXX", 
+                    "S0331"
+                ]
+            }, 
+            {
+                "code": "S0331", 
+                "standard": "(6DE79&1SF)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "RXX", 
+                    "S0330"
+                ]
+            }, 
+            {
+                "code": "S0332", 
+                "standard": "6DD79&1SE", 
+                "mutuallyExcluded": [
+                    "S0384", 
+                    "S0333", 
+                    "S0379"
+                ]
+            }, 
+            {
+                "code": "S0333", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "S0384", 
+                    "S0332", 
+                    "S0379"
+                ]
+            }, 
+            {
+                "code": "S0334", 
+                "standard": "6DD79&1SE"
+            }, 
+            {
+                "code": "S0335", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)"
+            }, 
+            {
+                "code": "S0336", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "SCY", 
+                    "C73"
+                ]
+            }, 
+            {
+                "code": "S0343", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "E5K"
+                ]
+            }, 
+            {
+                "code": "S0344", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)"
+            }, 
+            {
+                "code": "S0345", 
+                "standard": "(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0347", 
+                    "S0346"
+                ]
+            }, 
+            {
+                "code": "S0346", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0345", 
+                    "S0347"
+                ]
+            }, 
+            {
+                "code": "S0347", 
+                "standard": "6DC79&1SD", 
+                "mutuallyExcluded": [
+                    "S0345", 
+                    "S0346"
+                ]
+            }, 
+            {
+                "code": "S0349", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "S0350", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0619", 
+                    "S0419", 
+                    "S0418", 
+                    "S0368", 
+                    "S0367"
+                ]
+            }, 
+            {
+                "code": "S0362", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0363", 
+                    "J6P", 
+                    "J6O", 
+                    "J6B", 
+                    "J6F", 
+                    "S0364"
+                ]
+            }, 
+            {
+                "code": "S0363", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "J6P", 
+                    "J6O", 
+                    "J6B", 
+                    "J6F", 
+                    "S0364", 
+                    "S0362"
+                ]
+            }, 
+            {
+                "code": "S0364", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0363", 
+                    "J6P", 
+                    "J6O", 
+                    "J6B", 
+                    "J6F", 
+                    "S0362"
+                ]
+            }, 
+            {
+                "code": "S0366", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0354"
+                ]
+            }, 
+            {
+                "code": "S0367", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0619", 
+                    "S0350", 
+                    "S0419", 
+                    "S0418", 
+                    "S0368"
+                ]
+            }, 
+            {
+                "code": "S0369", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0374", 
+                    "S0372", 
+                    "S0219", 
+                    "S0213", 
+                    "S0373", 
+                    "S0212"
+                ]
+            }, 
+            {
+                "code": "S0370", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "S0371", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0267", 
+                    "S0268", 
+                    "S0224", 
+                    "S0225"
+                ]
+            }, 
+            {
+                "code": "S0375", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0383", 
+                    "S0382", 
+                    "S0210", 
+                    "VAS", 
+                    "S0211", 
+                    "5XR"
+                ]
+            }, 
+            {
+                "code": "S0377", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0250", 
+                    "S0207", 
+                    "S0208", 
+                    "S0376"
+                ]
+            }, 
+            {
+                "code": "S0378", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0218", 
+                    "S0217"
+                ]
+            }, 
+            {
+                "code": "S0379", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0384", 
+                    "S0333", 
+                    "S0332"
+                ]
+            }, 
+            {
+                "code": "S0380", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "S0381"
+                ]
+            }, 
+            {
+                "code": "S0386", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "S0385"
+                ]
+            }, 
+            {
+                "code": "S0391", 
+                "standard": "6DE79&1SF"
+            }, 
+            {
+                "code": "S0400", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0401"
+                ]
+            }, 
+            {
+                "code": "S0401", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0400"
+                ]
+            }, 
+            {
+                "code": "S0402", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0403"
+                ]
+            }, 
+            {
+                "code": "S0403", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0402"
+                ]
+            }, 
+            {
+                "code": "S0405", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "S0532", 
+                    "JF5"
+                ]
+            }, 
+            {
+                "code": "S0406", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "S0503", 
+                    "S0507", 
+                    "S0506", 
+                    "S0505", 
+                    "S0504", 
+                    "S0545", 
+                    "S0554"
+                ]
+            }, 
+            {
+                "code": "S0408", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0613", 
+                    "5CS", 
+                    "S0409"
+                ]
+            }, 
+            {
+                "code": "S0410", 
+                "standard": "6DB79&1SB"
+            }, 
+            {
+                "code": "S0411", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0513", 
+                    "S0514"
+                ]
+            }, 
+            {
+                "code": "S0412", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)"
+            }, 
+            {
+                "code": "S0413", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)"
+            }, 
+            {
+                "code": "S0418", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)", 
+                "mutuallyExcluded": [
+                    "S0619", 
+                    "S0350", 
+                    "S0419", 
+                    "S0368", 
+                    "S0367"
+                ]
+            }, 
+            {
+                "code": "S0419", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "S0619", 
+                    "S0350", 
+                    "S0418", 
+                    "S0368", 
+                    "S0367"
+                ]
+            }, 
+            {
+                "code": "S0421", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "S0423"
+                ]
+            }, 
+            {
+                "code": "S0424", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0430"
+                ]
+            }, 
+            {
+                "code": "S0425", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "S0426"
+                ]
+            }, 
+            {
+                "code": "S0428", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0429"
+                ]
+            }, 
+            {
+                "code": "S0430", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0424"
+                ]
+            }, 
+            {
+                "code": "S0500", 
+                "standard": ""
+            }, 
+            {
+                "code": "S0501", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0502", 
+                    "S0512"
+                ]
+            }, 
+            {
+                "code": "S0503", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0507", 
+                    "S0506", 
+                    "S0505", 
+                    "S0504", 
+                    "S0545", 
+                    "S0554", 
+                    "S0406"
+                ]
+            }, 
+            {
+                "code": "S0512", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0502", 
+                    "S0501"
+                ]
+            }, 
+            {
+                "code": "S0513", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0514", 
+                    "S0411"
+                ]
+            }, 
+            {
+                "code": "S0515", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)"
+            }, 
+            {
+                "code": "S0516", 
+                "standard": "(6DE79&1SF)|(6DD79&1SE)"
+            }, 
+            {
+                "code": "S0525", 
+                "standard": "6DE79&1SF"
+            }, 
+            {
+                "code": "S0526", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "S0527"
+                ]
+            }, 
+            {
+                "code": "S0528", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0262", 
+                    "S0263", 
+                    "S0529"
+                ]
+            }, 
+            {
+                "code": "S0529", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0262", 
+                    "S0263", 
+                    "S0528"
+                ]
+            }, 
+            {
+                "code": "S0530", 
+                "standard": "6DD79&1SE"
+            }, 
+            {
+                "code": "S0531", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "S0532", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "JF5", 
+                    "S0405"
+                ]
+            }, 
+            {
+                "code": "S0535", 
+                "standard": ""
+            }, 
+            {
+                "code": "S0536", 
+                "standard": ""
+            }, 
+            {
+                "code": "S0545", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0503", 
+                    "S0507", 
+                    "S0506", 
+                    "S0505", 
+                    "S0504", 
+                    "S0554", 
+                    "S0406"
+                ]
+            }, 
+            {
+                "code": "S0555", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0509", 
+                    "S0508", 
+                    "S0510", 
+                    "S0511", 
+                    "AF6", 
+                    "A2X"
+                ]
+            }, 
+            {
+                "code": "S0603", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "S0611", 
+                    "S0618", 
+                    "S0607", 
+                    "S0604", 
+                    "S0605", 
+                    "S0600"
+                ]
+            }, 
+            {
+                "code": "S0608", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "MJK"
+                ]
+            }, 
+            {
+                "code": "S0612", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "KBC", 
+                    "KB7"
+                ]
+            }, 
+            {
+                "code": "S0617", 
+                "standard": "", 
+                "mutuallyExcluded": [
+                    "S0620"
+                ]
+            }, 
+            {
+                "code": "S0618", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0611", 
+                    "S0607", 
+                    "S0604", 
+                    "S0605", 
+                    "S0600", 
+                    "S0603"
+                ]
+            }, 
+            {
+                "code": "S0900", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "S0203", 
+                    "S0204", 
+                    "S0205"
+                ]
+            }, 
+            {
+                "code": "T4L", 
+                "standard": ""
+            }, 
+            {
+                "code": "T87", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "UD5", 
+                "standard": "(6DC79&1SD)|(6DE79&1SF)|(6DD79&1SE)|(6DF79&1SV)", 
+                "mutuallyExcluded": [
+                    "UD7", 
+                    "UKG"
+                ]
+            }, 
+            {
+                "code": "UD7", 
+                "standard": "6DB79&1SB", 
+                "mutuallyExcluded": [
+                    "UD5", 
+                    "UKG"
+                ]
+            }, 
+            {
+                "code": "UDD", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DE79&1SF)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "UDV"
+                ]
+            }, 
+            {
+                "code": "UDV", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "UDD"
+                ]
+            }, 
+            {
+                "code": "UE1", 
+                "standard": ""
+            }, 
+            {
+                "code": "UEU", 
+                "standard": ""
+            }, 
+            {
+                "code": "UGE", 
+                "standard": ""
+            }, 
+            {
+                "code": "UHX", 
+                "standard": ""
+            }, 
+            {
+                "code": "UKC", 
+                "standard": ""
+            }, 
+            {
+                "code": "UQG", 
+                "standard": "(6DC79&1SD)|(6DB79&1SB)|(6DD79&1SE)", 
+                "mutuallyExcluded": [
+                    "UQP", 
+                    "UQS"
+                ]
+            }, 
+            {
+                "code": "UQP", 
+                "standard": "6DE79&1SF", 
+                "mutuallyExcluded": [
+                    "UQG", 
+                    "UQS"
+                ]
+            }, 
+            {
+                "code": "UQS", 
+                "standard": "6DF79&1SV", 
+                "mutuallyExcluded": [
+                    "UQG", 
+                    "UQP"
+                ]
+            }, 
+            {
+                "code": "UV2", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "UV6", 
+                "standard": "6DF79&1SV"
+            }, 
+            {
+                "code": "UVB", 
+                "standard": ""
+            }
+        ]
+    }
+]

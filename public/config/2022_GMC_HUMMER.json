@@ -1,0 +1,248 @@
+[
+    {
+        "category": "date", 
+        "correctAsOf": "2022/1/5"
+    }, 
+    {
+        "category": "camera", 
+        "elements": [
+            {
+                "type": "EXT", 
+                "code": "01", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "02", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "03", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "04", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "INT", 
+                "code": "01", 
+                "group": "Interior"
+            }, 
+            {
+                "type": "INT", 
+                "code": "02", 
+                "group": "Interior"
+            }
+        ]
+    }, 
+    {
+        "category": "default", 
+        "elements": [
+            {
+                "category": "mmc", 
+                "code": "TT35743"
+            }, 
+            {
+                "category": "market", 
+                "code": "MAH"
+            }, 
+            {
+                "category": "drivetrain", 
+                "code": "4WD"
+            }, 
+            {
+                "category": "peg", 
+                "code": "1SD"
+            }, 
+            {
+                "category": "bodystyle", 
+                "code": "PICCRST"
+            }, 
+            {
+                "category": "color", 
+                "code": "GAZ"
+            }, 
+            {
+                "category": "leather", 
+                "code": "H9Z"
+            }, 
+            {
+                "category": "wheels", 
+                "code": "Wheels_std"
+            }
+        ]
+    }, 
+    {
+        "category": "mmc", 
+        "elements": [
+            {
+                "code": "TT35743", 
+                "condition": "MAH&4WD&1SD"
+            }
+        ]
+    }, 
+    {
+        "category": "market", 
+        "elements": [
+            {
+                "code": "MAH", 
+                "condition": "", 
+                "label": "USA", 
+                "type": "radiobutton"
+            }
+        ], 
+        "icon": "./assets/icons/market.png"
+    }, 
+    {
+        "category": "drivetrain", 
+        "elements": [
+            {
+                "code": "4WD", 
+                "condition": "", 
+                "label": "Four Wheel Drive", 
+                "type": "radiobutton"
+            }
+        ], 
+        "icon": "./assets/icons/train.png"
+    }, 
+    {
+        "category": "peg", 
+        "elements": [
+            {
+                "code": "1SD", 
+                "condition": "", 
+                "label": "1SD", 
+                "type": "radiobutton"
+            }
+        ], 
+        "icon": "./assets/icons/seat.png"
+    }, 
+    {
+        "category": "bodystyle", 
+        "elements": [
+            {
+                "code": "PICCRST", 
+                "condition": "", 
+                "label": "Pickup - Crew Cab - Standard Bed", 
+                "type": "radiobutton"
+            }
+        ], 
+        "icon": "./assets/icons/body.png"
+    }, 
+    {
+        "category": "color", 
+        "elements": [
+            {
+                "code": "GAZ", 
+                "condition": "", 
+                "label": "Summer White", 
+                "type": "swatch"
+            }
+        ], 
+        "icon": "./assets/icons/color.png"
+    }, 
+    {
+        "category": "leather", 
+        "elements": [
+            {
+                "code": "H9Z", 
+                "condition": "", 
+                "label": "Vinyl, Jet Black, Sky Cool Gray", 
+                "type": "swatch"
+            }, 
+            {
+                "code": "HAS", 
+                "condition": "", 
+                "label": "Vinyl, Jet Black, Artemis", 
+                "type": "swatch"
+            }
+        ], 
+        "icon": "./assets/icons/trim.png"
+    }, 
+    {
+        "category": "wheels", 
+        "elements": [
+            {
+                "code": "Wheels_std", 
+                "condition": "", 
+                "label": "Standard Wheels", 
+                "type": "radiobutton"
+            }, 
+            {
+                "code": "RCS", 
+                "condition": "", 
+                "label": "Wheel 18in Black Gloss Machine RCS", 
+                "type": "swatch"
+            }
+        ], 
+        "icon": "./assets/icons/rims.png"
+    }, 
+    {
+        "category": "packaging and accessories", 
+        "elements": [
+            {
+                "type": "group", 
+                "group": "packages", 
+                "label": "Packages", 
+                "multipleSelection": true, 
+                "groupElements": [
+                    {
+                        "code": "PCH", 
+                        "condition": "", 
+                        "label": "Enhanced Accessory Off-Road Package", 
+                        "hoverText": "PCH - Accessory, Spare Tire Carrier, SEP (SEP)"
+                    }, 
+                    {
+                        "code": "PCI", 
+                        "condition": "", 
+                        "label": "Exterior Lighting Package", 
+                        "hoverText": "PCI - Accessory, Lamps Off Road, RZU (RZU)"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "bedaccessories", 
+                "label": "Bed Accessories", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "5KM", 
+                        "condition": "", 
+                        "label": "Tonneau Cover 5KM"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "licenseplates", 
+                "label": "License Plates", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VK3", 
+                        "condition": "", 
+                        "label": "License Plate Front VK3"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "lighting", 
+                "label": "Lighting", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SIM", 
+                        "condition": "", 
+                        "label": "Interior LED Lighting Kit"
+                    }
+                ]
+            }
+        ], 
+        "icon": "./assets/icons/accesories.png"
+    }
+]

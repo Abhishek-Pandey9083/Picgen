@@ -1,0 +1,1832 @@
+[
+    {
+        "category": "date", 
+        "correctAsOf": "2022/2/24"
+    }, 
+    {
+        "category": "camera", 
+        "elements": [
+            {
+                "type": "EXT", 
+                "code": "01", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "02", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "03", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "04", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "05", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "06", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "07", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "08", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "09", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "INT", 
+                "code": "01", 
+                "group": "Interior"
+            }, 
+            {
+                "type": "INT", 
+                "code": "02", 
+                "group": "Interior"
+            }, 
+            {
+                "type": "INT", 
+                "code": "03", 
+                "group": "Interior"
+            }, 
+            {
+                "type": "INT", 
+                "code": "04", 
+                "group": "Interior"
+            }
+        ]
+    }, 
+    {
+        "category": "default", 
+        "elements": [
+            {
+                "category": "mmc", 
+                "code": "1YC07"
+            }, 
+            {
+                "category": "market", 
+                "code": "MAH"
+            }, 
+            {
+                "category": "drivetrain", 
+                "code": "RWD"
+            }, 
+            {
+                "category": "peg", 
+                "code": "1LT"
+            }, 
+            {
+                "category": "bodystyle", 
+                "code": "COU"
+            }, 
+            {
+                "category": "color", 
+                "code": "G48"
+            }, 
+            {
+                "category": "leather", 
+                "code": "HTA"
+            }, 
+            {
+                "category": "wheels", 
+                "code": "Wheels_std"
+            }
+        ]
+    }, 
+    {
+        "category": "mmc", 
+        "elements": [
+            {
+                "code": "1YC07", 
+                "condition": "MAH&RWD&(3LT|2LT|1LT)&COU"
+            }, 
+            {
+                "code": "1YC67", 
+                "condition": "MAH&RWD&(3LT|2LT|1LT)&CONV"
+            }
+        ]
+    }, 
+    {
+        "category": "market", 
+        "elements": [
+            {
+                "code": "MAH", 
+                "condition": "", 
+                "label": "USA", 
+                "type": "radiobutton", 
+                "hoverText": "MAH"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/market.png"
+    }, 
+    {
+        "category": "drivetrain", 
+        "elements": [
+            {
+                "code": "RWD", 
+                "condition": "", 
+                "label": "Rear Wheel Drive", 
+                "type": "radiobutton", 
+                "hoverText": "RWD"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/train.png"
+    }, 
+    {
+        "category": "peg", 
+        "elements": [
+            {
+                "code": "1LT", 
+                "condition": "", 
+                "label": "1LT", 
+                "type": "radiobutton", 
+                "hoverText": "1LT"
+            }, 
+            {
+                "code": "2LT", 
+                "condition": "", 
+                "label": "2LT", 
+                "type": "radiobutton", 
+                "hoverText": "2LT"
+            }, 
+            {
+                "code": "3LT", 
+                "condition": "", 
+                "label": "3LT", 
+                "type": "radiobutton", 
+                "hoverText": "3LT"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/seat.png"
+    }, 
+    {
+        "category": "bodystyle", 
+        "elements": [
+            {
+                "code": "CONV", 
+                "condition": "1YC67", 
+                "label": "Convertible", 
+                "type": "radiobutton", 
+                "hoverText": "CONV"
+            }, 
+            {
+                "code": "COU", 
+                "condition": "1YC07", 
+                "label": "Coupe", 
+                "type": "radiobutton", 
+                "hoverText": "COU"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/body.png"
+    }, 
+    {
+        "category": "color", 
+        "elements": [
+             {
+                "code": "G48", 
+                "condition": "", 
+                "label": "Galactica Metallic", 
+                "type": "swatch", 
+                "hoverText": "G48"
+            }, 
+            {
+                "code": "G8G", 
+                "condition": "", 
+                "label": "Arctic White", 
+                "type": "swatch", 
+                "hoverText": "G8G"
+            }, 
+            {
+                "code": "G9F", 
+                "condition": "", 
+                "label": "Genesis Metallic", 
+                "type": "swatch", 
+                "hoverText": "G9F", 
+                "enableCodes": {
+                    "packaging and accessories": "~5ZU", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "GA7", 
+                "condition": "", 
+                "label": "Hypersonic Gray Metallic", 
+                "type": "swatch", 
+                "hoverText": "GA7"
+            }, 
+            {
+                "code": "GBA", 
+                "condition": "", 
+                "label": "Black", 
+                "type": "swatch", 
+                "hoverText": "GBA"
+            }, 
+            {
+                "code": "GC5", 
+                "condition": "", 
+                "label": "Amplify Tint Solid", 
+                "type": "swatch", 
+                "hoverText": "GC5"
+            }, 
+            {
+                "code": "GD0", 
+                "condition": "", 
+                "label": "Accelerate Metallic", 
+                "type": "swatch", 
+                "hoverText": "GD0", 
+                "enableCodes": {
+                    "packaging and accessories": "~5ZU", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "GKZ", 
+                "condition": "", 
+                "label": "Torch Red", 
+                "type": "swatch", 
+                "hoverText": "GKZ"
+            }, 
+            {
+                "code": "GMO", 
+                "condition": "", 
+                "label": "Rapid", 
+                "type": "swatch", 
+                "hoverText": "GMO", 
+                "enableCodes": {
+                    "packaging and accessories": "~5ZU", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "GPH", 
+                "condition": "", 
+                "label": "Tactical Tint", 
+                "type": "swatch", 
+                "hoverText": "GPH", 
+                "enableCodes": {
+                    "packaging and accessories": "~5ZU", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "GREYFLAT", 
+                "condition": "", 
+                "label": "GREYFLAT", 
+                "type": "swatch", 
+                "hoverText": "GREYFLAT"
+            }, 
+            {
+                "code": "GREYMETALLIC", 
+                "condition": "", 
+                "label": "GREYMETALLIC", 
+                "type": "swatch", 
+                "hoverText": "GREYMETALLIC"
+            }, 
+            {
+                "code": "GS7", 
+                "condition": "", 
+                "label": "Rhythm and Blue Metallic", 
+                "type": "swatch", 
+                "hoverText": "GS7", 
+                "enableCodes": {
+                    "packaging and accessories": "~5ZU", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "GSJ", 
+                "condition": "", 
+                "label": "Flare Metallic", 
+                "type": "swatch", 
+                "hoverText": "GSJ", 
+                "enableCodes": {
+                    "packaging and accessories": "~5ZU", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "REDFLAT", 
+                "condition": "", 
+                "label": "REDFLAT", 
+                "type": "swatch", 
+                "hoverText": "REDFLAT"
+            }, 
+            {
+                "code": "WHITEFLAT", 
+                "condition": "", 
+                "label": "WHITEFLAT", 
+                "type": "swatch", 
+                "hoverText": "WHITEFLAT"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/color.png"
+    }, 
+    {
+        "category": "leather", 
+        "elements": [
+            {
+                "code": "HFC", 
+                "condition": "3LT", 
+                "label": "Jet Black, Sky Cool Gray, Strike Suede", 
+                "type": "swatch", 
+                "hoverText": "HFC", 
+                "enableCodes": {
+                    "packaging and accessories": "AE4&~TU7", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HMO", 
+                "condition": "3LT", 
+                "label": "Jet Black, Suede VAR 1", 
+                "type": "swatch", 
+                "hoverText": "HMO", 
+                "enableCodes": {
+                    "packaging and accessories": "~AE4", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HT7", 
+                "condition": "3LT", 
+                "label": "Jet Black, Sky Cool Gray, Strike Leather", 
+                "type": "swatch", 
+                "hoverText": "HT7", 
+                "enableCodes": {
+                    "packaging and accessories": "~(AE4|TU7)", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HTA", 
+                "condition": "~3LT", 
+                "label": "Jet Black, Mulan, Leather", 
+                "type": "swatch", 
+                "hoverText": "HTA", 
+                "enableCodes": {
+                    "packaging and accessories": "~(AE4|TU7)", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HTE", 
+                "condition": "3LT", 
+                "label": "Jet Black, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HTE", 
+                "enableCodes": {
+                    "packaging and accessories": "(38S|36S)&~TU7", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HTG", 
+                "condition": "3LT", 
+                "label": "Jet Black, Nautral, Suede", 
+                "type": "swatch", 
+                "hoverText": "HTG"
+            }, 
+            {
+                "code": "HTJ", 
+                "condition": "1LT", 
+                "label": "Jet Black, Performance Textile, Cloth", 
+                "type": "swatch", 
+                "hoverText": "HTJ", 
+                "enableCodes": {
+                    "packaging and accessories": "AE4", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HTM", 
+                "condition": "2LT", 
+                "label": "Jet Black,  Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HTM", 
+                "enableCodes": {
+                    "packaging and accessories": "AE4&~TU7", 
+                    "attach": "AH2", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HTN", 
+                "condition": "2LT", 
+                "label": "Jet Black, Natural, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HTN", 
+                "enableCodes": {
+                    "packaging and accessories": "AE4|TU7", 
+                    "attach": "AH2", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HTO", 
+                "condition": "3LT", 
+                "label": "Twilight Blue, Tension Blue, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HTO", 
+                "enableCodes": {
+                    "packaging and accessories": "3A9&~TU7", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HTP", 
+                "condition": "2LT", 
+                "label": "Jet Black, Suede", 
+                "type": "swatch", 
+                "hoverText": "HTP", 
+                "enableCodes": {
+                    "packaging and accessories": "AE4&~TU7", 
+                    "attach": "AH2", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HTQ", 
+                "condition": "2LT", 
+                "label": "Jet Black, Natural, Suede", 
+                "type": "swatch", 
+                "hoverText": "HTQ", 
+                "enableCodes": {
+                    "packaging and accessories": "AE4|TU7", 
+                    "attach": "AH2", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HTT", 
+                "condition": "3LT", 
+                "label": "Jet Black, Suede", 
+                "type": "swatch", 
+                "hoverText": "HTT", 
+                "enableCodes": {
+                    "packaging and accessories": "(38S|36S)&~TU7", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HU0", 
+                "condition": "3LT", 
+                "label": "Jet Black, Nappa, Leather, VAR 2", 
+                "type": "swatch", 
+                "hoverText": "HU0", 
+                "enableCodes": {
+                    "packaging and accessories": "38S", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HU1", 
+                "condition": "3LT", 
+                "label": "Jet Black, Sky Cool Gray, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HU1"
+            }, 
+            {
+                "code": "HU2", 
+                "condition": "3LT", 
+                "label": "Jet Black, Adrenaline Red, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HU2"
+            }, 
+            {
+                "code": "HU3", 
+                "condition": "3LT", 
+                "label": "Morello Red, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HU3", 
+                "enableCodes": {
+                    "packaging and accessories": "~TU7", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HU6", 
+                "condition": "2LT", 
+                "label": "Jet Black, Sky Cool Gray, Suede", 
+                "type": "swatch", 
+                "hoverText": "HU6", 
+                "enableCodes": {
+                    "packaging and accessories": "AE4|TU7", 
+                    "attach": "AH2", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HU7", 
+                "condition": "2LT", 
+                "label": "Jet Black, Adrenaline Red, Suede", 
+                "type": "swatch", 
+                "hoverText": "HU7", 
+                "enableCodes": {
+                    "packaging and accessories": "TU7|AE4", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HU9", 
+                "condition": "3LT", 
+                "label": "Jet Black, Sky Cool Gray, Suede", 
+                "type": "swatch", 
+                "hoverText": "HU9"
+            }, 
+            {
+                "code": "HUA", 
+                "condition": "3LT", 
+                "label": "Jet Black, Adrenaline Red, Suede", 
+                "type": "swatch", 
+                "hoverText": "HUA", 
+                "enableCodes": {
+                    "packaging and accessories": "TU7|AE4", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HUE", 
+                "condition": "3LT", 
+                "label": "Jet Black, Natural, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HUE"
+            }, 
+            {
+                "code": "HUF", 
+                "condition": "3LT", 
+                "label": "Natural, Suede", 
+                "type": "swatch", 
+                "hoverText": "HUF", 
+                "enableCodes": {
+                    "packaging and accessories": "3N9&~TU7", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HUK", 
+                "condition": "2LT", 
+                "label": "Jet Black, Sky Cool Gray, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HUK", 
+                "enableCodes": {
+                    "packaging and accessories": "AE4|TU7", 
+                    "attach": "AH2", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HUL", 
+                "condition": "2LT", 
+                "label": "Jet Black, Adrenaline Red, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HUL", 
+                "enableCodes": {
+                    "packaging and accessories": "AE4|TU7", 
+                    "attach": "AH2", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HUN", 
+                "condition": "2LT", 
+                "label": "Jet Black, Sky Cool Gray, Mulan, Leather", 
+                "type": "swatch", 
+                "hoverText": "HUN", 
+                "enableCodes": {
+                    "packaging and accessories": "~(AE4|TU7)", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HUP", 
+                "condition": "1LT", 
+                "label": "Jet Black, Sky Cool Gray, Mulan, Leather", 
+                "type": "swatch", 
+                "hoverText": "HUP", 
+                "enableCodes": {
+                    "packaging and accessories": "~AE4", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HUQ", 
+                "condition": "1LT", 
+                "label": "Jet Black, Adrenaline Red, Mulan, Leather", 
+                "type": "swatch", 
+                "hoverText": "HUQ", 
+                "enableCodes": {
+                    "packaging and accessories": "~AE4", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HUR", 
+                "condition": "2LT", 
+                "label": "Jet Black, Adrenaline Red, Mulan, Leather", 
+                "type": "swatch", 
+                "hoverText": "HUR", 
+                "enableCodes": {
+                    "packaging and accessories": "~(AE4|TU7)", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HUU", 
+                "condition": "3LT", 
+                "label": "Jet Black, Adrenaline Red, Nappa, Leather, VAR 1", 
+                "type": "swatch", 
+                "hoverText": "HUU", 
+                "enableCodes": {
+                    "packaging and accessories": "~TU7", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HUV", 
+                "condition": "2LT", 
+                "label": "Jet Black, Natural, Mulan, Leather", 
+                "type": "swatch", 
+                "hoverText": "HUV", 
+                "enableCodes": {
+                    "packaging and accessories": "~(AE4|TU7)", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HVT", 
+                "condition": "3LT", 
+                "label": "Jet Black, Sky Cool Gray, Suede, VAR 1", 
+                "type": "swatch", 
+                "hoverText": "HVT", 
+                "enableCodes": {
+                    "packaging and accessories": "~(AE4|TU7)", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HVV", 
+                "condition": "3LT", 
+                "label": "Jet Black, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HVV", 
+                "enableCodes": {
+                    "packaging and accessories": "~AE4", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HXO", 
+                "condition": "3LT", 
+                "label": "Jet Black, Suede, VAR 2", 
+                "type": "swatch", 
+                "hoverText": "HXO", 
+                "enableCodes": {
+                    "packaging and accessories": "(TU7|AE4)&38S", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HZB", 
+                "condition": "3LT", 
+                "label": "Jet Black, Sky Cool Gray, Nappa, Leather, VAR 1", 
+                "type": "swatch", 
+                "hoverText": "HZB", 
+                "enableCodes": {
+                    "packaging and accessories": "~(AE4|TU7)", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HZN", 
+                "condition": "3LT", 
+                "label": "Natural, Nappa, Leather", 
+                "type": "swatch", 
+                "hoverText": "HZN", 
+                "enableCodes": {
+                    "packaging and accessories": "3N9&~TU7", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }, 
+            {
+                "code": "HZP", 
+                "condition": "3LT", 
+                "label": "Jet Black, Adrenaline Red, Suede, VAR 1", 
+                "type": "swatch", 
+                "hoverText": "HZP", 
+                "enableCodes": {
+                    "packaging and accessories": "~TU7", 
+                    "attach": "", 
+                    "wheels": "", 
+                    "leather": "", 
+                    "color": ""
+                }
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/trim.png"
+    }, 
+    {
+        "category": "wheels", 
+        "elements": [
+            {
+                "code": "Wheels_std", 
+                "condition": "", 
+                "label": "Standard Wheels", 
+                "type": "radiobutton"
+            }, 
+            {
+                "code": "5DF", 
+                "condition": "", 
+                "label": "Wheels 19in Black 5DF", 
+                "type": "swatch", 
+                "hoverText": "5DF"
+            }, 
+            {
+                "code": "5DG", 
+                "condition": "", 
+                "label": "Wheels 19in Oxide Gold 5DG", 
+                "type": "swatch", 
+                "hoverText": "5DG"
+            }, 
+            {
+                "code": "Q8P", 
+                "condition": "", 
+                "label": "Wheels 19in Painted Silver Q8P", 
+                "type": "swatch", 
+                "hoverText": "Q8P"
+            }, 
+            {
+                "code": "Q8Q", 
+                "condition": "", 
+                "label": "Wheels 19in Painted Carbon Machined Edge Q8Q", 
+                "type": "swatch", 
+                "hoverText": "Q8Q"
+            }, 
+            {
+                "code": "Q8S", 
+                "condition": "", 
+                "label": "Wheels 19in Painted Silver Machined Bright Q8S", 
+                "type": "swatch", 
+                "hoverText": "Q8S"
+            }, 
+            {
+                "code": "Q8T", 
+                "condition": "", 
+                "label": "Wheels 19n Painted Midnight Machined Bright Q8T", 
+                "type": "swatch", 
+                "hoverText": "Q8T"
+            }, 
+            {
+                "code": "QE5", 
+                "condition": "3LT", 
+                "label": "Wheels 19in Gloss Black QE5", 
+                "type": "swatch", 
+                "hoverText": "QE5"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/rims.png"
+    }, 
+    {
+        "category": "packaging and accessories", 
+        "elements": [
+            {
+                "type": "group", 
+                "group": "packages", 
+                "label": "Packages", 
+                "multipleSelection": true, 
+                "groupElements": [
+                    {
+                        "code": "C2M", 
+                        "condition": "1YC07", 
+                        "label": "Carbon Fiber Dual Roof Package", 
+                        "hoverText": "C2M - Roof, Carbon Fiber with Body color Accents, Carbon Fiber with Body Color Accents, C2Z (C2Z)", 
+                        "enableCodes": {
+                            "packaging and accessories": "C2Z", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "C2Q", 
+                        "condition": "1YC07", 
+                        "label": "Body-Color Dual Roof Package", 
+                        "hoverText": "C2Q - Roof, Transparent, CC3 (CC3)", 
+                        "enableCodes": {
+                            "packaging and accessories": "CC3", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "D84", 
+                        "condition": "1YC67", 
+                        "label": "Custom Two Tone Package", 
+                        "hoverText": "D84 - Decklid Tonneau, Header with A Pillar, Carbone Flash Metallic, Carbon Flash Metallic, D84 D86 (S0113), D84 (S0213) | Decklid Tonneau, D84 D86 (S0113) | Roof, Convertible Hardtop, D84 (S0216)", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "S0213&S0113&S0216", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": "~GBA"
+                        }
+                    }, 
+                    {
+                        "code": "D86", 
+                        "condition": "1YC67", 
+                        "label": "Deluxe Two Tone Package", 
+                        "hoverText": "D86 - Decklid Tonneau, Carbone Flash Metallic, Carbon Flash Metallic, D84 D86 (S0113)", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "S0113", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": "~GBA"
+                        }
+                    }, 
+                    {
+                        "code": "DSG", 
+                        "condition": "3LT", 
+                        "label": "Hyersonic Gray Racing Decal Package", 
+                        "hoverText": "DSG - Decal Racing, Front and Rear Gray, DSG (S0337) | Decal Racing, Decklid with Camera Gray, DSG DRZ (S0338) | Decal Racing, Front and Rear Yellow, DT0 ZCR (S0340)", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "DSY", 
+                        "condition": "", 
+                        "label": "Orange Racing Decal Package", 
+                        "hoverText": "DSY - Decal Racing, Front and Rear Orange, DSY (S0330) | Decal Racing, Decklid without Camera Orange, DSY (S0334) | Decal Racing, Decklid with Camera Orange, DSY DRZ (S0331)", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "DSZ", 
+                        "condition": "", 
+                        "label": "Red Racing Decal Package", 
+                        "hoverText": "DSZ - Decal Racing, Front and Rear Red, DSZ (S0325) | Decal Racing, Roof Red, DSZ (S0327) | Decal Racing, Decklid without Camera Red, DSZ (S0329) | Decal Racing, Decklid with Camera Red, DSZ DRZ (S0326)", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "DT0", 
+                        "condition": "", 
+                        "label": "Yellow Racing Decal Package", 
+                        "hoverText": "DT0 - Decal Racing, Front and Rear Yellow, DT0 (S0320) | Decal Racing, Decklid without Camera Yellow, DT0 (S0324) | Decal Racing, Decklid with Camera Yellow, DT0 DRZ (S0321)", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "DTH", 
+                        "condition": "", 
+                        "label": "Carbon Flash Racing Decal Package", 
+                        "hoverText": "DTH - Decal Racing, Front and Rear Carbon Flash, DTH (S0306) | Decal Racing, Decklid without Camera Carbon Flash, DTH (S0312) | Decal Racing, Decklid with Camera Carbon Flash, DTH DRZ (S0300)", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "DUB", 
+                        "condition": "", 
+                        "label": "Sterling Silver Racing Decal Package", 
+                        "hoverText": "DUB - Decal Racing, Front and Rear Sterling Silver, DUB (S0307) | Decal Racing, Decklid without Camera Sterling Silver, DUB (S0313) | Decal Racing, Decklid with Camera Sterling Silver, DUB DRZ (S0301)", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "DUW", 
+                        "condition": "", 
+                        "label": "Blue Racing Decal Package", 
+                        "hoverText": "DUW - Decal Racing, Front and Rear Blue, DUW (S0315) | Decal Racing, Decklid without Camera Blue, DUW (S0319) | Decal Racing, Decklid with Camera Blue, DUW DRZ (S0316)", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "DX0", 
+                        "condition": "", 
+                        "label": "Midnight Silver Racing Decal Package", 
+                        "hoverText": "DX0 - Decal Racing, Front and Rear Midnight Silver, DX0 (S0308) | Decal Racing, Roof Midnight Silver, DX0 (S0305) | Decal Racing, Decklid without Camera Midnight Silver, DX0 (S0314) | Decal Racing, Decklid with Camera Midnight Silver, DX0 DRZ (S0302)", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "FA5", 
+                        "condition": "~1LT", 
+                        "label": "Carbon Fiber Deco Package", 
+                        "hoverText": "FA5 - Deco Trim, Cockpit, Carbon Fiber, FA5 (S0535) | Cluster Bezel, Carbon Fiber, FA5 (S0534)", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "S0535&S0534", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDV", 
+                        "condition": "", 
+                        "label": "Stingray R Appearance Package", 
+                        "hoverText": "PDV - Accessory, Decal, Stingray R, SB7 3DEXCITE USE ONLY (SB7) | Accessory, Wheel CenterCap, Stingray R, VWD 3DEXCITE USE ONLY (VWD)", 
+                        "view": "EXT", 
+                        "enableCodes": {
+                            "packaging and accessories": "VWD&SB7", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "Z51", 
+                        "condition": "", 
+                        "label": "Z51 Performance Package", 
+                        "hoverText": "Z51 - Spoiler, Brakes, Fixed, Heavy Duty, Body Color, J55 (J55) | Brake Cooling Intake, T0A 3DEXCITE USE ONLY (T0A), J55 (S0254)", 
+                        "enableCodes": {
+                            "packaging and accessories": "~5V7", 
+                            "attach": "T0A&J55", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "ZCR", 
+                        "condition": "3LT", 
+                        "label": "C8R Edition", 
+                        "hoverText": "ZCR - Plaque, Brake Caliper, C8R Special Edition, Standard, CFY (CFY) | Carbon Flash Accents Package (ZYC) | Engine Apperance Package (ZZ3) | Performance Package (Z51), Yellow, J6E 3DEXCITE USE ONLY (J6E) | Accessory, Splash Guards, Custom Molded, VQK (VQK) | Accessory, Wheel CenterCaps, Jake, 5ZC (5ZC) | Seat Belts, 3M9 (3M9) | Accessory, Spoiler, High Wing, Carbon Flash, 5ZZ (5ZZ) | Wheels, 19in Gloss Black, QE5 (QE5) | Decal Racing, Spoiler T0A Delete 3DEXCITE USE ONLY (S0343) | Decals, Side C8R, ZCR (S0344) | Sky Cool Gray, Strike Leather (HT7) | Carbon Flash Accents Package (ZYC) | Z51 Performance Package (Z51) | Engine Apperance Package (ZZ3)", 
+                        "enableCodes": {
+                            "packaging and accessories": "J6E&3M9&ZYC&Z51&ZZ3", 
+                            "attach": "CFY&S0344", 
+                            "wheels": "QE5", 
+                            "leather": "HT7", 
+                            "color": "GA7|GD0"
+                        }
+                    }, 
+                    {
+                        "code": "ZF1", 
+                        "condition": "", 
+                        "label": "Z51 Package Areo Delete", 
+                        "hoverText": "ZF1 - Brakes, Heavy Duty, J55 (J55) | Brake Cooling Intake, J55 (S0254) | Spoiler Delete, D58 (D58)", 
+                        "view": "EXT", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "J55&D58&VSN", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "ZYC", 
+                        "condition": "", 
+                        "label": "Carbon Flash Accents Package", 
+                        "hoverText": "ZYC - OSRVM Cap, Carbon Flash, DRG (DRG)", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "DRG", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "ZZ3", 
+                        "condition": "1YC07", 
+                        "label": "Engine Apperance Package", 
+                        "hoverText": "ZZ3 - Engine Deco Trim, Carbon Fiber (S0110) | Engine Lighting (S0111)", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "S0110&S0111", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "badges", 
+                "label": "Badges", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Badge rear 1", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "badgerear1", 
+                        "elements": [
+                            {
+                                "code": "RIK", 
+                                "condition": "", 
+                                "label": "Badge Package Red RIK", 
+                                "hoverText": "RIK", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "RIN", 
+                                "condition": "", 
+                                "label": "Badge Package White RIN", 
+                                "hoverText": "RIN", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "SL8", 
+                                "condition": "", 
+                                "label": "Badge Package Blue SL8", 
+                                "hoverText": "SL8", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Interior", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "interior", 
+                        "elements": [
+                            {
+                                "code": "CFX", 
+                                "condition": "", 
+                                "label": "Plaque Dedication Museum Logo CFX", 
+                                "hoverText": "CFX", 
+                                "view": "INT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "brakes", 
+                "label": "Brakes", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "J6E", 
+                        "condition": "", 
+                        "label": "Brake Caliper Standard Yellow NO GEO", 
+                        "hoverText": "J6E", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "J6F", 
+                        "condition": "", 
+                        "label": "Brake Caliper Standard Red NO GEO", 
+                        "hoverText": "J6F", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "J6N", 
+                        "condition": "", 
+                        "label": "Brake Caliper Standard Edge Red NO GEO", 
+                        "hoverText": "J6N", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "dashboardintegrations", 
+                "label": "Dashboard Integrations", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "E60", 
+                        "condition": "~1LT", 
+                        "label": "Button Bank TC E60 UVA", 
+                        "hoverText": "E60", 
+                        "view": "INT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "decalorstripes", 
+                "label": "Decal or Stripes", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Decals", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "decals", 
+                        "elements": [
+                            {
+                                "code": "SHQ", 
+                                "condition": "", 
+                                "label": "Decal Fender Hash Silver w Black Accents SHQ", 
+                                "hoverText": "SHQ", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "SHW", 
+                                "condition": "", 
+                                "label": "Decal Fender Hash Black w Red Accent SHW", 
+                                "hoverText": "SHW", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "SNG", 
+                                "condition": "", 
+                                "label": "Decal Fender Hash Red w Black Accents SNG", 
+                                "hoverText": "SNG", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Package", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "package", 
+                        "elements": [
+                            {
+                                "code": "DZU", 
+                                "condition": "", 
+                                "label": "Decal Hood Stinger Carbon Flash Edge Yellow", 
+                                "hoverText": "DZU", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "DZV", 
+                                "condition": "", 
+                                "label": "Decal Hood Stinger Carbon Flash Midnight Silver", 
+                                "hoverText": "DZV", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "DZX", 
+                                "condition": "", 
+                                "label": "Decal Hood Stinger Carbon Flash Edge Red", 
+                                "hoverText": "DZX", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "SB7", 
+                                "condition": "", 
+                                "label": "Decal Stingray R SB7 NO GEO", 
+                                "hoverText": "SB7", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Trailering", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "trailering", 
+                        "elements": [
+                            {
+                                "code": "DSG", 
+                                "condition": "3LT", 
+                                "label": "Decal Racing Gray DSG NO GEO", 
+                                "hoverText": "DSG", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "DSY", 
+                                "condition": "", 
+                                "label": "Decal Racing Orange DSY NO GEO", 
+                                "hoverText": "DSY", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "DSZ", 
+                                "condition": "", 
+                                "label": "Decal Racing Red DSZ NO GEO", 
+                                "hoverText": "DSZ", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "DT0", 
+                                "condition": "", 
+                                "label": "Decal Racing Yellow DT0 NO GEO", 
+                                "hoverText": "DT0", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "DTH", 
+                                "condition": "", 
+                                "label": "Decal Racing Carbon Flash DTH NO GEO", 
+                                "hoverText": "DTH", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "DUB", 
+                                "condition": "", 
+                                "label": "Decal Racing Sterling Silver DUB NO GEO", 
+                                "hoverText": "DUB", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "DUW", 
+                                "condition": "", 
+                                "label": "Decal Racing Blue DUW NO GEO", 
+                                "hoverText": "DUW", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "DX0", 
+                                "condition": "", 
+                                "label": "Decal Racing Midnight Silver NO GEO", 
+                                "hoverText": "DX0", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "engine", 
+                "label": "Engine", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "RCC", 
+                        "condition": "", 
+                        "label": "Engine Cover Edge Red RCC", 
+                        "hoverText": "RCC", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "RCD", 
+                        "condition": "", 
+                        "label": "Engine Cover Sterling Silver RCD", 
+                        "hoverText": "RCD", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "floormats", 
+                "label": "Floor Mats", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "RIA", 
+                        "condition": "", 
+                        "label": "Floor Liner All Weather RIA", 
+                        "hoverText": "RIA", 
+                        "view": "INT"
+                    }, 
+                    {
+                        "code": "VYW", 
+                        "condition": "", 
+                        "label": "Floor Mat Premium Carpet VYW", 
+                        "hoverText": "VYW", 
+                        "view": "INT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "frontgrille", 
+                "label": "Front Grille", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "RZ9", 
+                        "condition": "", 
+                        "label": "Grille Carbon Fiber RZ9 NO GEO", 
+                        "hoverText": "RZ9", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "groundeffects", 
+                "label": "Ground Effects", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Body kit", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "bodykit", 
+                        "elements": [
+                            {
+                                "code": "5VM", 
+                                "condition": "", 
+                                "label": "Ground Effects Carbon Fiber 5VM", 
+                                "hoverText": "5VM", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "5W8", 
+                                "condition": "", 
+                                "label": "Ground Effects Carbon Flash 5W8", 
+                                "hoverText": "5W8", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "S6S", 
+                                "condition": "", 
+                                "label": "Rocker Carbon Fiber S6S", 
+                                "hoverText": "S6S", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "SJI", 
+                                "condition": "", 
+                                "label": "Rockers Carbon Flash SJI", 
+                                "hoverText": "SJI", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Package2", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "package2", 
+                        "elements": [
+                            {
+                                "code": "EFA", 
+                                "condition": "", 
+                                "label": "Trim Accents Dark Shadow EFA NO GEO", 
+                                "hoverText": "EFA", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "EFY", 
+                                "condition": "", 
+                                "label": "Trim Accents Body Color EFY NO GEO", 
+                                "hoverText": "EFY", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "licenseplates", 
+                "label": "License Plates", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VK3", 
+                        "condition": "", 
+                        "label": "License Plate Front VK3", 
+                        "hoverText": "VK3", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "mirrors", 
+                "label": "Mirrors", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "5JR", 
+                        "condition": "", 
+                        "label": "OSRVM Cap Carbon Fiber 5JR", 
+                        "hoverText": "5JR"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "molding", 
+                "label": "Molding", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Body kit", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "bodykit", 
+                        "elements": [
+                            {
+                                "code": "5V7", 
+                                "condition": "", 
+                                "label": "Ground Effects Short MIC Black 5V7", 
+                                "hoverText": "5V7", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Misc3", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "misc3", 
+                        "elements": [
+                            {
+                                "code": "RYQ", 
+                                "condition": "", 
+                                "label": "Molding Side Vents carbon Fiber RYQ", 
+                                "hoverText": "RYQ", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Molding3", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "molding3", 
+                        "elements": [
+                            {
+                                "code": "STI", 
+                                "condition": "", 
+                                "label": "Rocker Short MIC Black STI", 
+                                "hoverText": "STI", 
+                                "view": "EXT", 
+                                "enableCodes": {
+                                    "packaging and accessories": "Z51", 
+                                    "attach": "", 
+                                    "wheels": "", 
+                                    "leather": "", 
+                                    "color": ""
+                                }
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Sail", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "sail", 
+                        "elements": [
+                            {
+                                "code": "VST", 
+                                "condition": "", 
+                                "label": "Sill plate Illuminated Stingray VST", 
+                                "hoverText": "VST", 
+                                "view": "INT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "package", 
+                "label": "Package", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "36S", 
+                        "condition": "3LT", 
+                        "label": "Stitching Yellow 36S NO GEO", 
+                        "hoverText": "36S", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "HTT|HTE", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "38S", 
+                        "condition": "3LT", 
+                        "label": "Stitching Adrenaline Red 38S NO GEO", 
+                        "hoverText": "38S", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "HTT|HTE|HU0|HXO", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "radio", 
+                "label": "Radio", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "IOT", 
+                        "condition": "", 
+                        "label": "Radio Premium SD NAV IOT", 
+                        "hoverText": "IOT", 
+                        "view": "INT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "roof", 
+                "label": "Roof", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "C2Z", 
+                        "condition": "1YC07", 
+                        "label": "Roof Carbon Fiber w Body Color Accents C2Z", 
+                        "hoverText": "C2Z"
+                    }, 
+                    {
+                        "code": "CC3", 
+                        "condition": "1YC07", 
+                        "label": "Roof Transparent CC3", 
+                        "hoverText": "CC3"
+                    }, 
+                    {
+                        "code": "S0106", 
+                        "condition": "", 
+                        "label": "Roof Down NO GEO", 
+                        "hoverText": "S0106", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "S0104", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "SBT", 
+                        "condition": "1YC07", 
+                        "label": "Roof Transparent SBT", 
+                        "hoverText": "SBT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "seats", 
+                "label": "Seats", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Misc9", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "misc9", 
+                        "elements": [
+                            {
+                                "code": "379", 
+                                "condition": "", 
+                                "label": "Seat Belt Orange 379 NO GEO", 
+                                "hoverText": "379"
+                            }, 
+                            {
+                                "code": "3A9", 
+                                "condition": "", 
+                                "label": "Seat Belt Blue 3A9 NO GEO", 
+                                "hoverText": "3A9"
+                            }, 
+                            {
+                                "code": "3F9", 
+                                "condition": "", 
+                                "label": "Seat Belt Red 3F9 NO GEO", 
+                                "hoverText": "3F9"
+                            }, 
+                            {
+                                "code": "3M9", 
+                                "condition": "", 
+                                "label": "Seat Belt Yellow 3M9 NO GEO", 
+                                "hoverText": "3M9"
+                            }, 
+                            {
+                                "code": "3N9", 
+                                "condition": "", 
+                                "label": "Seat Belt Tan 3N9 NO GEO", 
+                                "hoverText": "3N9"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Seats", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "seats", 
+                        "elements": [
+                            {
+                                "code": "AE4", 
+                                "condition": "", 
+                                "label": "Seats Sport Competition AE4", 
+                                "hoverText": "AE4"
+                            }, 
+                            {
+                                "code": "TU7", 
+                                "condition": "~1LT", 
+                                "label": "Seats Sport Body Contoured Two Tone GT2 TU7", 
+                                "hoverText": "TU7"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "spoiler", 
+                "label": "Spoiler", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "5V5", 
+                        "condition": "", 
+                        "label": "Spoiler High Wing Carbon Fiber 5V5", 
+                        "hoverText": "5V5"
+                    }, 
+                    {
+                        "code": "5ZU", 
+                        "condition": "", 
+                        "label": "Spoiler High Wing BC 5ZU", 
+                        "hoverText": "5ZU"
+                    }, 
+                    {
+                        "code": "5ZZ", 
+                        "condition": "", 
+                        "label": "Spoiler High Wing Carbon Flash 5ZZ", 
+                        "hoverText": "5ZZ"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "wheelcaps", 
+                "label": "Wheel Caps", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "5ZC", 
+                        "condition": "", 
+                        "label": "CenterCaps Jake 5ZC NO GEO", 
+                        "hoverText": "5ZC", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "5ZD", 
+                        "condition": "", 
+                        "label": "CenterCaps Carbon Flash 5ZD NO GEO", 
+                        "hoverText": "5ZD", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "RXH", 
+                        "condition": "", 
+                        "label": "CenterCaps Stingray Bright RXH NO GEO", 
+                        "hoverText": "RXH", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "RXJ", 
+                        "condition": "", 
+                        "label": "CenterCaps Stingray Black RXJ NO GEO", 
+                        "hoverText": "RXJ", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "VWD", 
+                        "condition": "", 
+                        "label": "CenterCaps Stingray R VWD NO GEO", 
+                        "hoverText": "VWD", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "wheelsplashguards", 
+                "label": "Wheel Splash Guards", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VQK", 
+                        "condition": "", 
+                        "label": "Splash Guards Custom Molded VQK", 
+                        "hoverText": "VQK", 
+                        "view": "EXT"
+                    }
+                ]
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/accesories.png"
+    }
+]

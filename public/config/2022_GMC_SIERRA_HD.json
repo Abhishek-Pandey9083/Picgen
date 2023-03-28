@@ -1,0 +1,1629 @@
+[
+    {
+        "category": "date", 
+        "correctAsOf": "2022/2/4"
+    }, 
+    {
+        "category": "camera", 
+        "elements": [
+            {
+                "type": "EXT", 
+                "code": "01", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "02", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "03", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "04", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "INT", 
+                "code": "01", 
+                "group": "Interior"
+            }, 
+            {
+                "type": "INT", 
+                "code": "02", 
+                "group": "Interior"
+            }
+        ]
+    }, 
+    {
+        "category": "default", 
+        "elements": [
+            {
+                "category": "mmc", 
+                "code": "TC20743"
+            }, 
+            {
+                "category": "market", 
+                "code": "MAH"
+            }, 
+            {
+                "category": "drivetrain", 
+                "code": "RWD"
+            }, 
+            {
+                "category": "peg", 
+                "code": "1SA"
+            }, 
+            {
+                "category": "bodystyle", 
+                "code": "PICCRST"
+            }, 
+            {
+                "category": "color", 
+                "code": "G7C"
+            }, 
+            {
+                "category": "leather", 
+                "code": "H1T"
+            }, 
+            {
+                "category": "wheels", 
+                "code": "Wheels_std"
+            }
+        ]
+    }, 
+    {
+        "category": "mmc", 
+        "elements": [
+            {
+                "code": "TC20743", 
+                "condition": "MAH&RWD&(1SA|3SA|4SA)&PICCRST", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TC20753", 
+                "condition": "MAH&RWD&(1SA|3SA|4SA)&PICDOST", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TC20903", 
+                "condition": "MAH&RWD&(1SA|3SA)&PICRELO", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TC20943", 
+                "condition": "MAH&RWD&(1SA|3SA|4SA)&PICCRLO", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TC20953", 
+                "condition": "MAH&RWD&(1SA|3SA|4SA)&PICDOLO", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TC30743", 
+                "condition": "MAH&RWD&(1SA|3SA|4SA)&PICCRST", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TC30903", 
+                "condition": "MAH&RWD&(1SA|3SA)&PICRELO", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TC30903D", 
+                "condition": "MAH&RWD&(1SA|3SA)&PICREDU", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TC30943", 
+                "condition": "MAH&RWD&(1SA|3SA|4SA)&PICCRLO", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TC30943D", 
+                "condition": "MAH&RWD&(1SA|3SA|4SA)&PICCRDU", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TC30953", 
+                "condition": "MAH&RWD&(1SA|3SA)&PICDOLO", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TC30953D", 
+                "condition": "MAH&RWD&(1SA|3SA)&PICDODU", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TK20743", 
+                "condition": "MAH&4WD&(4SB|1SA|3SA|5SA|4SA)&PICCRST", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TK20753", 
+                "condition": "MAH&4WD&(1SA|3SA|4SA)&PICDOST", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TK20903", 
+                "condition": "MAH&4WD&(1SA|3SA)&PICRELO", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TK20943", 
+                "condition": "MAH&4WD&(4SB|1SA|3SA|5SA|4SA)&PICCRLO", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TK20953", 
+                "condition": "MAH&4WD&(1SA|3SA|4SA)&PICDOLO", 
+                "model": "Sierra 2500"
+            }, 
+            {
+                "code": "TK30743", 
+                "condition": "MAH&4WD&(4SB|1SA|3SA|5SA|4SA)&PICCRST", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TK30903", 
+                "condition": "MAH&4WD&(1SA|3SA)&PICRELO", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TK30903D", 
+                "condition": "MAH&4WD&(1SA|3SA)&PICREDU", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TK30943", 
+                "condition": "MAH&4WD&(4SB|1SA|3SA|5SA|4SA)&PICCRLO", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TK30943D", 
+                "condition": "MAH&4WD&(1SA|3SA|5SA|4SA)&PICCRDU", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TK30953", 
+                "condition": "MAH&4WD&(1SA|3SA)&PICDOLO", 
+                "model": "Sierra 3500"
+            }, 
+            {
+                "code": "TK30953D", 
+                "condition": "MAH&4WD&(1SA|3SA)&PICDODU", 
+                "model": "Sierra 3500"
+            }
+        ]
+    }, 
+    {
+        "category": "market", 
+        "elements": [
+            {
+                "code": "MAH", 
+                "condition": "", 
+                "label": "USA", 
+                "type": "radiobutton", 
+                "hoverText": "MAH"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/market.png"
+    }, 
+    {
+        "category": "drivetrain", 
+        "elements": [
+            {
+                "code": "4WD", 
+                "condition": "", 
+                "label": "Four Wheel Drive", 
+                "type": "radiobutton", 
+                "hoverText": "4WD"
+            }, 
+            {
+                "code": "RWD", 
+                "condition": "", 
+                "label": "Rear Wheel Drive", 
+                "type": "radiobutton", 
+                "hoverText": "RWD"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/train.png"
+    }, 
+    {
+        "category": "peg", 
+        "elements": [
+            {
+                "code": "1SA", 
+                "condition": "", 
+                "label": "WT", 
+                "type": "radiobutton", 
+                "hoverText": "1SA"
+            }, 
+            {
+                "code": "3SA", 
+                "condition": "", 
+                "label": "SLE", 
+                "type": "radiobutton", 
+                "hoverText": "3SA"
+            }, 
+            {
+                "code": "4SA", 
+                "condition": "~(TK30903D|TK30903|TC30953|TC30953D|TC30903D|TC30903|TK20903|TC20903|TK30953|TK30953D)&~(PICRELO|PICDODU|PICREDU)", 
+                "label": "SLT", 
+                "type": "radiobutton", 
+                "hoverText": "4SA"
+            }, 
+            {
+                "code": "4SB", 
+                "condition": "(TK20743|TK30743|TK20943|TK30943)&(PICCRST|PICCRLO)", 
+                "label": "AT4", 
+                "type": "radiobutton", 
+                "hoverText": "4SB"
+            }, 
+            {
+                "code": "5SA", 
+                "condition": "(TK20743|TK30743|TK30943D|TK20943|TK30943)&(PICCRST|PICCRDU|PICCRLO)", 
+                "label": "Denali", 
+                "type": "radiobutton", 
+                "hoverText": "5SA"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/seat.png"
+    }, 
+    {
+        "category": "bodystyle", 
+        "elements": [
+            {
+                "code": "PICCRDU", 
+                "condition": "~(4SB|TK30903D|TK30903|TC30953|TC30953D|TC30943|TC20743|TC20953|TC30903|TC20943|TK20743|TK20753|TC20903|TK30953|TK30953D|TK30943|TK20953|TK20943|TC30903D|TC30743|TK30743|TK20903|TC20753)", 
+                "label": "Pickup - Crew Cab - Dual Rear Wheel", 
+                "type": "radiobutton", 
+                "hoverText": "PICCRDU"
+            }, 
+            {
+                "code": "PICCRLO", 
+                "condition": "~(TK30903D|TK30903|TK30943D|TC30953D|TC20743|TC20953|TC30903|TC30943D|TK20743|TK20753|TC30953|TC20903|TK30953|TK30953D|TK20953|TC30903D|TC30743|TK30743|TK20903|TC20753)", 
+                "label": "Pickup - Crew Cab - Long Bed", 
+                "type": "radiobutton", 
+                "hoverText": "PICCRLO"
+            }, 
+            {
+                "code": "PICCRST", 
+                "condition": "~(TK30903D|TK30903|TK30943D|TC30953D|TC30943|TC20953|TC30903|TC30943D|TC20943|TK20753|TC30953|TC20903|TK30953|TK30953D|TK30943|TK20953|TK20943|TC30903D|TK20903|TC20753)", 
+                "label": "Pickup - Crew Cab - Standard Bed", 
+                "type": "radiobutton", 
+                "hoverText": "PICCRST"
+            }, 
+            {
+                "code": "PICDODU", 
+                "condition": "~(4SB|5SA|4SA|TK30903D|TK30903|TK30943D|TC30943|TC20743|TC20953|TC30903|TC30943D|TC20943|TK20743|TK20753|TC30953|TC20903|TK30953|TK30943|TK20953|TK20943|TC30903D|TC30743|TK30743|TK20903|TC20753)", 
+                "label": "Pickup - Double Cab - Dual Rear Wheel", 
+                "type": "radiobutton", 
+                "hoverText": "PICDODU"
+            }, 
+            {
+                "code": "PICDOLO", 
+                "condition": "~(4SB|5SA|TK30903D|TK30903|TK30943D|TC30953D|TC30943|TC20743|TC30903|TC30943D|TC20943|TK20743|TK20753|TC20903|TK30953D|TK30943|TK20943|TC30903D|TC30743|TK30743|TK20903|TC20753)", 
+                "label": "Pickup - Double Cab - Long Bed", 
+                "type": "radiobutton", 
+                "hoverText": "PICDOLO"
+            }, 
+            {
+                "code": "PICDOST", 
+                "condition": "~(4SB|5SA|TK30903D|TK30903|TK30943D|TC30953D|TC30943|TC20743|TC20953|TC30903|TC30943D|TC20943|TK20743|TC30953|TC20903|TK30953|TK30953D|TK30943|TK20953|TK20943|TC30903D|TC30743|TK30743|TK20903)", 
+                "label": "Pickup - Double Cab - Standard Bed", 
+                "type": "radiobutton", 
+                "hoverText": "PICDOST"
+            }, 
+            {
+                "code": "PICREDU", 
+                "condition": "~(4SB|5SA|4SA|TK30903|TK30943D|TC30953D|TC30943|TC20743|TC20953|TC30903|TC30943D|TC20943|TK20743|TK20753|TC30953|TC20903|TK30953|TK30953D|TK30943|TK20953|TK20943|TC30743|TK30743|TK20903|TC20753)", 
+                "label": "Pickup - Regular Cab - Dual Rear Wheel", 
+                "type": "radiobutton", 
+                "hoverText": "PICREDU"
+            }, 
+            {
+                "code": "PICRELO", 
+                "condition": "~(4SB|5SA|4SA|TK30903D|TK30943D|TC30953D|TC30943|TC20743|TC20953|TC20753|TC30943D|TC20943|TK20743|TK20753|TC30953|TK30953|TK30953D|TK30943|TK20953|TK20943|TC30903D|TC30743|TK30743)", 
+                "label": "Pickup - Regular Cab - Long Bed", 
+                "type": "radiobutton", 
+                "hoverText": "PICRELO"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/body.png"
+    }, 
+    {
+        "category": "color", 
+        "elements": [
+            {
+                "code": "G1W", 
+                "condition": "(5SA|4SA)&(TK20953|TK30943D|TK20943|TC30943|TC20743|TC20953|TC20753|TC30943D|TC20943|TK20743|TK30743|TK20753|TC30743|TK30943)", 
+                "label": "Abalone White Tricoat", 
+                "type": "swatch", 
+                "hoverText": "G1W"
+            }, 
+            {
+                "code": "G7C", 
+                "condition": "~(4SB|5SA)", 
+                "label": "Pull Me Over Red Solid", 
+                "type": "swatch", 
+                "hoverText": "G7C"
+            }, 
+            {
+                "code": "GA0", 
+                "condition": "", 
+                "label": "Some Kinda Blue Metallic", 
+                "type": "swatch", 
+                "hoverText": "GA0"
+            }, 
+            {
+                "code": "GAN", 
+                "condition": "~4SB", 
+                "label": "Switchblade Silver Metallic", 
+                "type": "swatch", 
+                "hoverText": "GAN"
+            }, 
+            {
+                "code": "GAZ", 
+                "condition": "", 
+                "label": "Summit White", 
+                "type": "swatch", 
+                "hoverText": "GAZ"
+            }, 
+            {
+                "code": "GB8", 
+                "condition": "~1SA", 
+                "label": "Black Meet Kettle", 
+                "type": "swatch", 
+                "hoverText": "GB8"
+            }, 
+            {
+                "code": "GBA", 
+                "condition": "", 
+                "label": "Black", 
+                "type": "swatch", 
+                "hoverText": "GBA"
+            }, 
+            {
+                "code": "GED", 
+                "condition": "5SA", 
+                "label": "Wilder Metallic", 
+                "type": "swatch", 
+                "hoverText": "GED"
+            }, 
+            {
+                "code": "GHR", 
+                "condition": "", 
+                "label": "Cannon Metallic", 
+                "type": "swatch", 
+                "hoverText": "GHR"
+            }, 
+            {
+                "code": "GSK", 
+                "condition": "~1SA", 
+                "label": "Cherry Bomb Tint", 
+                "type": "swatch", 
+                "hoverText": "GSK"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/color.png"
+    }, 
+    {
+        "category": "leather", 
+        "elements": [
+            {
+                "code": "H0U", 
+                "condition": "3SA", 
+                "label": "Jet Black, Cloth, Lvl 2", 
+                "type": "swatch", 
+                "hoverText": "H0U"
+            }, 
+            {
+                "code": "H1T", 
+                "condition": "1SA", 
+                "label": "Jet Black, Cloth, Lvl1", 
+                "type": "swatch", 
+                "hoverText": "H1T"
+            }, 
+            {
+                "code": "H1Y", 
+                "condition": "4SA", 
+                "label": "Jet Black, Leather, Lvl 2", 
+                "type": "swatch", 
+                "hoverText": "H1Y"
+            }, 
+            {
+                "code": "H2G", 
+                "condition": "1SA", 
+                "label": "Jet Black, Vinyl, Lvl1", 
+                "type": "swatch", 
+                "hoverText": "H2G"
+            }, 
+            {
+                "code": "H2X", 
+                "condition": "5SA", 
+                "label": "Jet Black, Leather, Lvl4", 
+                "type": "swatch", 
+                "hoverText": "H2X"
+            }, 
+            {
+                "code": "HV5", 
+                "condition": "3SA", 
+                "label": "Gideon, Very Dark Atmosphere, Cloth, Lvl2", 
+                "type": "swatch", 
+                "hoverText": "HV5"
+            }, 
+            {
+                "code": "HVD", 
+                "condition": "4SB", 
+                "label": "Jet Black, Kalahari, Leather, Lvl2", 
+                "type": "swatch", 
+                "hoverText": "HVD"
+            }, 
+            {
+                "code": "HVE", 
+                "condition": "4SA", 
+                "label": "Gideon, Very Dark Atmosphere, Leather, Lvl 2", 
+                "type": "swatch", 
+                "hoverText": "HVE"
+            }, 
+            {
+                "code": "HVH", 
+                "condition": "5SA", 
+                "label": "Md Dk Ash Gray, Very Dk Atmos, Leather, Lvl4", 
+                "type": "swatch", 
+                "hoverText": "HVH"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/trim.png"
+    }, 
+    {
+        "category": "wheels", 
+        "elements": [
+            {
+                "code": "Wheels_std", 
+                "condition": "", 
+                "label": "Standard Wheels", 
+                "type": "radiobutton"
+            }, 
+            {
+                "code": "P03", 
+                "condition": "(1SA)&(TK30903D|TK30943D|TC30953D|TC30903D|TC30943D|TK30953D)", 
+                "label": "Wheel 17in Painted Steel PYW P03", 
+                "type": "swatch", 
+                "hoverText": "P03"
+            }, 
+            {
+                "code": "P06", 
+                "condition": "~(1SA|4SB|5SA|TK30903|TC30953|TC30943|TC20743|TC20953|TC30903|TC20943|TK20743|TK20753|TC20903|TK30953|TK30943|TK20953|TK20943|TC30743|TK30743|TK20903|TC20753)", 
+                "label": "Wheel 17in Chrome Steel PYW P06", 
+                "type": "swatch", 
+                "hoverText": "P06"
+            }, 
+            {
+                "code": "PXD", 
+                "condition": "(3SA|1SA|4SB|4SA)&(TK30903|TC30953|TC30943|TC20743|TC20953|TC20753|TC20943|TC30903|TK20753|TC20903|TK30953|TK30943|TK20953|TK20943|TC30743|TK30743|TK20903|TK20743)", 
+                "label": "Wheel 18in Grazen Metallic Machined PXD", 
+                "type": "swatch", 
+                "hoverText": "PXD"
+            }, 
+            {
+                "code": "PYN", 
+                "condition": "~(4SB|5SA|4SA|TK30903D|TK30903|TK30943D|TC30953D|TC30943|TC30903D|TC30743|TC30903|TC30943D|TK30743|TC30953|TK30953|TK30953D|TK30943)", 
+                "label": "Wheel 17in Steel PYN", 
+                "type": "swatch", 
+                "hoverText": "PYN"
+            }, 
+            {
+                "code": "PYQ", 
+                "condition": "~(4SB|5SA|4SA|TK30903D|TK30903|TK30943D|TC30953D|TC30943|TC30903D|TC30743|TC30903|TC30943D|TK30743|TC30953|TK30953|TK30953D|TK30943)", 
+                "label": "Wheel 17in Machined PYQ", 
+                "type": "swatch", 
+                "hoverText": "PYQ"
+            }, 
+            {
+                "code": "PYT", 
+                "condition": "(1SA)&(TK30903|TC30953|TC30943|TC20743|TC20953|TC20753|TC20943|TC30903|TK20753|TC20903|TK30953|TK30943|TK20953|TK20943|TC30743|TK30743|TK20903|TK20743)", 
+                "label": "Wheel 18in Steel PYT", 
+                "type": "swatch", 
+                "hoverText": "PYT"
+            }, 
+            {
+                "code": "PYU", 
+                "condition": "4SB", 
+                "label": "Wheel 20in Black Machined PYU", 
+                "type": "swatch", 
+                "hoverText": "PYU"
+            }, 
+            {
+                "code": "Q7R", 
+                "condition": "~(1SA|4SB|5SA|TK30903D|TK30943D|TC30953D|TC30903D|TC30943D|TK30953D)", 
+                "label": "Wheel 20in Ultra Bright Machined Q7R", 
+                "type": "swatch", 
+                "hoverText": "Q7R"
+            }, 
+            {
+                "code": "RQA", 
+                "condition": "(5SA)&(TK20743|TK30743|TK20943|TK30943)", 
+                "label": "Wheel 20in PVD Light RQA", 
+                "type": "swatch", 
+                "hoverText": "RQA"
+            }, 
+            {
+                "code": "RS7", 
+                "condition": "~(3SA|4SB|TK30903D|TK30903|TC30953|TC30953D|TC30943|TC20743|TC20953|TC30903|TC20943|TK20743|TK20753|TC20903|TK30953|TK30953D|TK30943|TK20953|TK20943|TC30743|TK30743|TK20903|TC20753)", 
+                "label": "Wheel 17in Polished Forged RS7", 
+                "type": "swatch", 
+                "hoverText": "RS7"
+            }, 
+            {
+                "code": "RTJ", 
+                "condition": "(5SA)&(TK20743|TK30743|TK20943|TK30943)", 
+                "label": "Wheel 20in Gloss Black RTJ", 
+                "type": "swatch", 
+                "hoverText": "RTJ"
+            }, 
+            {
+                "code": "SHH", 
+                "condition": "~(TK30903D|TK30943D|TC30953D|TC30903D|TC30943D|TK30953D)", 
+                "label": "Wheels 20in Black Gloss SHH", 
+                "type": "swatch", 
+                "hoverText": "SHH"
+            }, 
+            {
+                "code": "SHL", 
+                "condition": "~(TK30903D|TK30943D|TC30953D|TC30903D|TC30943D|TK30953D)", 
+                "label": "Wheels 20in Chrome SHL", 
+                "type": "swatch", 
+                "hoverText": "SHL"
+            }, 
+            {
+                "code": "SKW", 
+                "condition": "(4SB|5SA)&(TK20743|TK30743|TK20943|TK30943)", 
+                "label": "Wheel 20in Multi Dimensional Chrome SKW", 
+                "type": "swatch", 
+                "hoverText": "SKW"
+            }, 
+            {
+                "code": "SKX", 
+                "condition": "(4SB|5SA)&(TK20743|TK30743|TK20943|TK30943)", 
+                "label": "Wheel 20in Gloss Black Machined SKX", 
+                "type": "swatch", 
+                "hoverText": "SKX"
+            }, 
+            {
+                "code": "SQ9", 
+                "condition": "(4SB|5SA)&(TK20743|TK30743|TK20943|TK30943)", 
+                "label": "Wheel 20in Gloss Black Machined SQ9", 
+                "type": "swatch", 
+                "hoverText": "SQ9"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/rims.png"
+    }, 
+    {
+        "category": "packaging and accessories", 
+        "elements": [
+            {
+                "type": "group", 
+                "group": "packages", 
+                "label": "Packages", 
+                "multipleSelection": true, 
+                "groupElements": [
+                    {
+                        "code": "CMT", 
+                        "condition": "~5SA", 
+                        "label": "Goose Neck 5th Wheel Prep", 
+                        "hoverText": "CMT - Bedliner, Integrated Trailer Brake, Spray On, JL1 (JL1), CGN (CGN) | CHMSL, LED Uplevel, with Cargo Camera, UVN (UVN) | Bedliner, Spray On AT4, CGN (S0294)", 
+                        "enableCodes": {
+                            "packaging and accessories": "CGN|S0294", 
+                            "attach": "UVN", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "CWM", 
+                        "condition": "(4SB|5SA)&(TK20743|TK30743|TK30943D|TK20943|TK30943)", 
+                        "label": "Technology package", 
+                        "hoverText": "CWM - Technology Package for 4SB (CWM_V1) | Technology Package for 5SA (CWM_V2)"
+                    }, 
+                    {
+                        "code": "JSE", 
+                        "condition": "5SA", 
+                        "label": "Denali Black Diamond Edition", 
+                        "hoverText": "JSE - Wheels, Sunroof, 20in, CF5 (CF5) | Cluster, Gloss Black, 8in Enhanced Multi Color, RTJ (RTJ) | Sunroof, Diesel, CF5 (CF5) | Assist Steps, UHS (S0562) | Floor Liner, Retractable Power, Front Carpet, Bright, BKF (BKF) | Floor Liner, BRS (BRS) | Black Meet Kettle (GB8) | Diesel Package (L5P) | Denali Ultimate Package (PEC), Rear Carpet, BKE (BKE) | Button Bank, K40 Exhaust Brake, JHD Hill Descent, QT5 Gate Assist, TC, KC9 Bed Outlet, UFL Lane Departure Warning, UD5 PA, Diesel (S0610) | Black Meet Kettle (GB8)", 
+                        "enableCodes": {
+                            "packaging and accessories": "BKF&L5P&PEC", 
+                            "attach": "BRS", 
+                            "wheels": "RTJ", 
+                            "leather": "", 
+                            "color": "GB8"
+                        }
+                    }, 
+                    {
+                        "code": "L5P", 
+                        "condition": "", 
+                        "label": "Diesel Package", 
+                        "hoverText": "L5P - Badge, Integrated Trailer Brake, Fender, JL1 (JL1) | Button Bank, Duramax Diesel (S0273) | Exhaust, K40 Exhaust Brake, Single, Traction Control, Diesel (S0310) | Hood Vent, Tow Haul, Inner, Diesel (S0607) | Button Bank, Diesel, K40 Exhaust, L5P S0D (S0355) | Exhaust Tip, Delete, Diesel (S0608) | Button Bank, 3DEXCITE USE ONLY (S0290) | Engine Block Heater, K05, QT5 Gate Assist, 3DEXCITE USE ONLY (K05), KC9 Bed Outlet, Diesel (S0609) | Button Bank, JHD Hill Descent, QT5 Gate ASsist, TC, Diesel (S0611) | Button Bank, UFL Lane Departure Warning, UD5 PA, Diesel (S0610) | Button Bank, WLD Window Control, Diesel (S0612)"
+                    }, 
+                    {
+                        "code": "PCI", 
+                        "condition": "1SA", 
+                        "label": "Convenience Package for 1SA", 
+                        "hoverText": "PCI - Convenience Package fo 1SA Reg Cab (PCI_V1) | Convenience Package for 1SA Crew and Double Cab (PCI_V2)"
+                    }, 
+                    {
+                        "code": "PCQ", 
+                        "condition": "3SA", 
+                        "label": "SLE Convenience Package", 
+                        "hoverText": "PCQ - Wheelhouse Liner, Defogger, B1J (B1J) | Door Handles, Standard Rear Window, Body Color with PEPs, C49 (S0101) | HVAC, ATH (ATH) | Defogger, Automatic Temp Control Aux Temp Control, CJ2 (CJ2) | Steering Wheel Control, C49 (S0101) | Roof Lamp, Heated, Markers, KI3 3DEXCITE USE ONLY (KI3) | Console, U01 (U01), Full Feature Center, AZ3 (AZ3) | Seat Adjuster, Driver 8way Power, A2X (A2X) | Heated Seat, Front Driver and Passenger, KA1 (KA1) | Drive Mode, Dual, Lower, Fog and Cargo button, T3U (S0523) | Ignition, Push Star, Keyless BTM (BTM)", 
+                        "enableCodes": {
+                            "packaging and accessories": "BTM&S0523&U01&ATH", 
+                            "attach": "KA1&A2X&AZ3&KI3&CJ2&S0101&B1J", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PCY", 
+                        "condition": "4SA", 
+                        "label": "SLT Convenience Package", 
+                        "hoverText": "PCY - Windows, Privacy Side and Sliding Rear, A48 (A48) | Defogger, Sliding Rear Window, Sliding, A48 C49 (S0102) | Roof Lamp, Rear Window, Markers, A48 C49 (S0102) | USB Dual, U01 (U01), MCZ (MCZ) | Console, Custom Uplevel, D07 (D07) | Heated Seat, Front, Vented, KQV with KA1 (KQV)", 
+                        "enableCodes": {
+                            "packaging and accessories": "KQV&U01", 
+                            "attach": "A48&MCZ&D07&KA6", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDB", 
+                        "condition": "4SA", 
+                        "label": "SLT Premium Package", 
+                        "hoverText": "PDB - Bedliner, SLT Convenience Package (PCY) | SLT Preferred Package (PDY), Spray On, CGN (CGN) | Accessory, Assist Steps, Tubular Chrome Oval, VXH (VXH) | Assist Steps, Tubular, Chrome, BVQ (BVQ) | Driver Alert 1 Package (PQB) | Driver Alert 1 Package for 4SA (PQB_V2) | SLT Convenience Package (PCY) | Preferred Package (PDY)", 
+                        "enableCodes": {
+                            "packaging and accessories": "CGN&(VXH|BVQ)&PQB_V2&PCY&PDY", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDC", 
+                        "condition": "4SA", 
+                        "label": "Texas SLT Premium Package", 
+                        "hoverText": "PDC - Badge, SLT Convenience Package (PCY) | SLT Preferred Package (PDY), Fender Texas Edition, TUF (TUF) | Bedliner, Spray On, CGN (CGN) | Accessory, Assist Steps, Tubular Chrome Oval, VXH (VXH) | Assist Steps, Tubular, Chrome, BVQ (BVQ) | Driver Alert 1 Package (PQB) | Driver Alert 1 Package for 4SA (PQB_V2) | SLT Convenience Package (PCY) | Preferred Package (PDY)", 
+                        "enableCodes": {
+                            "packaging and accessories": "CGN&(VXH|BVQ)&PQB_V2&PCY&PDY", 
+                            "attach": "TUF", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDG", 
+                        "condition": "4SB", 
+                        "label": "AT4 Premium Package", 
+                        "hoverText": "PDG - Wheels, Sunroof, 20in, CF5 (CF5) | Driver Alert Package II (PDJ) | Driver Alert Package II for 4SB (PDJ_V2) | AT4 Preferred Package (PDO) | Technology Package for 4SB (CWM_V1) | Technology package (CWM), Black Gloss Machined, PYU (PYU) | Sunroof, CF5 (CF5) | Driver Alert 1 Package (PQB) | Driver Alert 1 Package for 4SB (PQB_V3) | AT4 Preferred Package (PDO) | Technology Package for 4SB (CWM_V1) | Technology package (CWM)", 
+                        "enableCodes": {
+                            "packaging and accessories": "CF5&VXW&PQB_V3&CWM_V1", 
+                            "attach": "", 
+                            "wheels": "PYU", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDH", 
+                        "condition": "~(1SA|4SB)", 
+                        "label": "GMC Protection Package", 
+                        "hoverText": "PDH - Accessory, Splashguards, Floor Liner, Custom Molded, Contoured, VQK (VQK), RIA 3DEXCITE USE ONLY (RIA)", 
+                        "enableCodes": {
+                            "packaging and accessories": "RIA", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDJ", 
+                        "condition": "(4SB|4SA)&(TK20953|TK30943D|TK20943|TC30943|TC20743|TC20953|TC20753|TC30943D|TC20943|TK20743|TK30743|TK20753|TC30743|TK30943)", 
+                        "label": "Driver Alert Package II", 
+                        "hoverText": "PDJ - Driver Alert Package II for 4SA (PDJ_V1) | Driver Alert Package II for 4SB (PDJ_V2)"
+                    }, 
+                    {
+                        "code": "PDO", 
+                        "condition": "4SB", 
+                        "label": "AT4 Preferred Package", 
+                        "hoverText": "PDO - Windows, Privacy Side and Sliding Rear, A48 (A48) | Defogger, Sliding Rear Window, Sliding, A48 C49 (S0102) | Grille, Rear Window, Camera, A48 C49 (S0102) | Wireless Charger, Uplevel, K4C (Requires D07) (K4C) | Radio, UVS (S0296) | CHMSL, Premium Nav, LED Uplevel, IOT (IOT) | Speakers, with Cargo Camera, Premium, UVN (UVN) | OSRVM, UQA (UQA) | OSRVM, Camper, Power with 360 Camera, DZC UVS (UVS) | Roof Lamp, DZC UVS (UVS), Markers, U01 (U01)", 
+                        "enableCodes": {
+                            "packaging and accessories": "U01", 
+                            "attach": "A48&UQA&IOT&K4C&UVN", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDQ", 
+                        "condition": "3SA", 
+                        "label": "SLE Preferred Package", 
+                        "hoverText": "PDQ - Radio, Midlevel SD Nav Capabable, IOS (IOS) | 110 Volt Outlet, KI4 (KI4) | USB and SD Card Slot, MCR (MCR) | Windows, Privacy Side and Sliding Rear, A48 (A48) | Defogger, Sliding, Rear Window, A48 C49 (S0102) | SLE Convenience Package (PCQ)", 
+                        "enableCodes": {
+                            "packaging and accessories": "IOS&KI4&PCQ", 
+                            "attach": "MCR&A48", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDR", 
+                        "condition": "3SA|4SA", 
+                        "label": "Assist Step and Floor Liner Package", 
+                        "hoverText": "PDR - Accessory, Assist Steps, Floor Liner, Tubular Chrome Oval, Contoured, VXH (VXH), RIA 3DEXCITE USE ONLY (RIA)", 
+                        "enableCodes": {
+                            "packaging and accessories": "RIA", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDU", 
+                        "condition": "3SA", 
+                        "label": "SLE Value Package", 
+                        "hoverText": "PDU - Bedliner, Spray On, CGN (CGN) | SLE Convenience Package (PCQ)", 
+                        "enableCodes": {
+                            "packaging and accessories": "CGN&PCQ", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDY", 
+                        "condition": "4SA", 
+                        "label": "SLT Preferred Package", 
+                        "hoverText": "PDY - Grille, Wireless Charger, Camera, K4C (Requires D07) (K4C) | Radio, Uplevel, Premium Nav, UVS (S0296) | CHMSL, IOT (IOT) | Speakers, LED Uplevel, Premium, with Cargo Camera, UQA (UQA) | OSRVM, UVN (UVN) | OSRVM, Camper, Power with 360 Camera, DZC UVS (UVS) | SLT Convenience Package (PCY), DZC UVS (UVS) | Driver Alert 1 Package for 4SA (PQB_V2) | SLT Convenience Package (PCY)", 
+                        "enableCodes": {
+                            "packaging and accessories": "PCY&PQB_V2", 
+                            "attach": "S0296&UVN&UVS&K4C&IOT&UQA", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PEC", 
+                        "condition": "5SA", 
+                        "label": "Denali Ultimate Package", 
+                        "hoverText": "PEC - Sunroof, CF5 (CF5) | Technology package (CWM) | Technology Package for 5SA (CWM_V2), CF5 (CF5) | Convenience package (CWM) | Technology Package for 5SA (CWM_V2)", 
+                        "enableCodes": {
+                            "packaging and accessories": "CF5&CWM_V2", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PQA", 
+                        "condition": "1SA", 
+                        "label": "1SA Driver Alert Package 1", 
+                        "hoverText": "PQA - Defogger, OSRVM Icon, Standard Rear Window, Side Obstacle Detection, C49 (S0101) | 1SA Driver Alert Package 1 V1 (PQA_V1) | 1SA Driver Alert Package 1 V2 (PQA_V2), UKC (UKC) | Convenience Package fo 1SA Reg Cab (PCI_V1) | Convenience Package for 1SA Crew and Double Cab (PCI_V2)"
+                    }, 
+                    {
+                        "code": "PQB", 
+                        "condition": "~(1SA|5SA)", 
+                        "label": "Driver Alert 1 Package", 
+                        "hoverText": "PQB - Driver Alert 1 Package for 3SA (PQB_V1) | Driver Alert 1 Package for 4SA (PQB_V2) | Driver Alert 1 Package for 4SB (PQB_V3)"
+                    }, 
+                    {
+                        "code": "RFX", 
+                        "condition": "~(1SA|4SB|5SA|TK30903D|TK30903|TK30943D|TC30953D|TC30943|TC20743|TC20953|TC30903|TC30943D|TC20943|TC30953|TC20903|TK30953D|TC30903D|TC30743|TK20903|TC20753)", 
+                        "label": "X31 Off Road Protection Package", 
+                        "hoverText": "RFX - Bedliner, Accessory, Spray On, Floor Liner, CGN (CGN) | Badge, Contoured, X31 (S0408) | Tire, RIA 3DEXCITE USE ONLY (RIA), All Terrain, QF6 3DEXCITE USE ONLY (QF6) | Tire, QF9 3DEXCITE USE ONLY (QF9) | x31 off-road Package (X31) | X31 Off-Road Package for 3SA 2500 (X31_V3) | X31 Off-Road Package 4SA (X31_V5) | X31 Off-Road Package for 3SA 3500 (X31_V4)"
+                    }, 
+                    {
+                        "code": "RGE", 
+                        "condition": "1SA", 
+                        "label": "Safety Essentials Package", 
+                        "hoverText": "RGE - Primer, Cruise Control, Forward Collision Alert, Automatic, UEU (UEU), K34 (K34) | Cluster, Standard  Multi Color, UDD (UDD) | Primer, with Contorls Forward Collision Alert, UEU (UEU) | Steering Wheel Control, UEU (S0506) | Steering Wheel Control, Radio, UK3 (UK3)", 
+                        "enableCodes": {
+                            "packaging and accessories": "UEU", 
+                            "attach": "S0506&K34&UDD", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "RGL", 
+                        "condition": "(5SA)&(TK20743|TK30743|TK20943|TK30943)", 
+                        "label": "Denali Illumination Package", 
+                        "hoverText": "RGL - Accessory, Sill Plate, Badge, Insert Denali Illuminated, Front GMC Illuminated Red, S0M (S0M), RN2 (RN2)", 
+                        "enableCodes": {
+                            "packaging and accessories": "RN2", 
+                            "attach": "S0M", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "X31", 
+                        "condition": "~(4SB|5SA|TK30903D|TC30903|TK30943D|TC30953D|TC30943|TC20743|TC20953|TC20753|TC30943D|TC20943|TC30903D|TC30743|TC30953|TC20903|TK30953D)", 
+                        "label": "x31 off-road Package", 
+                        "hoverText": "X31 - X31 Off-Road Package 1SA 2500 (X31_V1) | X31 Off-Road Package for 3SA 2500 (X31_V3) | X31 Off-Road Package 4SA (X31_V5) | X31 Off-Road Package for 1SA 3500 (X31_V2) | X31 Off-Road Package for 3SA 3500 (X31_V4)"
+                    }, 
+                    {
+                        "code": "ZL6", 
+                        "condition": "3SA", 
+                        "label": "Intelligent Trailering Package", 
+                        "hoverText": "ZL6 - Radio, Midlevel SD Nav Capabable, IOS (IOS) | USB and SD Card Slot, MCR (MCR)", 
+                        "enableCodes": {
+                            "packaging and accessories": "IOS", 
+                            "attach": "MCR", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "assiststeps", 
+                "label": "Assist Steps", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "B3L", 
+                        "condition": "4SB", 
+                        "label": "Assist Steps Retractable Black B3L", 
+                        "hoverText": "B3L"
+                    }, 
+                    {
+                        "code": "BVQ", 
+                        "condition": "(3SA|5SA|4SA)&(TK30943D|TK20943|TC30943|TC20743|TC30743|TC30943D|TC20943|TK20743|TK30743|TK30943)", 
+                        "label": "Assist Steps Tubular Chrome BVQ", 
+                        "hoverText": "BVQ"
+                    }, 
+                    {
+                        "code": "RVQ", 
+                        "condition": "1SA", 
+                        "label": "Assist Steps Tubular Oval Black RVQ", 
+                        "hoverText": "RVQ"
+                    }, 
+                    {
+                        "code": "RVS", 
+                        "condition": "", 
+                        "label": "Assist Steps Tubular Round Black RVS", 
+                        "hoverText": "RVS"
+                    }, 
+                    {
+                        "code": "S6L", 
+                        "condition": "4SB", 
+                        "label": "Rocker Panel Protector S6L", 
+                        "hoverText": "S6L"
+                    }, 
+                    {
+                        "code": "VQO", 
+                        "condition": "1SA", 
+                        "label": "Assett Steps Black VQO", 
+                        "hoverText": "VQO"
+                    }, 
+                    {
+                        "code": "VTP", 
+                        "condition": "", 
+                        "label": "Assist Steps Commercial VTP", 
+                        "hoverText": "VTP"
+                    }, 
+                    {
+                        "code": "VXH", 
+                        "condition": "3SA|4SA", 
+                        "label": "Assist Steps Tubular Chrome Oval VXH", 
+                        "hoverText": "VXH"
+                    }, 
+                    {
+                        "code": "VXJ", 
+                        "condition": "3SA", 
+                        "label": "Assist Steps Tubular Chrome Round VXJ", 
+                        "hoverText": "VXJ"
+                    }, 
+                    {
+                        "code": "VXW", 
+                        "condition": "4SB", 
+                        "label": "Assist Step High Clearance VXW", 
+                        "hoverText": "VXW"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "badges", 
+                "label": "Badges", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "R88", 
+                        "condition": "", 
+                        "label": "Badge Front GMC Iilluminated Black R88 NO GEO", 
+                        "hoverText": "R88"
+                    }, 
+                    {
+                        "code": "RN2", 
+                        "condition": "~(1SA|3SA|TK30903D|TK30903|TC30953|TC30953D|TC30903D|TC30903|TK20903|TC20903|TK30953|TK30953D)", 
+                        "label": "Badge Front GMC Illuminated Red RN2", 
+                        "hoverText": "RN2"
+                    }, 
+                    {
+                        "code": "SFZ", 
+                        "condition": "", 
+                        "label": "Badge GMC Black SFZ NO GEO", 
+                        "hoverText": "SFZ"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "bedaccessories", 
+                "label": "Bed Accessories", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "5VI", 
+                        "condition": "", 
+                        "label": "Cargo Tie Downs 5VI", 
+                        "hoverText": "5VI"
+                    }, 
+                    {
+                        "code": "63B", 
+                        "condition": "~(TK30903D|TK30903|TK30943D|TC30953D|TC30943|TC20953|TC30903|TC30943D|TC20943|TC30953|TC20903|TK30953|TK30953D|TK30943|TK20953|TK20943|TC30903D|TK20903)", 
+                        "label": "Tonneau Cover Tri Fold 63B", 
+                        "hoverText": "63B"
+                    }, 
+                    {
+                        "code": "CGN", 
+                        "condition": "~(4SB|5SA)", 
+                        "label": "Bedliner Spray On CGN", 
+                        "hoverText": "CGN"
+                    }, 
+                    {
+                        "code": "RW9", 
+                        "condition": "", 
+                        "label": "Bed Storage Side Full Length RW9", 
+                        "hoverText": "RW9"
+                    }, 
+                    {
+                        "code": "S0Y", 
+                        "condition": "", 
+                        "label": "Cargo Lamps S0Y", 
+                        "hoverText": "S0Y"
+                    }, 
+                    {
+                        "code": "SIE", 
+                        "condition": "", 
+                        "label": "Tiered Storage SIE", 
+                        "hoverText": "SIE"
+                    }, 
+                    {
+                        "code": "SL7", 
+                        "condition": "", 
+                        "label": "Ladder Utility Rack SL7", 
+                        "hoverText": "SL7"
+                    }, 
+                    {
+                        "code": "UF2", 
+                        "condition": "", 
+                        "label": "Cargo Lamps UF2", 
+                        "hoverText": "UF2"
+                    }, 
+                    {
+                        "code": "VOZ", 
+                        "condition": "~(TK30903D|TK30903|TK30943D|TC30953D|TC30943|TC20953|TC30903|TC30943D|TC20943|TC30953|TC20903|TK30953|TK30953D|TK30943|TK20953|TK20943|TC30903D|TC30743|TK30743|TK20903)", 
+                        "label": "Tonneau Cover Vinyl w Supports VOZ", 
+                        "hoverText": "VOZ"
+                    }, 
+                    {
+                        "code": "VPB", 
+                        "condition": "", 
+                        "label": "Tonneau Cover Vinyl w Supports VPB", 
+                        "hoverText": "VPB"
+                    }, 
+                    {
+                        "code": "VUK", 
+                        "condition": "~(4SB|5SA)", 
+                        "label": "Tailgate Liner VUK", 
+                        "hoverText": "VUK"
+                    }, 
+                    {
+                        "code": "VZX", 
+                        "condition": "~(4SB|5SA)", 
+                        "label": "Bedliner VZX", 
+                        "hoverText": "VZX"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "dashboardintegrations", 
+                "label": "Dashboard Integrations", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "BTM", 
+                        "condition": "~1SA", 
+                        "label": "Ignition Push Start Keyless", 
+                        "hoverText": "BTM"
+                    }, 
+                    {
+                        "code": "JL1", 
+                        "condition": "", 
+                        "label": "Integrated Trailer Brake", 
+                        "hoverText": "JL1"
+                    }, 
+                    {
+                        "code": "NQH", 
+                        "condition": "~(TC30903|TC30953|TC30953D|TC30943|TC20743|TC20953|TC20753|TC30943D|TC20943|TC30903D|TC30743|TC20903)", 
+                        "label": "Drive Mode Dual Upper 4 Low 4x4 NQH", 
+                        "hoverText": "NQH"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "doorhandles", 
+                "label": "Door Handles", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "ATH", 
+                        "condition": "3SA|4SB", 
+                        "label": "Door Handles Body Color w PEPS ATH", 
+                        "hoverText": "ATH"
+                    }, 
+                    {
+                        "code": "VKY", 
+                        "condition": "1SA|3SA|4SA", 
+                        "label": "Door Handles Chrome VKY", 
+                        "hoverText": "VKY"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "driverinformationandalerts", 
+                "label": "Driver Information and Alerts", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "RDI", 
+                        "condition": "", 
+                        "label": "Keyless Entry RDI", 
+                        "hoverText": "RDI"
+                    }, 
+                    {
+                        "code": "S0523", 
+                        "condition": "~1SA", 
+                        "label": "Drive Mode Dual Lower Buttons Fog Cargo T3U", 
+                        "hoverText": "S0523"
+                    }, 
+                    {
+                        "code": "UEU", 
+                        "condition": "", 
+                        "label": "Primer Front Forward Collsion Alert UEU", 
+                        "hoverText": "UEU", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "S0506", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "engine", 
+                "label": "Engine", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "K05", 
+                        "condition": "", 
+                        "label": "Engine Block Heater K05 NO GEO", 
+                        "hoverText": "K05"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "floormats", 
+                "label": "Floor Mats", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "AAK", 
+                        "condition": "4SB", 
+                        "label": "Floor Liner Front and Rear AAK", 
+                        "hoverText": "AAK"
+                    }, 
+                    {
+                        "code": "B30", 
+                        "condition": "", 
+                        "label": "Floor Covering Carpet B30", 
+                        "hoverText": "B30"
+                    }, 
+                    {
+                        "code": "B32", 
+                        "condition": "1SA|3SA", 
+                        "label": "Floor Mats FRT Aux B32", 
+                        "hoverText": "B32"
+                    }, 
+                    {
+                        "code": "BG9", 
+                        "condition": "1SA|3SA", 
+                        "label": "Floor Covering Rubber BG9", 
+                        "hoverText": "BG9"
+                    }, 
+                    {
+                        "code": "BKF", 
+                        "condition": "~(1SA|TK30903D|TK20903|TK30903|TC30903D|TC20903|TC30903)", 
+                        "label": "Floor Liner Front Carpet BKF", 
+                        "hoverText": "BKF"
+                    }, 
+                    {
+                        "code": "RIA", 
+                        "condition": "~4SB", 
+                        "label": "Floor Liner Contoured RIA NO GEO", 
+                        "hoverText": "RIA"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "foglamps", 
+                "label": "Fog Lamps", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "S0234", 
+                        "condition": "3SA|4SA", 
+                        "label": "Fog Lamp Bezel Black T3U", 
+                        "hoverText": "S0234", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "S0232", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "frontfascia", 
+                "label": "Front Fascia", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "S0214", 
+                        "condition": "~(4SB|5SA)", 
+                        "label": "Bumper Front Park Assist Chrome", 
+                        "hoverText": "S0214", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "S0212", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "S0215", 
+                        "condition": "(4SB|5SA)&(TK20743|TK30743|TK30943D|TK20943|TK30943)", 
+                        "label": "Bumper Front Park Assist Body Color", 
+                        "hoverText": "S0215", 
+                        "enableCodes": {
+                            "packaging and accessories": "S0213", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "frontgrille", 
+                "label": "Front Grille", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SJ9", 
+                        "condition": "~5SA", 
+                        "label": "Grille with Inserts Alternate Finish SJ9 NO GEO", 
+                        "hoverText": "SJ9"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "hood", 
+                "label": "Hood", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "S0D", 
+                        "condition": "", 
+                        "label": "Hood Vent Induction S0D", 
+                        "hoverText": "S0D"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "interior", 
+                "label": "Interior", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "AXG", 
+                        "condition": "~(4SB|5SA|4SA|TK30943D|TC30953D|TC30943|TC20743|TC20953|TC20753|TC30943D|TC20943|TK20743|TK20753|TC30953|TK30953|TK30953D|TK30943|TK20953|TK20943|TC30743|TK30743)", 
+                        "label": "Window Control Driver Power Express Up Down  AXG", 
+                        "hoverText": "AXG"
+                    }, 
+                    {
+                        "code": "VST", 
+                        "condition": "", 
+                        "label": "Sill Plate Alternate Finish VST", 
+                        "hoverText": "VST"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "licenseplates", 
+                "label": "License Plates", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VK3", 
+                        "condition": "", 
+                        "label": "License Plate Front VK3", 
+                        "hoverText": "VK3"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "mirrors", 
+                "label": "Mirrors", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "DLN", 
+                        "condition": "~(4SB|5SA|4SA|TK30903D|TK30943D|TC30953D|TC30903D|TC30943D|TK30953D)", 
+                        "label": "OSRVM Elec Heated DLN", 
+                        "hoverText": "DLN"
+                    }, 
+                    {
+                        "code": "DRC", 
+                        "condition": "~(4SB|5SA|4SA|TK30903D|TK20903|TK30903|TC30903D|TC20903|TC30903)", 
+                        "label": "ISRVM Partial Video Display DRC", 
+                        "hoverText": "DRC", 
+                        "enableCodes": {
+                            "packaging and accessories": "UVO", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "DWI", 
+                        "condition": "1SA|3SA", 
+                        "label": "OSRVM Camper Power w Turn Signal DWI", 
+                        "hoverText": "DWI", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "DD8|DRZ", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "VKU", 
+                        "condition": "", 
+                        "label": "OSRVM Cap Camper Chrome VKU", 
+                        "hoverText": "VKU", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "DZC|DWI|DUD|DBG|UVS", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "molding", 
+                "label": "Molding", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SF6", 
+                        "condition": "~(TK30903D|TK30943D|TC30953D|TC30903D|TC30943D|TK30953D)", 
+                        "label": "Fender Flares Body Color SF6", 
+                        "hoverText": "SF6"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "multimedia", 
+                "label": "Multimedia", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "KI4", 
+                        "condition": "", 
+                        "label": "Outlet 110 Volt", 
+                        "hoverText": "KI4"
+                    }, 
+                    {
+                        "code": "UVO", 
+                        "condition": "~(4SB|5SA|4SA|TK30903D|TK20903|TK30903|TC30903D|TC20903|TC30903)", 
+                        "label": "CHMSL Standard w Cargo Camera UVO", 
+                        "hoverText": "UVO", 
+                        "enableCodes": {
+                            "packaging and accessories": "DRC", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "none", 
+                "label": "None", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "C49", 
+                        "condition": "", 
+                        "label": "Defogger Rear C49 NO GEO", 
+                        "hoverText": "C49"
+                    }, 
+                    {
+                        "code": "T3U", 
+                        "condition": "~1SA", 
+                        "label": "Fog Lamps T3U NO GEO", 
+                        "hoverText": "T3U"
+                    }, 
+                    {
+                        "code": "UE1", 
+                        "condition": "", 
+                        "label": "Onstar UE1 NO GEO", 
+                        "hoverText": "UE1"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "pedals", 
+                "label": "Pedals", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SBZ", 
+                        "condition": "(4SB|5SA)&(TK20743|TK30743|TK30943D|TK20943|TK30943)", 
+                        "label": "Sport Pedal Cover SBZ", 
+                        "hoverText": "SBZ"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "radio", 
+                "label": "Radio", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "IOS", 
+                        "condition": "3SA|4SB|4SA", 
+                        "label": "Radio Midlevel SD NAV Capable IOS", 
+                        "hoverText": "IOS"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "rearfascia", 
+                "label": "Rear Fascia", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "S0213", 
+                        "condition": "(4SB|5SA)&(TK20743|TK30743|TK30943D|TK20943|TK30943)", 
+                        "label": "Bumper Rear Park Assist Body Color", 
+                        "hoverText": "S0213"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "roofaccessories", 
+                "label": "Roof Accessories", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "CF5", 
+                        "condition": "(4SB|5SA|4SA)&(TK30943D|TK20943|TC30943|TC20743|TC30743|TC30943D|TC20943|TK20743|TK30743|TK30943)", 
+                        "label": "Roof Sun Sliding CF5", 
+                        "hoverText": "CF5"
+                    }, 
+                    {
+                        "code": "U01", 
+                        "condition": "", 
+                        "label": "Roof Lamp Markers U01", 
+                        "hoverText": "U01"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "seats", 
+                "label": "Seats", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "KQV", 
+                        "condition": "~(1SA|3SA|TK30903D|TK30903|TC30953|TC30953D|TC30903D|TC30903|TK20903|TC20903|TK30953|TK30953D)", 
+                        "label": "Heated Seats FRT Vented KQV KA1", 
+                        "hoverText": "KQV"
+                    }, 
+                    {
+                        "code": "VBJ", 
+                        "condition": "~(TK30903D|TK20903|TK30903|TC30903D|TC20903|TC30903)", 
+                        "label": "Underseat Storage VBJ", 
+                        "hoverText": "VBJ"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "tailgate", 
+                "label": "Tailgate", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "QK1", 
+                        "condition": "", 
+                        "label": "Tailgate Standard QK1", 
+                        "hoverText": "QK1", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "S0308|S0406", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "QK2", 
+                        "condition": "", 
+                        "label": "Tailgate Enhanced QK2", 
+                        "hoverText": "QK2", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "(S0309|S0407)&~(SCZ|S0245)", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "S0245", 
+                        "condition": "", 
+                        "label": "Tailgate Handle Uplevel for QK1", 
+                        "hoverText": "S0245"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "trailering", 
+                "label": "Trailering", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "S6N", 
+                        "condition": "", 
+                        "label": "Trailer Hitch Cover S6N", 
+                        "hoverText": "S6N"
+                    }, 
+                    {
+                        "code": "ULK", 
+                        "condition": "~4SB", 
+                        "label": "Tow Hooks Red ULK", 
+                        "hoverText": "ULK"
+                    }, 
+                    {
+                        "code": "VQY", 
+                        "condition": "~5SA", 
+                        "label": "Tow Hooks Chrome VQY", 
+                        "hoverText": "VQY"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "wheelsplashguards", 
+                "label": "Wheel Splash Guards", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VQK", 
+                        "condition": "~(TK30903D|TK30943D|TC30953D|TC30903D|TC30943D|TK30953D)", 
+                        "label": "Splashguards Custom Molded VQK", 
+                        "hoverText": "VQK"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "windows", 
+                "label": "Windows", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "AKO", 
+                        "condition": "~5SA", 
+                        "label": "Windows Privacy Side and Rear AKO", 
+                        "hoverText": "AKO"
+                    }, 
+                    {
+                        "code": "SFJ", 
+                        "condition": "", 
+                        "label": "Window Shade Reflective SFJ", 
+                        "hoverText": "SFJ"
+                    }
+                ]
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/accesories.png"
+    }
+]

@@ -1,0 +1,629 @@
+[
+  {
+    "category": "date",
+    "correctAsOf": "04/23/2021"
+  },
+  {
+    "category": "camera",
+    "elements": [
+      {
+        "type": "EXT",
+        "code": "01",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "02",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "03",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "04",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "05",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "06",
+        "group": "Studio"
+      },
+      {
+        "type": "INT",
+        "code": "01",
+        "group": ""
+      },
+      {
+        "type": "INT",
+        "code": "02",
+        "group": ""
+      },
+      {
+        "type": "INT",
+        "code": "03",
+        "group": ""
+      },
+      {
+        "type": "INT",
+        "code": "04",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "category": "default",
+    "elements": [
+      {
+        "category": "color",
+        "code": "GBA"
+      },
+      {
+        "category": "leather",
+        "code": "H2G"
+      },
+      {
+        "category": "peg",
+        "code": "1SB"
+      },
+      {
+        "category": "market",
+        "code": "MAH"
+      },
+      {
+        "category": "bodystyle",
+        "code": "SED"
+      },
+      {
+        "category": "mmc",
+        "code": "6DB69"
+      },
+      {
+        "category": "drivetrain",
+        "code": "RWD"
+      },
+      {
+        "category": "wheels",
+        "code": "Wheels_std"
+      }
+    ]
+  },
+  {
+    "category": "mmc",
+    "elements": [
+      {
+        "code": "6DD69",
+        "condition": "1SE"
+      },
+      {
+        "code": "6DF69",
+        "condition": "1SP"
+      },
+      {
+        "code": "6DC69",
+        "condition": "1SD"
+      },
+      {
+        "code": "6DE69",
+        "condition": "1SF"
+      },
+      {
+        "code": "6DB69",
+        "condition": "1SB"
+      }
+    ]
+  },
+  {
+    "category": "market",
+    "elements": [
+      {
+        "code": "MAH",
+        "condition": "",
+        "label": "USA",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/market.png"
+  },
+  {
+    "category": "drivetrain",
+    "elements": [
+      {
+        "code": "RWD",
+        "condition": "",
+        "label": "Rear Wheel Drive",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/train.png"
+  },
+  {
+    "category": "peg",
+    "elements": [
+      {
+        "code": "1SB",
+        "condition": "",
+        "label": "Luxury",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SP",
+        "condition": "",
+        "label": "Blackwing",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SF",
+        "condition": "",
+        "label": "Vseries",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SE",
+        "condition": "",
+        "label": "Sport",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SD",
+        "condition": "",
+        "label": "Premium Luxury",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/seat.png"
+  },
+  {
+    "category": "bodystyle",
+    "elements": [
+      {
+        "code": "SED",
+        "condition": "",
+        "label": "Sedan",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/body.png"
+  },
+  {
+    "category": "color",
+    "elements": [
+      {
+        "code": "GRW",
+        "condition": "(1SP|1SF)&(6DF69|6DE69)",
+        "label": "Rift Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "G9F",
+        "condition": "(1SD)&(6DC69)",
+        "label": "Genesis Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "GMO",
+        "condition": "(1SP|1SF)&(6DF69|6DE69)",
+        "label": "Rapid Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "GAZ",
+        "condition": "",
+        "label": "Summit White",
+        "type": "swatch"
+      },
+      {
+        "code": "GCF",
+        "condition": "~(1SB|1SD|6DC69|6DB69)",
+        "label": "Vivid Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "GBA",
+        "condition": "",
+        "label": "Black Raven",
+        "type": "swatch"
+      },
+      {
+        "code": "G9K",
+        "condition": "",
+        "label": "Satin Steel",
+        "type": "swatch"
+      },
+      {
+        "code": "G7W",
+        "condition": "(1SP)&(6DF69)",
+        "label": "Cypress Matte Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "GKK",
+        "condition": "",
+        "label": "Wave Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "GJI",
+        "condition": "",
+        "label": "Shadow Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "G1W",
+        "condition": "~(1SP|1SF|6DF69|6DE69)",
+        "label": "Crystal White Tricoat",
+        "type": "swatch"
+      },
+      {
+        "code": "GSK",
+        "condition": "",
+        "label": "Cherry Bomb Tint",
+        "type": "swatch"
+      },
+      {
+        "code": "GLR",
+        "condition": "(1SB|1SD)&(6DC69|6DB69)",
+        "label": "Rowan Metallic",
+        "type": "swatch"
+      }
+    ],
+    "icon": "./assets/icons/color.png"
+  },
+  {
+    "category": "leather",
+    "elements": [
+      {
+        "code": "H1Y",
+        "condition": "(1SD)&(6DC69)",
+        "label": "Jet Black Leather Lvl. 1",
+        "type": "swatch"
+      },
+      {
+        "code": "HNC",
+        "condition": "(1SD)&(6DC69)",
+        "label": "Whisper Beige / Jet Black Leather",
+        "type": "swatch"
+      },
+      {
+        "code": "H2X",
+        "condition": "(1SF|1SE)&(6DD69|6DE69)",
+        "label": "Jet Black Leather Lvl. 2",
+        "type": "swatch"
+      },
+      {
+        "code": "HBE",
+        "condition": "(1SP)&(6DF69)",
+        "label": "Jet Black Leather/Cloth Lvl.5",
+        "type": "swatch"
+      },
+      {
+        "code": "HUN",
+        "condition": "(1SD)&(6DC69)",
+        "label": "Jet Black / Sky Cool Gray Leather",
+        "type": "swatch"
+      },
+      {
+        "code": "HBF",
+        "condition": "(1SP)&(6DF69)",
+        "label": "Jet Black/Natural Tan Leather Lvl.5.5",
+        "type": "swatch"
+      },
+      {
+        "code": "HXR",
+        "condition": "(1SF|1SE)&(6DD69|6DE69)",
+        "label": "Jet Black Vinyl Lvl. 2",
+        "type": "swatch"
+      },
+      {
+        "code": "HZQ",
+        "condition": "(1SP)&(6DF69)",
+        "label": "Jet Black Vinyl Lvl.3",
+        "type": "swatch"
+      },
+      {
+        "code": "HEA",
+        "condition": "(1SP)&(6DF69)",
+        "label": "Jet Black Leather Lvl.5.5",
+        "type": "swatch"
+      },
+      {
+        "code": "HEB",
+        "condition": "(1SP)&(6DF69)",
+        "label": "Jet Black/Sky Cool Gray Leather Lvl.5.5",
+        "type": "swatch"
+      },
+      {
+        "code": "H0L",
+        "condition": "(1SF|1SE)&(6DD69|6DE69)",
+        "label": "Sangria / Jet Black Leather",
+        "type": "swatch"
+      },
+      {
+        "code": "H0M",
+        "condition": "(1SD)&(6DC69)",
+        "label": "Cinnamon / Jet Black Leather",
+        "type": "swatch"
+      },
+      {
+        "code": "H2G",
+        "condition": "(1SB)&(6DB69)",
+        "label": "Jet Black Vinyl Lvl. 1",
+        "type": "swatch"
+      },
+      {
+        "code": "HMC",
+        "condition": "(1SB)&(6DB69)",
+        "label": "Whisper Beige / Jet Black Vinyl",
+        "type": "swatch"
+      }
+    ],
+    "icon": "./assets/icons/trim.png"
+  },
+  {
+    "category": "wheels",
+    "elements": [
+      {
+        "code": "Wheels_std",
+        "condition": "",
+        "label": "Standard Wheels",
+        "type": "radiobutton"
+      },
+      {
+        "code": "RRR",
+        "condition": "(1SP)&(6DF69)",
+        "label": "Wheel 18in Magnesium RRR",
+        "type": "swatch"
+      },
+      {
+        "code": "Q7B",
+        "condition": "(1SD)&(6DC69)",
+        "label": "Wheel 18in Bright Diamond Cut Q7B",
+        "type": "swatch"
+      },
+      {
+        "code": "SGV",
+        "condition": "~(1SP|6DF69)",
+        "label": "Wheel 19in SGV",
+        "type": "swatch"
+      },
+      {
+        "code": "SOU",
+        "condition": "~(1SP|6DF69)",
+        "label": "Wheel 19in SOU",
+        "type": "swatch"
+      },
+      {
+        "code": "Q6Z",
+        "condition": "(1SF|1SE)&(6DD69|6DE69)",
+        "label": "Wheel 18in Satin Graphite Q6Z",
+        "type": "swatch"
+      },
+      {
+        "code": "RT2",
+        "condition": "(1SF|1SE)&(6DD69|6DE69)",
+        "label": "Wheel 18in Diamond Cut Med Android Satin RT2",
+        "type": "swatch"
+      },
+      {
+        "code": "SOY",
+        "condition": "~(1SP|6DF69)",
+        "label": "Wheel 19in Black w Huntington Red SOY",
+        "type": "swatch"
+      },
+      {
+        "code": "SOX",
+        "condition": "~(1SP|6DF69)",
+        "label": "Wheel 19in Black w Technical Bronze SOX",
+        "type": "swatch"
+      },
+      {
+        "code": "R37",
+        "condition": "(1SP)&(6DF69)",
+        "label": "Wheel 18in Aluminum R37",
+        "type": "swatch"
+      },
+      {
+        "code": "RT8",
+        "condition": "(1SD)&(6DC69)",
+        "label": "Wheel 19in RT8",
+        "type": "swatch"
+      }
+    ],
+    "icon": "./assets/icons/rims.png"
+  },
+  {
+    "category": "packaging and accessories",
+    "icon": "./assets/icons/accesories.png",
+    "elements": [
+      {
+        "type": "group",
+        "group": "packages",
+        "label": "Packages",
+        "multipleSelection": true,
+        "groupElements": [
+          {
+            "code": "WFP",
+            "condition": "(1SD)&(6DC69)",
+            "label": "WFP Package"
+          },
+          {
+            "code": "CFV",
+            "condition": "(1SP)&(6DF69)",
+            "label": "CFV Package"
+          },
+          {
+            "code": "Y5Y",
+            "condition": "(1SP)&(6DF69)",
+            "label": "Y5Y Package"
+          },
+          {
+            "code": "Y26",
+            "condition": "~(1SP|6DF69)",
+            "label": "Y26 Package"
+          },
+          {
+            "code": "WK7",
+            "condition": "~(1SB|1SP|6DF69|6DB69)",
+            "label": "WK7 Package"
+          },
+          {
+            "code": "WKA",
+            "condition": "~(1SB|1SP|6DF69|6DB69)",
+            "label": "WKA Package"
+          },
+          {
+            "code": "Y19",
+            "condition": "~(1SP|6DF69)",
+            "label": "Y19 Package"
+          },
+          {
+            "code": "PCM",
+            "condition": "(1SB)&(6DB69)",
+            "label": "PCM Package"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "brakes",
+        "label": "Brakes",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "J55",
+            "condition": "(1SE|1SD)&(6DD69|6DC69)",
+            "label": "Brakes 18in Heavy Duty J55"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "wheelcaps",
+        "label": "Wheel Caps",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "RXH",
+            "condition": "~(1SP|6DF69)",
+            "label": "Wheel Center Cap RXH"
+          },
+          {
+            "code": "RXJ",
+            "condition": "~(1SP|6DF69)",
+            "label": "Wheel Center Cap RXJ"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "spoiler",
+        "label": "Spoiler",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "5ZV",
+            "condition": "",
+            "label": "Spoiler Decklid Body Color 5ZV"
+          },
+          {
+            "code": "5V5",
+            "condition": "(1SB|1SD)&(6DC69|6DB69)",
+            "label": "Spoiler Rear 5V5"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "taillamps",
+        "label": "Tail Lamps",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "SCY",
+            "condition": "(1SB|1SD)&(6DC69|6DB69)",
+            "label": "Tail Lamps Cover SCY"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "roof",
+        "label": "Roof",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "CF5",
+            "condition": "",
+            "label": "Sunroof CF5"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "floors",
+        "label": "Floors",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "RWS",
+            "condition": "",
+            "label": "Floor Mats Carpet RWS"
+          },
+          {
+            "code": "VAV",
+            "condition": "",
+            "label": "Floor Mats All Weather VAV"
+          },
+          {
+            "code": "VYW",
+            "condition": "",
+            "label": "Floor Mats Premium Carpet VYW"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "seatbelts",
+        "label": "Seat Belts",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "709",
+            "condition": "(1SP|1SF)&(6DF69|6DE69)",
+            "label": "Seat Belt Torch Red 709"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "seats",
+        "label": "Seats",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "AKE",
+            "condition": "~(1SB|1SD|6DC69|6DB69)",
+            "label": "Seat Adjuster Pass Massage AKE"
+          },
+          {
+            "code": "AF6",
+            "condition": "~(1SB|1SD|6DC69|6DB69)",
+            "label": "Seat Adjuster Driver Massage AF6"
+          },
+          {
+            "code": "SKO",
+            "condition": "",
+            "label": "Seats 2nd Row Organizer SKO"
+          }
+        ]
+      }
+    ]
+  }
+]

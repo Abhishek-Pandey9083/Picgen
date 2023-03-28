@@ -1,0 +1,954 @@
+[
+  {
+    "category": "date",
+    "correctAsOf": "04/23/2021"
+  },
+  {
+    "category": "camera",
+    "elements": [
+      {
+        "type": "EXT",
+        "code": "01",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "02",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "03",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "04",
+        "group": "Art Directed"
+      },
+      {
+        "type": "EXT",
+        "code": "05",
+        "group": "Art Directed"
+      },
+      {
+        "type": "EXT",
+        "code": "06",
+        "group": "Art Directed"
+      },
+      {
+        "type": "EXT",
+        "code": "07",
+        "group": "Art Directed"
+      },
+      {
+        "type": "INT",
+        "code": "01",
+        "group": ""
+      },
+      {
+        "type": "INT",
+        "code": "02",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "category": "default",
+    "elements": [
+      {
+        "category": "color",
+        "code": "GBA"
+      },
+      {
+        "category": "leather",
+        "code": "H1T"
+      },
+      {
+        "category": "peg",
+        "code": "1LT"
+      },
+      {
+        "category": "market",
+        "code": "MAH"
+      },
+      {
+        "category": "bodystyle",
+        "code": "COU"
+      },
+      {
+        "category": "mmc",
+        "code": "1AG37"
+      },
+      {
+        "category": "drivetrain",
+        "code": "MANUAL"
+      },
+      {
+        "category": "wheels",
+        "code": "Wheels_std"
+      }
+    ]
+  },
+  {
+    "category": "mmc",
+    "elements": [
+      {
+        "code": "1AL37",
+        "condition": "MAH&COU&1SE"
+      },
+      {
+        "code": "1AJ37",
+        "condition": "MAH&COU&(1SS|1LZ)"
+      },
+      {
+        "code": "1AH37",
+        "condition": "MAH&COU&(2LT|3LT)"
+      },
+      {
+        "code": "1AK67",
+        "condition": "MAH&CONV&2SS"
+      },
+      {
+        "code": "1AG37",
+        "condition": "MAH&COU&(1LT|1LS)"
+      },
+      {
+        "code": "1AJ67",
+        "condition": "MAH&CONV&(1SS|1LZ)"
+      },
+      {
+        "code": "1AH67",
+        "condition": "MAH&CONV&(2LT|3LT)"
+      },
+      {
+        "code": "1AL67",
+        "condition": "MAH&CONV&1SE"
+      },
+      {
+        "code": "1AG67",
+        "condition": "MAH&CONV&1LT"
+      },
+      {
+        "code": "1AK37",
+        "condition": "MAH&COU&2SS"
+      }
+    ]
+  },
+  {
+    "category": "market",
+    "elements": [
+      {
+        "code": "MAH",
+        "condition": "",
+        "label": "USA",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/market.png"
+  },
+  {
+    "category": "drivetrain",
+    "elements": [
+      {
+        "code": "MANUAL",
+        "condition": "",
+        "label": "Manual",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/train.png"
+  },
+  {
+    "category": "peg",
+    "elements": [
+      {
+        "code": "1LZ",
+        "condition": "",
+        "label": "1LZ",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SE",
+        "condition": "",
+        "label": "1SE",
+        "type": "radiobutton"
+      },
+      {
+        "code": "3LT",
+        "condition": "",
+        "label": "3LT",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1LT",
+        "condition": "",
+        "label": "1LT",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1LS",
+        "condition": "~(CONV)",
+        "label": "1LS",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SS",
+        "condition": "",
+        "label": "1SS",
+        "type": "radiobutton"
+      },
+      {
+        "code": "2LT",
+        "condition": "",
+        "label": "2LT",
+        "type": "radiobutton"
+      },
+      {
+        "code": "2SS",
+        "condition": "",
+        "label": "2SS",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/seat.png"
+  },
+  {
+    "category": "bodystyle",
+    "elements": [
+      {
+        "code": "CONV",
+        "condition": "~(1LS)",
+        "label": "Convertible",
+        "type": "radiobutton"
+      },
+      {
+        "code": "COU",
+        "condition": "",
+        "label": "Coupe",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/body.png"
+  },
+  {
+    "category": "color",
+    "elements": [
+      {
+        "code": "GBA",
+        "condition": "~SNG",
+        "label": "Black",
+        "type": "swatch",
+        "alt": "GMO"
+      },
+      {
+        "code": "GMO",
+        "condition": "",
+        "label": "Rapid",
+        "type": "swatch"
+      },
+      {
+        "code": "GAZ",
+        "condition": "",
+        "label": "Summit White",
+        "type": "swatch"
+      },
+      {
+        "code": "G7C",
+        "condition": "",
+        "label": "Pull Me Over Red",
+        "type": "swatch"
+      },
+      {
+        "code": "GCF",
+        "condition": "",
+        "label": "Vivid Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "G9K",
+        "condition": "",
+        "label": "Satin Steel Gray Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "GKK",
+        "condition": "",
+        "label": "Oconus Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "GJI",
+        "condition": "",
+        "label": "Dark Shadow Metallic",
+        "type": "swatch"
+      },
+      {
+        "code": "GSK",
+        "condition": "",
+        "label": "Cherry Bomb Tint",
+        "type": "swatch"
+      }
+    ],
+    "icon": "./assets/icons/color.png"
+  },
+  {
+    "category": "leather",
+    "elements": [
+      {
+        "code": "H0Y",
+        "condition": "(3LT|2LT|2SS)&(1AH37|1AH67|1AK37|1AK67)",
+        "label": "Jet Black, Leather",
+        "type": "swatch"
+      },
+      {
+        "code": "H0W",
+        "condition": "(1SE)&(1AL67|1AL37)",
+        "label": "Jet Black/ Adrenaline Red, Suede",
+        "type": "swatch"
+      },
+      {
+        "code": "H13",
+        "condition": "(3LT|2LT|2SS)&(1AH37|1AH67|1AK37|1AK67)",
+        "label": "Ceramic White, Leather",
+        "type": "swatch"
+      },
+      {
+        "code": "H1T",
+        "condition": "(1SS|1LT|1LZ|1LS)&(1AG37|1AJ67|1AG67|1AJ37)",
+        "label": "Jet Black, Cloth",
+        "type": "swatch"
+      },
+      {
+        "code": "H16",
+        "condition": "(3LT|2LT|2SS)&(1AH37|1AH67|1AK37|1AK67)",
+        "label": "Adrenaline Red, Leather",
+        "type": "swatch"
+      },
+      {
+        "code": "H17",
+        "condition": "(3LT|2LT|2SS)&(1AH37|1AH67|1AK37|1AK67)",
+        "label": "Med Ash Gray, Leather",
+        "type": "swatch"
+      },
+      {
+        "code": "H72",
+        "condition": "(1SS|1LT|1LZ|1LS)&(1AG37|1AJ67|1AG67|1AJ37)",
+        "label": "Med Ash Gray, Cloth",
+        "type": "swatch"
+      }
+    ],
+    "icon": "./assets/icons/trim.png"
+  },
+  {
+    "category": "wheels",
+    "elements": [
+      {
+        "code": "Wheels_std",
+        "condition": "",
+        "label": "Standard Wheels",
+        "type": "radiobutton"
+      },
+      {
+        "code": "SKW",
+        "condition": "(3LT|2LT|1LT|1LZ)&(1AG37|1AJ67|1AH67|1AJ37|1AH37|1AG67)",
+        "label": "Wheels 20in Lt Argent SKW",
+        "type": "swatch"
+      },
+      {
+        "code": "5K9",
+        "condition": "(3LT|2LT|1LT|1LZ)&(1AG37|1AJ67|1AH67|1AJ37|1AH37|1AG67)",
+        "label": "Wheels 20in Satin Graphite Mill Face 5K9",
+        "type": "swatch"
+      },
+      {
+        "code": "RQ9",
+        "condition": "(3LT|2LT|1LT|1LZ)&(1AG37|1AJ67|1AH67|1AJ37|1AH37|1AG67)",
+        "label": "Wheels 20in Machined Med Android RQ9",
+        "type": "swatch"
+      },
+      {
+        "code": "56W",
+        "condition": "(1SS|2SS)&(1AK67|1AJ67|1AK37|1AJ37)",
+        "label": "Wheels 20in Sterling Silver Wide Rear 56W",
+        "type": "swatch"
+      },
+      {
+        "code": "56Y",
+        "condition": "(2SS)&(1AK67|1AK37)",
+        "label": "Wheels 20in Blade 56Y",
+        "type": "swatch"
+      },
+      {
+        "code": "56Z",
+        "condition": "(3LT|2LT|1LT)&(1AH37|1AG37)",
+        "label": "Wheels 20in Black Low Gloss Wide Rear 56Z",
+        "type": "swatch"
+      },
+      {
+        "code": "56R",
+        "condition": "(1SS|2SS)&(1AK67|1AJ67|1AK37|1AJ37)",
+        "label": "Wheels 20in Machined Med Android Wide Rear 56R",
+        "type": "swatch"
+      },
+      {
+        "code": "RTH",
+        "condition": "(3LT|2LT|1LT|1LZ)&(1AG37|1AJ67|1AH67|1AJ37|1AH37|1AG67)",
+        "label": "Wheels 20in Carbon Flash Met RTH",
+        "type": "swatch"
+      },
+      {
+        "code": "56V",
+        "condition": "(1SS|2SS)&(1AK67|1AJ67|1AK37|1AJ37)",
+        "label": "Wheels 20in Carbon Flash Met Wide Rear 56V",
+        "type": "swatch"
+      },
+      {
+        "code": "RTJ",
+        "condition": "(3LT|2LT|1LT|1LZ)&(1AG37|1AJ67|1AH67|1AJ37|1AH37|1AG67)",
+        "label": "Wheels 20in Sterling Silver RTJ",
+        "type": "swatch"
+      },
+      {
+        "code": "56H",
+        "condition": "(1SS|2SS)&(1AK67|1AJ67|1AK37|1AJ37)",
+        "label": "Wheels 20in Black Gloss w Red Wide Rear 56H",
+        "type": "swatch"
+      },
+      {
+        "code": "56M",
+        "condition": "(1SS|2SS)&(1AK67|1AJ67|1AK37|1AJ37)",
+        "label": "Wheels 20in Lt Argent Wide Rear 56M",
+        "type": "swatch"
+      },
+      {
+        "code": "Q7F",
+        "condition": "(3LT|2LT)&(1AH37|1AH67)",
+        "label": "Wheels 20in Blade Q7F",
+        "type": "swatch"
+      },
+      {
+        "code": "SRI",
+        "condition": "(3LT|2LT|1LT|1LZ)&(1AG37|1AJ67|1AH67|1AJ37|1AH37|1AG67)",
+        "label": "Wheels 20in Black w Red Stripe SRI",
+        "type": "swatch"
+      },
+      {
+        "code": "SHL",
+        "condition": "(3LT|2LT|1LT|1LZ)&(1AG37|1AJ67|1AH67|1AJ37|1AH37|1AG67)",
+        "label": "Wheels 20in Black w Red Stripe SHL",
+        "type": "swatch"
+      },
+      {
+        "code": "57V",
+        "condition": "(1SS|2SS)&(1AK67|1AJ67|1AK37|1AJ37)",
+        "label": "Wheels 20in Satin Graphite Mill Wide Rear 57V",
+        "type": "swatch"
+      },
+      {
+        "code": "56K",
+        "condition": "(1SS|2SS)&(1AK67|1AJ67|1AK37|1AJ37)",
+        "label": "Wheels 20in Polish Forged Wide Rear 56K",
+        "type": "swatch"
+      }
+    ],
+    "icon": "./assets/icons/rims.png"
+  },
+  {
+    "category": "packaging and accessories",
+    "icon": "./assets/icons/accesories.png",
+    "elements": [
+      {
+        "type": "group",
+        "group": "packages",
+        "label": "Packages",
+        "multipleSelection": true,
+        "groupElements": [
+          {
+            "code": "A1Z",
+            "condition": "(1SE)&(1AL37)",
+            "label": "A1Z Package",
+            "hoverText": "hover text goes here 0"
+          },
+          {
+            "code": "PDY",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "PDY Package",
+            "hoverText": "hover text goes here 1"
+          },
+          {
+            "code": "A1Y",
+            "condition": "(1SS|2SS)&(1AK37|1AJ37)",
+            "label": "A1Y Package",
+            "hoverText": "hover text goes here 2"
+          },
+          {
+            "code": "A9B",
+            "condition": "~(1SE|1AL67|1AL37)&~B2E",
+            "label": "A9B Package",
+            "hoverText": "hover text goes here 3"
+          },
+          {
+            "code": "PCK",
+            "condition": "~(1LS|1SE|1AL67|1AL37)",
+            "label": "PCK Package",
+            "hoverText": "hover text goes here 4"
+          },
+          {
+            "code": "5VM",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "5VM Package",
+            "hoverText": "hover text goes here 5"
+          },
+          {
+            "code": "WBL",
+            "condition": "~(1LS|1SE|1AL67|1AL37)",
+            "label": "WBL Package"
+          },
+          {
+            "code": "PCU",
+            "condition": "(1SS|2SS)&(1AK67|1AJ67|1AK37|1AJ37)",
+            "label": "PCU Package"
+          },
+          {
+            "code": "VQG",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "VQG Package"
+          },
+          {
+            "code": "PCY",
+            "condition": "(3LT|2LT|1LT|1LS)&(1AH37|1AG37|1AG67|1AH67)",
+            "label": "PCY Package"
+          },
+          {
+            "code": "PDN",
+            "condition": "(3LT|2LT|2SS)&(1AH37|1AH67|1AK37|1AK67)",
+            "label": "PDN Package"
+          },
+          {
+            "code": "PCJ",
+            "condition": "(3LT|2LT|1LT|1LS)&(1AH37|1AG37|1AG67|1AH67)",
+            "label": "PCJ Package"
+          },
+          {
+            "code": "B2E",
+            "condition": "(3LT|2LT|2SS)&(1AH37|1AH67|1AK37|1AK67)&~A9B",
+            "label": "B2E Package"
+          },
+          {
+            "code": "PDX",
+            "condition": "(1SE)&(1AL67|1AL37)",
+            "label": "PDX Package"
+          },
+          {
+            "code": "PCX",
+            "condition": "~(1LZ|1SE|1AL67|1AL37)",
+            "label": "PCX Package"
+          },
+          {
+            "code": "5V6",
+            "condition": "~(3LT|1SE|2SS|1AK67|1AL67|1AL37|1AK37)",
+            "label": "5V6 Package"
+          },
+          {
+            "code": "PCN",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "PCN Package"
+          },
+          {
+            "code": "WRS",
+            "condition": "(3LT|2LT|1LT|1LZ)&(1AG37|1AJ67|1AH67|1AJ37|1AH37|1AG67)",
+            "label": "WRS Package"
+          },
+          {
+            "code": "Y3W",
+            "condition": "(2LT|1LT|1LZ)&(1AG37|1AJ67|1AH67|1AJ37|1AH37|1AG67)",
+            "label": "Y3W Package"
+          },
+          {
+            "code": "BRJ",
+            "condition": "2LT",
+            "label": "BRJ Package"
+          },
+          {
+            "code": "BRD",
+            "condition": "2LT",
+            "label": "BRD Package"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "decals2",
+        "label": "Decals",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "SNG",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Decal Hash Mark Red SNG"
+          },
+          {
+            "code": "VPW",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Decal Side Spear Stripe Black Met VPW"
+          },
+          {
+            "code": "SHS",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Decal Hash Mark Silver Hood Stripe Satin Black SHS"
+          },
+          {
+            "code": "SF8",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Decal Side Spear Stripe Silver SF8"
+          },
+          {
+            "code": "SF9",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Decal Hash Mark Blue SF9"
+          },
+          {
+            "code": "SNH",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Decal Side Spear Stripe White Pearl SNH"
+          },
+          {
+            "code": "SNS",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Decal Side Spear Stripe Blue SNS"
+          },
+          {
+            "code": "SNP",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Decal Side Spear Stripe Red SNP"
+          },
+          {
+            "code": "SNQ",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Decal Side Spear Stripe Gray SNQ"
+          },
+          {
+            "code": "SHQ",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Decal Hash Mark Silver SHQ"
+          },
+          {
+            "code": "VPO",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Decal Hash Mark Gray VPO"
+          },
+          {
+            "code": "SFC",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Decal Hash Mark White Pearl SFC"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "fueldoor",
+        "label": "Fuel Door",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "W0D",
+            "condition": "",
+            "label": "Fuel Door Red W0D"
+          },
+          {
+            "code": "W0E",
+            "condition": "",
+            "label": "Fuel Door Switchblade Silver W0E"
+          },
+          {
+            "code": "VTU",
+            "condition": "",
+            "label": "Fuel Door Black VTU"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "windscreen",
+        "label": "Windscreen",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "VLN",
+            "condition": "(1SS|1LZ|1SE|3LT|2LT|1LT|2SS)&(1AK67|1AL67|1AJ67|1AG67|1AH67)",
+            "label": "Windscreen VLN"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "airdam",
+        "label": "Air Dam",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "RMH",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Air Splitter Front Carbon Flash RMH"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "frontgrilllower",
+        "label": "Front Grill Lower",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "RO1",
+            "condition": "(3LT|2LT|1LT|1LS)&(1AH37|1AG37|1AG67|1AH67)",
+            "label": "Grille Lower Black w Silver Inserts RO1"
+          },
+          {
+            "code": "RO2",
+            "condition": "(3LT|2LT|1LT|1LS)&(1AH37|1AG37|1AG67|1AH67)",
+            "label": "Grille Lower Black w Black Gloss Inserts RO2"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "spoiler",
+        "label": "Spoiler",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "SB2",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Spoiler Wing Carbon Flash Met SB2"
+          },
+          {
+            "code": "SB3",
+            "condition": "(1SS|2SS)&(1AK37|1AJ37)",
+            "label": "Spoiler 1LE SPEC Body Color SB3"
+          },
+          {
+            "code": "5ZZ",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Spoiler Blade Carbon Flash Met 5ZZ"
+          },
+          {
+            "code": "5ZV",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Spoiler Blade Satin BLack 5ZV"
+          },
+          {
+            "code": "5ZW",
+            "condition": "(1SS|1LZ|3LT|2LT|1LT|1LS|2SS)&(1AH37|1AG37|1AK37|1AJ37)",
+            "label": "Spoiler Wing Satin Black 5ZW"
+          },
+          {
+            "code": "6ZQ",
+            "condition": "(1SS|1SE|2SS)&(1AL37|1AK37|1AJ37)",
+            "label": "Spoiler 1LE SPEC Carbon Fiber 6ZQ"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "roof",
+        "label": "Roof",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "CF5",
+            "condition": "(1SS|1LZ|1SE|3LT|2LT|1LT|2SS)&(1AH37|1AG37|1AL37|1AK37|1AJ37)",
+            "label": "Roof Sunroof CF5"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "sidebadges",
+        "label": "Side Badges",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "SFZ",
+            "condition": "~(1LZ|1SE|1AL67|1AL37)",
+            "label": "Badge Side Camaro Black SFZ"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "exhaust",
+        "label": "Exhaust",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "VTA",
+            "condition": "~(3LT|1LZ|1SE|1AL67|1AL37)",
+            "label": "Exhaust Dual Dark Chrome Tip VTA"
+          },
+          {
+            "code": "5VF",
+            "condition": "~(3LT|1LZ|1SE|1AL67|1AL37)",
+            "label": "Exhaust Dual Carbon Fiber Tip 5VF"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "brakes",
+        "label": "Brakes",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "J55",
+            "condition": "(3LT|2LT|1LT)&(1AH37|1AG37|1AG67|1AH67)",
+            "label": "Brakes Brembo Front Performance J55"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "frontlicenseplate",
+        "label": "Front License Plate",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "VK3",
+            "condition": "",
+            "label": "License Plate Front VK3"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "floors",
+        "label": "Floors",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "WL3",
+            "condition": "",
+            "label": "Floor Mats Premium Carpet Performance WL3"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "interiorkit",
+        "label": "Interior Kit",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "SJ8",
+            "condition": "~(3LT|1SE|2SS|1AK67|1AL67|1AL37|1AK37)",
+            "label": "Door Deco w Lighting Silver SJ8"
+          },
+          {
+            "code": "VTG",
+            "condition": "~(3LT|1SE|2SS|1AK67|1AL67|1AL37|1AK37)",
+            "label": "Door Deco wo Lighting White VTG"
+          },
+          {
+            "code": "WGK",
+            "condition": "~(3LT|1SE|2SS|1AK67|1AL67|1AL37|1AK37)",
+            "label": "Door Deco wo Lighting Red WGK"
+          },
+          {
+            "code": "SIC",
+            "condition": "~(3LT|1SE|2SS|1AK67|1AL67|1AL37|1AK37)",
+            "label": "Door Deco w Lighting Red SIC"
+          },
+          {
+            "code": "SIB",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Door Deco w Lighting Black SIB"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "steeringwheel",
+        "label": "Steering Wheel",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "N26",
+            "condition": "~(1LS|1SE|1AL67|1AL37)",
+            "label": "Steering Wheel Suede N26"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "radio",
+        "label": "Radio",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "IOT",
+            "condition": "(3LT|1SE|2SS)&(1AK67|1AL37|1AH67|1AH37|1AL67|1AK37)",
+            "label": "Radio 8in Screen Premium SD NAV IOT"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "bedrails",
+        "label": "Bed Rails",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "SH2",
+            "condition": "",
+            "label": "Console Armrest w Chevy Performance Gray Logo SH2"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "kneepads",
+        "label": "Knee Pads",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "S0V",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Trim Kit Knee Pad White S0V"
+          },
+          {
+            "code": "WHA",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Trim Kit Knee Pad Red WHA"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "shifter",
+        "label": "Shifter",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "SA7",
+            "condition": "~(1SE|1AL67|1AL37)",
+            "label": "Shifter Knob Manual Suede MN6 SA7"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "sillplates",
+        "label": "Sill Plates",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "5KP",
+            "condition": "~(1SE|2SS|1AK67|1AL67|1AL37|1AK37)",
+            "label": "Sill Plate Illuminated Camaro 5KP"
+          }
+        ]
+      }
+    ]
+  }
+]

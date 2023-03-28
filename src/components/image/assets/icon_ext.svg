@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 119 119"
+   style="enable-background:new 0 0 119 119;"
+   xml:space="preserve"
+   sodipodi:docname="icon_ext.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15, custom)"><metadata
+   id="metadata37"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs35" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="1017"
+   id="namedview33"
+   showgrid="false"
+   inkscape:zoom="3.5714286"
+   inkscape:cx="52.161767"
+   inkscape:cy="61.650798"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1"
+   inkscape:document-rotation="0" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#FFFFFF;}
+</style>
+<title
+   id="title4">icon_porsche</title>
+<g
+   id="g30"
+   style="fill:#ffffff"
+   transform="matrix(2.1043232,0,0,2.5943396,-66.474553,-97.798631)">
+	<g
+   id="g16"
+   style="fill:#ffffff">
+		<path
+   class="st0"
+   d="m 80.5,68.5 h -2 c 0,-4.5 -3.7,-8.2 -8.2,-8.2 H 49.5 c -4.5,0 -8.2,3.7 -8.2,8.2 h -2 V 50.9 c 0,-6.7 5.5,-12.2 12.2,-12.2 h 16.8 c 6.7,0 12.2,5.5 12.2,12.2 z m -29,-27.8 c -5.6,0 -10.2,4.6 -10.2,10.2 v 11.6 c 1.9,-2.5 4.8,-4.1 8.2,-4.1 h 20.8 c 3.4,0 6.3,1.6 8.2,4.1 V 50.9 c 0,-5.6 -4.6,-10.2 -10.2,-10.2 z"
+   id="path6"
+   style="fill:#ffffff" />
+		<rect
+   x="40.299999"
+   y="78.400002"
+   transform="matrix(0.976,-0.2179,0.2179,0.976,-16.2781,11.1658)"
+   class="st0"
+   width="4.5"
+   height="2"
+   id="rect8"
+   style="fill:#ffffff" />
+		<rect
+   x="76.300003"
+   y="77.199997"
+   transform="matrix(0.2179,-0.976,0.976,0.2179,-17.0058,137.5864)"
+   class="st0"
+   width="2"
+   height="4.5"
+   id="rect10"
+   style="fill:#ffffff" />
+		<path
+   class="st0"
+   d="M 80.5,81.1 74.1,79.7 V 78 c 0,-3.4 -2.8,-6.1 -6.1,-6.1 H 51.8 c -3.4,0 -6.1,2.8 -6.1,6.1 v 1.7 l -6.4,1.4 V 68.5 c 0,-5.6 4.6,-10.2 10.2,-10.2 h 20.8 c 5.6,0 10.2,4.6 10.2,10.2 z m -31,-20.8 c -4.5,0 -8.2,3.7 -8.2,8.2 V 78.6 L 43.7,78 c 0,-4.5 3.7,-8.1 8.1,-8.1 H 68 c 4.5,0 8.1,3.7 8.1,8.1 v 0.1 l 2.4,0.5 V 68.5 c 0,-4.5 -3.7,-8.2 -8.2,-8.2 z"
+   id="path12"
+   style="fill:#ffffff" />
+		<path
+   class="st0"
+   d="m 43.7,80.1 v -2 c 0,-4.5 3.7,-8.1 8.1,-8.1 H 68 c 4.5,0 8.1,3.7 8.1,8.1 v 2 L 75,79.9 c -0.1,0 -8.8,-1.4 -15.1,-1.4 -7.4,0 -15,1.4 -15.1,1.4 z m 16.2,-3.6 c 5.1,0 11.6,0.9 14.2,1.2 C 73.9,74.5 71.2,71.9 68,71.9 H 51.8 c -3.3,0 -6,2.6 -6.1,5.8 2.5,-0.4 8.4,-1.2 14.2,-1.2 z"
+   id="path14"
+   style="fill:#ffffff" />
+	</g>
+	<rect
+   x="71.599998"
+   y="68.699997"
+   transform="matrix(0.5881,-0.8088,0.8088,0.5881,-24.8933,90.4237)"
+   class="st0"
+   width="9.5"
+   height="2"
+   id="rect18"
+   style="fill:#ffffff" />
+	<rect
+   x="42.099998"
+   y="64.900002"
+   transform="matrix(0.809,-0.5878,0.5878,0.809,-32.7058,38.6391)"
+   class="st0"
+   width="2"
+   height="9.5"
+   id="rect20"
+   style="fill:#ffffff" />
+	<path
+   class="st0"
+   d="m 49.6,55.3 c -0.1,0 -0.2,0 -0.4,-0.1 -0.5,-0.2 -0.8,-0.8 -0.6,-1.3 l 3.8,-9.5 c 0.2,-0.5 0.8,-0.8 1.3,-0.6 0.5,0.2 0.8,0.8 0.6,1.3 l -3.8,9.5 C 50.4,55 50,55.3 49.6,55.3 Z"
+   id="path22"
+   style="fill:#ffffff" />
+	<path
+   class="st0"
+   d="m 70.1,55.2 c -0.4,0 -0.8,-0.2 -0.9,-0.6 l -3.8,-9.5 c -0.2,-0.5 0,-1.1 0.6,-1.3 0.5,-0.2 1.1,0 1.3,0.6 l 3.8,9.5 c 0.2,0.5 0,1.1 -0.6,1.3 -0.1,0 -0.3,0 -0.4,0 z"
+   id="path24"
+   style="fill:#ffffff" />
+	<path
+   class="st0"
+   d="m 36.5,69.9 c 1,0 1.4,0.6 1.4,0.6 h 1.2 v 1.2 l -5.3,0.9 c 0,0 0.7,-2.3 2,-2.7 0.3,0 0.5,0 0.7,0 m 0,-2 c 0,0 0,0 0,0 -0.4,0 -0.8,0.1 -1.2,0.2 -2.4,0.6 -3.3,3.5 -3.5,4.1 -0.2,0.7 0,1.4 0.4,1.9 0.4,0.4 0.9,0.7 1.5,0.7 0.1,0 0.2,0 0.3,0 l 5.3,-0.9 c 1,-0.2 1.7,-1 1.7,-2 v -1.2 c 0,-1.1 -0.9,-2 -2,-2 h -0.5 c -0.4,-0.6 -1.1,-0.8 -2,-0.8 z"
+   id="path26"
+   style="fill:#ffffff" />
+	<path
+   class="st0"
+   d="m 83.2,69.8 c 0.2,0 0.4,0 0.6,0.1 1.4,0.4 2,2.7 2,2.7 l -5.3,-0.9 v -1.2 h 1.2 c 0.1,-0.1 0.6,-0.7 1.5,-0.7 m 0,-2 c 0,0 0,0 0,0 -0.9,0 -1.6,0.3 -2.2,0.6 h -0.5 c -1.1,0 -2,0.9 -2,2 v 1.2 c 0,1 0.7,1.8 1.7,2 l 5.3,0.9 c 0.1,0 0.2,0 0.3,0 0.6,0 1.1,-0.2 1.5,-0.7 0.5,-0.5 0.6,-1.2 0.4,-1.9 -0.2,-0.6 -1.1,-3.5 -3.5,-4.1 -0.2,0 -0.6,0 -1,0 z"
+   id="path28"
+   style="fill:#ffffff" />
+</g>
+</svg>

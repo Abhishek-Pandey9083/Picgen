@@ -1,0 +1,668 @@
+[
+  {
+    "category": "date",
+    "correctAsOf": "04/21/2021"
+  },
+  {
+    "category": "camera",
+    "elements": [
+      {
+        "type": "EXT",
+        "code": "01",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "02",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "03",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "04",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "05",
+        "group": "Studio"
+      },
+      {
+        "type": "EXT",
+        "code": "06",
+        "group": ""
+      },
+      {
+        "type": "INT",
+        "code": "01",
+        "group": ""
+      },
+      {
+        "type": "INT",
+        "code": "02",
+        "group": ""
+      },
+      {
+        "type": "INT",
+        "code": "03",
+        "group": ""
+      },
+      {
+        "type": "INT",
+        "code": "04",
+        "group": ""
+      }
+    ]
+  },
+  {
+    "category": "default",
+    "elements": [
+      {
+        "category": "color",
+        "code": "GBA"
+      },
+      {
+        "category": "leather",
+        "code": "HXR"
+      },
+      {
+        "category": "peg",
+        "code": "1SA"
+      },
+      {
+        "category": "market",
+        "code": "MAH"
+      },
+      {
+        "category": "bodystyle",
+        "code": "SUV"
+      },
+      {
+        "category": "drivetrain",
+        "code": "RWD"
+      },
+      {
+        "category": "mmc",
+        "code": "6C10706"
+      },
+      {
+        "category": "wheels",
+        "code": "Wheels_std"
+      }
+    ]
+  },
+  {
+    "category": "mmc",
+    "elements": [
+      {
+        "code": "6C10706",
+        "condition": "MAH&SUV&RWD"
+      },
+      {
+        "code": "6C10906",
+        "condition": "MAH&SUVEX&RWD"
+      },
+      {
+        "code": "6K10706",
+        "condition": "MAH&SUV&4WD"
+      },
+      {
+        "code": "6K10906",
+        "condition": "MAH&SUVEX&4WD"
+      }
+    ]
+  },
+  {
+    "category": "market",
+    "elements": [
+      {
+        "code": "MAH",
+        "condition": "",
+        "label": "USA",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/market.png"
+  },
+  {
+    "category": "drivetrain",
+    "elements": [
+      {
+        "code": "4WD",
+        "condition": "",
+        "label": "Four Wheel Drive",
+        "type": "radiobutton"
+      },
+      {
+        "code": "RWD",
+        "condition": "",
+        "label": "Rear Wheel Drive",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/train.png"
+  },
+  {
+    "category": "peg",
+    "elements": [
+      {
+        "code": "1SA",
+        "condition": "",
+        "label": "Luxury",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SB",
+        "condition": "",
+        "label": "Premium Luxury",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SC",
+        "condition": "",
+        "label": "Sport",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SG",
+        "condition": "",
+        "label": "Premium Luxury Platinum",
+        "type": "radiobutton"
+      },
+      {
+        "code": "1SH",
+        "condition": "",
+        "label": "Sport Platinum",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/seat.png"
+  },
+  {
+    "category": "bodystyle",
+    "elements": [
+      {
+        "code": "SUV",
+        "condition": "",
+        "label": "Sport Utility",
+        "type": "radiobutton"
+      },
+      {
+        "code": "SUVEX",
+        "condition": "",
+        "label": "Extended Sport Utility Vehicle",
+        "type": "radiobutton"
+      }
+    ],
+    "icon": "./assets/icons/body.png"
+  },
+  {
+    "category": "color",
+    "elements": [
+      {
+        "type": "swatch",
+        "label": "Black",
+        "code": "GBA"
+      },
+      {
+        "type": "swatch",
+        "label": "Empire Beige Metallic",
+        "code": "GJW"
+      },
+      {
+        "type": "swatch",
+        "label": "Scorpion Metallic",
+        "code": "GS6"
+      },
+      {
+        "type": "swatch",
+        "label": "Satin Steel Gray Metallic",
+        "code": "G9K"
+      },
+      {
+        "type": "swatch",
+        "label": "Dark Shadow Metallic",
+        "code": "GJI"
+      },
+      {
+        "type": "swatch",
+        "code": "G1W",
+        "condition": "",
+        "label": "Abalone White Tricoat"
+      },
+      {
+        "type": "swatch",
+        "code": "GSK",
+        "condition": "",
+        "label": "Cherry Bomb Tint"
+      },
+      {
+        "type": "swatch",
+        "code": "GLU",
+        "condition": "",
+        "label": "Darkmoon Blue Metallic"
+      }
+    ],
+    "icon": "./assets/icons/color.png"
+  },
+  {
+    "category": "leather",
+    "elements": [
+      {
+        "code": "HXR",
+        "condition": "1SA",
+        "label": "Jet Black, Vinyl, Level 2",
+        "type": "swatch"
+      },
+      {
+        "code": "H0B",
+        "condition": "1SC|1SB",
+        "label": "Vy Dk Atmosphere, Brandy, Leather Perf, Level 3",
+        "type": "swatch"
+      },
+      {
+        "code": "H0C",
+        "condition": "1SB",
+        "label": "Jet Black, Parchment, Leather Perf, Level 3",
+        "type": "swatch"
+      },
+      {
+        "code": "H2U",
+        "condition": "1SC|1SB",
+        "label": "Jet Black, Leather Perf, Level 3",
+        "type": "swatch"
+      },
+      {
+        "code": "HGF",
+        "condition": "1SC",
+        "label": "Jet Black, Whisper Beige, Leather Perf, Level 3",
+        "type": "swatch"
+      },
+      {
+        "code": "H0D",
+        "condition": "1SH|1SG",
+        "label": "Gideon, Whisper Beige, Leather Perf, Level 5",
+        "type": "swatch"
+      },
+      {
+        "code": "H0E",
+        "condition": "1SH|1SG",
+        "label": "Jet Black, Bitter Sweet, Leather Perf, Level 5",
+        "type": "swatch"
+      },
+      {
+        "code": "HIZ",
+        "condition": "1SH|1SG",
+        "label": "Jet Black, Leather Perf, Level 5",
+        "type": "swatch"
+      }
+    ],
+    "icon": "./assets/icons/trim.png"
+  },
+  {
+    "category": "wheels",
+    "elements": [
+      {
+        "code": "Wheels_std",
+        "condition": "~PDB",
+        "label": "Standard",
+        "type": "radiobutton"
+      },
+      {
+        "code": "SET",
+        "condition": "~PDB",
+        "label": "Wheels 22in Chrome SET",
+        "type": "swatch"
+      },
+      {
+        "code": "SEY",
+        "condition": "~PDB",
+        "label": "Wheels 22in Android DK Polish Cast SEY",
+        "type": "swatch"
+      },
+      {
+        "code": "SSX",
+        "condition": "",
+        "label": "Accessory, Wheels, 22in Gloss Black, SSX",
+        "type": "swatch"
+      }
+    ],
+    "icon": "./assets/icons/rims.png"
+  },
+  {
+    "category": "packaging and accessories",
+    "icon": "./assets/icons/accesories.png",
+    "elements": [
+      {
+        "type": "group",
+        "group": "seats",
+        "label": "Seats",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "ATT",
+            "condition": "",
+            "label": "Seats, 2nd Row, Bench",
+            "name": "attseats"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "packages",
+        "label": "Packages",
+        "multipleSelection": true,
+        "groupElements": [
+          {
+            "code": "LM2",
+            "condition": "",
+            "label": "LM2 Package",
+            "name": "lm2package"
+          },
+          {
+            "code": "PDB",
+            "condition": "1SC|1SH",
+            "label": "PDB Package",
+            "name": "pdbpackage"
+          },
+          {
+            "code": "UQH",
+            "condition": "~1SA",
+            "label": "UQH Package",
+            "name": "uqhpackage"
+          },
+          {
+            "code": "UKL",
+            "condition": "~1SA",
+            "label": "UKL Super Cruise",
+            "name": "uklpackage"
+          },
+          {
+            "code": "ST1",
+            "condition": "~1SA",
+            "label": "ST1 Package",
+            "name": "st1package"
+          },
+          {
+            "code": "PDH",
+            "condition": "",
+            "label": "PDH Interior Protection Package",
+            "name": "pdhpackage"
+          },
+          {
+            "code": "PDF",
+            "condition": "",
+            "label": "PDF Package",
+            "name": "pdfpackage"
+          },
+          {
+            "code": "Z66",
+            "condition": "1SB",
+            "label": "Z66 Package",
+            "name": "z66package"
+          },
+          {
+            "code": "ZM1",
+            "condition": "1SB|((1SC|1SG|1SH)&(6K10706|6K10906))",
+            "label": "ZM1 Package",
+            "name": "zm1package"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "badges",
+        "label": "Badges",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "RIK",
+            "condition": "",
+            "label": "RIK Gloss Black Escalade Nameplate",
+            "name": "rikbadge"
+          },
+          {
+            "code": "SFZ",
+            "condition": "",
+            "label": "SFZ Monochromatic Cadillac Emblem",
+            "name": "sfzbadge"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "exhausttips",
+        "label": "Exhaust Tips",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "VNI",
+            "condition": "",
+            "label": "Exhaust Bezel Black VNI",
+            "name": "vniexhaust"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "mirrorcap",
+        "label": "Mirror Cap",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "S4X",
+            "condition": "",
+            "label": "OSRVM Cap Black Gloss S4X",
+            "name": "s4xmirrors"
+          },
+          {
+            "code": "VKU",
+            "condition": "",
+            "label": "OSRVM Cap Chrome VKU",
+            "name": "vkumirrors"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "roofaccessories",
+        "label": "Roof Accessories",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "VQQ",
+            "condition": "",
+            "label": "Roof Cross Rails Gloss Black VQQ",
+            "name": "vqqroofrails"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "assiststeps",
+        "label": "Assist Steps",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "B3L",
+            "condition": "~(1SA|VRV)",
+            "label": "Assist Steps Retractable Power Black B3L",
+            "name": "b3lassiststeps"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "frontfasciacover",
+        "label": "Front Fascia Cover",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "UV3",
+            "condition": "~1SA",
+            "label": "Night Vision UV3",
+            "name": "uv3fascia"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "frontgrill",
+        "label": "Front Grill",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "SJ9",
+            "condition": "",
+            "label": "Grille Med Anderson Silver SJ9",
+            "name": "sj9grill"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "brakes",
+        "label": "Brakes",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "5MK",
+            "condition": "1SG",
+            "label": "Brakes Switch Blade Silver 5MK",
+            "name": "5mkbrakes"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "splashguards",
+        "label": "Splash Guards",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "VRV",
+            "condition": "",
+            "label": "Splashguards Body Color VRV",
+            "name": "vrvsplashguards"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "multimedia",
+        "label": "Multimedia",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "UW9",
+            "condition": "1SC|1SB",
+            "label": "Rear Seat Entertainment Dual Display UW9",
+            "name": "uw9multimedia"
+          },
+          {
+            "code": "SIF",
+            "condition": "",
+            "label": "Tablet Holder SIF",
+            "name": "sifmultimedia"
+          },
+          {
+            "code": "SIL",
+            "condition": "1SH|1SG",
+            "label": "Tablet Holder w Power SIL",
+            "name": "silmultimedia"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "floors",
+        "label": "Floors",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "AAK",
+            "condition": "1SB|1SA",
+            "label": "Floor Liners Contoured AAK",
+            "name": "aakfloors"
+          },
+          {
+            "code": "VAV",
+            "condition": "",
+            "label": "All Weather Floor Mats",
+            "name": "vavfloors"
+          },
+          {
+            "code": "VYW",
+            "condition": "",
+            "label": "Premium Carpet Floor Mats",
+            "name": "vywfloors"
+          },
+          {
+            "code": "RIB",
+            "condition": "",
+            "label": "Contoured 3rd Row Floor Liner",
+            "name": "ribfloors"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "console",
+        "label": "Console",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "DCK",
+            "condition": "1SH|1SG",
+            "label": "Console Floor w Cooler DCK",
+            "name": "dckconsole"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "sillplates",
+        "label": "Sill Plates",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "S0M",
+            "condition": "",
+            "label": "Sill Plate Illuminated S0M",
+            "name": "s0msillplate"
+          },
+          {
+            "code": "5RU",
+            "condition": "",
+            "label": "Sill Plate Rear Illuminated 5RU",
+            "name": "5rusillplate"
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "group": "cargoaccessories",
+        "label": "Cargo Accessories",
+        "multipleSelection": false,
+        "groupElements": [
+          {
+            "code": "RWU",
+            "condition": "",
+            "label": "Cargo Organizer Collapsable RWU",
+            "name": "rwucargo"
+          },
+          {
+            "code": "W2D",
+            "condition": "",
+            "label": "Cargo Net W2D",
+            "name": "w2dcargo"
+          }
+        ]
+      }
+    ]
+  }
+]

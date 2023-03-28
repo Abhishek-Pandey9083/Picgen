@@ -1,0 +1,959 @@
+[
+    {
+        "category": "date", 
+        "correctAsOf": "2022/2/23"
+    }, 
+    {
+        "category": "camera", 
+        "elements": [
+            {
+                "type": "EXT", 
+                "code": "01", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "02", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "03", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "04", 
+                "group": "Art Directed"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "05", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "06", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "EXT", 
+                "code": "07", 
+                "group": "Studio"
+            }, 
+            {
+                "type": "INT", 
+                "code": "01", 
+                "group": "Interior"
+            }, 
+            {
+                "type": "INT", 
+                "code": "02", 
+                "group": "Interior"
+            }
+        ]
+    }, 
+    {
+        "category": "default", 
+        "elements": [
+            {
+                "category": "mmc", 
+                "code": "1XP26"
+            }, 
+            {
+                "category": "market", 
+                "code": "MAH"
+            }, 
+            {
+                "category": "drivetrain", 
+                "code": "FWD"
+            }, 
+            {
+                "category": "peg", 
+                "code": "1LS"
+            }, 
+            {
+                "category": "bodystyle", 
+                "code": "CRO"
+            }, 
+            {
+                "category": "color", 
+                "code": "GAN"
+            }, 
+            {
+                "category": "leather", 
+                "code": "HC8"
+            }, 
+            {
+                "category": "wheels", 
+                "code": "Wheels_std"
+            }
+        ]
+    }, 
+    {
+        "category": "mmc", 
+        "elements": [
+            {
+                "code": "1XP26", 
+                "condition": "MAH&FWD&1LS&CRO"
+            }, 
+            {
+                "code": "1XR26", 
+                "condition": "MAH&FWD&(1LT|1RS)&CRO"
+            }, 
+            {
+                "code": "1XS26", 
+                "condition": "MAH&FWD&1LZ&CRO"
+            }, 
+            {
+                "code": "1XX26", 
+                "condition": "MAH&AWD&1LS&CRO"
+            }, 
+            {
+                "code": "1XY26", 
+                "condition": "MAH&AWD&(1LT|1RS)&CRO"
+            }, 
+            {
+                "code": "1XZ26", 
+                "condition": "MAH&AWD&1LZ&CRO"
+            }
+        ]
+    }, 
+    {
+        "category": "market", 
+        "elements": [
+            {
+                "code": "MAH", 
+                "condition": "", 
+                "label": "USA", 
+                "type": "radiobutton", 
+                "hoverText": "MAH"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/market.png"
+    }, 
+    {
+        "category": "drivetrain", 
+        "elements": [
+            {
+                "code": "AWD", 
+                "condition": "", 
+                "label": "All Wheel Drive", 
+                "type": "radiobutton", 
+                "hoverText": "AWD"
+            }, 
+            {
+                "code": "FWD", 
+                "condition": "", 
+                "label": "Front Wheel Drive", 
+                "type": "radiobutton", 
+                "hoverText": "FWD"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/train.png"
+    }, 
+    {
+        "category": "peg", 
+        "elements": [
+            {
+                "code": "1LS", 
+                "condition": "(1XP26|1XX26)", 
+                "label": "1LS", 
+                "type": "radiobutton", 
+                "hoverText": "1LS"
+            }, 
+            {
+                "code": "1LT", 
+                "condition": "(1XR26|1XY26)", 
+                "label": "1LT", 
+                "type": "radiobutton", 
+                "hoverText": "1LT"
+            }, 
+            {
+                "code": "1LZ", 
+                "condition": "(1XZ26|1XS26)", 
+                "label": "1LZ", 
+                "type": "radiobutton", 
+                "hoverText": "1LZ"
+            }, 
+            {
+                "code": "1RS", 
+                "condition": "(1XR26|1XY26)", 
+                "label": "1RS", 
+                "type": "radiobutton", 
+                "hoverText": "1RS"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/seat.png"
+    }, 
+    {
+        "category": "bodystyle", 
+        "elements": [
+            {
+                "code": "CRO", 
+                "condition": "", 
+                "label": "Crossover", 
+                "type": "radiobutton", 
+                "hoverText": "CRO"
+            }
+        ], 
+        "show": true, 
+        "icon": "./assets/icons/body.png"
+    }, 
+    {
+        "category": "color", 
+        "elements": [
+            {
+                "code": "G1W", 
+                "condition": "~(1XP26|1XX26)&~1LS", 
+                "label": "Abalone White", 
+                "type": "swatch", 
+                "hoverText": "G1W"
+            }, 
+            {
+                "code": "GAN", 
+                "condition": "", 
+                "label": "Switchblade Silver", 
+                "type": "swatch", 
+                "hoverText": "GAN"
+            }, 
+            {
+                "code": "GAZ", 
+                "condition": "", 
+                "label": "Summit White", 
+                "type": "swatch", 
+                "hoverText": "GAZ"
+            }, 
+            {
+                "code": "GB8", 
+                "condition": "", 
+                "label": "Black Meet Kettle", 
+                "type": "swatch", 
+                "hoverText": "GB8"
+            }, 
+            {
+                "code": "GHT", 
+                "condition": "", 
+                "label": "Blue Glo", 
+                "type": "swatch", 
+                "hoverText": "GHT"
+            }, 
+            {
+                "code": "GHZ", 
+                "condition": "~(1XP26|1XX26)&~1LS", 
+                "label": "Voyager", 
+                "type": "swatch", 
+                "hoverText": "GHZ"
+            }, 
+            {
+                "code": "GIV", 
+                "condition": "", 
+                "label": "Iron Gray Metallic", 
+                "type": "swatch", 
+                "hoverText": "GIV"
+            }, 
+            {
+                "code": "GSK", 
+                "condition": "~(1XP26|1XX26)&~1LS", 
+                "label": "Cherry Red Tintcoat", 
+                "type": "swatch", 
+                "hoverText": "GSK"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/color.png"
+    }, 
+    {
+        "category": "leather", 
+        "elements": [
+            {
+                "code": "HC8", 
+                "condition": "~(1XZ26|1XS26)&(1LT|1LS)", 
+                "label": "Med Ash Gray, Cloth, Level 5", 
+                "type": "swatch", 
+                "hoverText": "HC8"
+            }, 
+            {
+                "code": "HDI", 
+                "condition": "(1XR26|1XY26)&1RS", 
+                "label": "Jet Black, Cloth, Level 4", 
+                "type": "swatch", 
+                "hoverText": "HDI"
+            }, 
+            {
+                "code": "HMR", 
+                "condition": "(1XR26|1XY26)&1RS", 
+                "label": "Jet Black, Leather, Level 6", 
+                "type": "swatch", 
+                "hoverText": "HMR"
+            }, 
+            {
+                "code": "HPW", 
+                "condition": "(1XR26|1XY26)&1LT", 
+                "label": "Jet Black, Cloth, Level 5", 
+                "type": "swatch", 
+                "hoverText": "HPW"
+            }, 
+            {
+                "code": "HSO", 
+                "condition": "(1XZ26|1XS26)&1LZ", 
+                "label": "Jet Black/Maple Sugar, Leather, Level 2", 
+                "type": "swatch", 
+                "hoverText": "HSO"
+            }, 
+            {
+                "code": "HX1", 
+                "condition": "(1XZ26|1XS26)&1LZ", 
+                "label": "Jet Black, Leather, Level 7", 
+                "type": "swatch", 
+                "hoverText": "HX1"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/trim.png"
+    }, 
+    {
+        "category": "wheels", 
+        "elements": [
+            {
+                "code": "Wheels_std", 
+                "condition": "", 
+                "label": "Standard Wheels", 
+                "type": "radiobutton"
+            }, 
+            {
+                "code": "PJR", 
+                "condition": "~(1XP26|1XX26)&~1LS", 
+                "label": "Wheels 19in Machined PJR", 
+                "type": "swatch", 
+                "hoverText": "PJR"
+            }, 
+            {
+                "code": "PJS", 
+                "condition": "(1XR26|1XY26)&1RS", 
+                "label": "Wheels 19in PJS", 
+                "type": "swatch", 
+                "hoverText": "PJS"
+            }, 
+            {
+                "code": "RV8", 
+                "condition": "~(1XP26|1XX26)&(1LT|1LZ)", 
+                "label": "Wheels 18in Machined RV8", 
+                "type": "swatch", 
+                "hoverText": "RV8"
+            }, 
+            {
+                "code": "RZS", 
+                "condition": "~(1XZ26|1XS26)&(1LT|1LS)", 
+                "label": "Wheels 17in RZS", 
+                "type": "swatch", 
+                "hoverText": "RZS"
+            }, 
+            {
+                "code": "SN7", 
+                "condition": "~(1XP26|1XX26)&(1LT|1LZ)", 
+                "label": "Wheels 19in SN7", 
+                "type": "swatch", 
+                "hoverText": "SN7"
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/rims.png"
+    }, 
+    {
+        "category": "packaging and accessories", 
+        "elements": [
+            {
+                "type": "group", 
+                "group": "packages", 
+                "label": "Packages", 
+                "multipleSelection": true, 
+                "groupElements": [
+                    {
+                        "code": "B26", 
+                        "condition": "~(1XZ26|1XS26)&(1LT|1LS)", 
+                        "label": "Driver Confidence II Package", 
+                        "hoverText": "B26 - OSRVM, Bumper, Side Blind Zone Alert (UKC) | Park Assist Rear UD7 (UD7) | Park Assist, Rear, Front and Rear, Standard with Park Assist, UD5 (UD5), UD7 (S0254) | OSRVM, Side Blind Zone Alert (UKC) | Fascia, Front with Park Assist, UD5 (S0280) | Fascia, Front, Lower, Midlevel with Park Assist, UD5 (S0235)"
+                    }, 
+                    {
+                        "code": "BGP", 
+                        "condition": "(1XZ26|1XS26)&1LZ", 
+                        "label": "Driver Confidence II Package", 
+                        "hoverText": "BGP - Forward Collision Alert UEU (UEU) | Steering Wheel Icon, Camera, Lane Keep Assist, Front, UHX (UHX) | OSRVM, 360 View, Lower with 360 View, UV2 (S0201) | Primer, UV2 (S0268), UEU (UEU) | OSRVM", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "UEU&UHX&UV2", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PCP", 
+                        "condition": "(1XR26|1XY26)&1LT", 
+                        "label": "Confidence & Convenience Package", 
+                        "hoverText": "PCP - Driver Confidence II Package (B26) | Driver Convenience Package (ZQ2), Driver Confidence II Package (B26)", 
+                        "enableCodes": {
+                            "packaging and accessories": "B26&ZQ2", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PCR", 
+                        "condition": "(1XP26|1XX26)&1LS", 
+                        "label": "LS Convenience Package", 
+                        "hoverText": "PCR - Windows, Front and Rear Doors, Dark Tint (AKO) | Cluster, Dark Tint (AKO), 4.2in Display (UDD) | Seat Adjuster, Driver, Lumbar, AL9 (AL9)", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "AKO&UDD&AL9", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PCV", 
+                        "condition": "(1XZ26|1XS26)&1LZ", 
+                        "label": "Confidence & Convenience II Package", 
+                        "hoverText": "PCV - Park Assist, Camera, Front, Rear, 360 View, Lateral Front, UV2 (S0201) | Fascia, UFQ (UFQ) | Driver Confidence II Package (BGP) | Convenience II Package (ZQ3), Front with Lateral Park Assist, UFQ (UFQ) | Driver Confidence II Package (BGP)", 
+                        "enableCodes": {
+                            "packaging and accessories": "C3U&ZQ3&BGP&Y3W", 
+                            "attach": "UV2&UEU", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PCW", 
+                        "condition": "(1XR26|1XY26)&1RS", 
+                        "label": "RS Leather Package", 
+                        "hoverText": "PCW - Speakers, Branded (UQA) | Jet Black, Leather, Level 6 (HMR) | LT Safety Package (WPV) | Infotainment Package (WPZ)", 
+                        "view": "INT", 
+                        "enableCodes": {
+                            "packaging and accessories": "WPV&WPZ", 
+                            "attach": "UQA", 
+                            "wheels": "", 
+                            "leather": "HMR", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PCX", 
+                        "condition": "~(1XP26|1XX26)&~1LS", 
+                        "label": "Hith the Road Package", 
+                        "hoverText": "PCX - Roof, Sunroof, Dual, C3U (C3U) | Confidence & Convenience Package (PCP), C3U (C3U) | Luggage Carrier Roof Rails, Chome, V2P (S0282) | Roof Rack Cross Rails, VLL (VLL) | Assist Steps (VXW) | Luggage Carrier Roof Rails, V2P, 3DEXCITE USE ONLY NO GEO (V2P) | Confidence & Convenience Package (PCP)"
+                    }, 
+                    {
+                        "code": "PDB", 
+                        "condition": "~(1XZ26|1XS26)&(1LT|1LS)", 
+                        "label": "Blackout Package", 
+                        "hoverText": "PDB - Accessory OSRVM Painted Caps S4X, Badge, Alternate Finish (S4X), Front, Bowtie, Black, SFZ (S0203) | Badge, Rear, SFZ (S0204) | Badge, Side, Equinox, RIK (S0266) | Badge, RIK (S0272) | Accessory, Grille, Gloss Black, SJ9 (SJ9) | Accessory, Bowties, SFZ, 3DEXCITE USE ONLY NO GEO (SFZ) | Accessory, Badges, RIK, 3DEXCITE USE ONLY NO GEO (RIK) | Accessory, OSRVM, Cap, Painted, S4X (S4X) | Badge, LT, RIK (S0309) | Badge, AWD, LS LT, RIK (S0276)", 
+                        "enableCodes": {
+                            "packaging and accessories": "SFZ&RIK&S4X", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDG", 
+                        "condition": "", 
+                        "label": "Cargo Package", 
+                        "hoverText": "PDG - Accessory, Cargo Security Shade (VRS)", 
+                        "view": "INT", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "VRS", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PDV", 
+                        "condition": "~(1XZ26|1XS26)&(1LT|1LS)", 
+                        "label": "Chrome Package", 
+                        "hoverText": "PDV - Accessory OSRVM Chrome Caps VKU (VKU), Badge, Front, Bowtie, Black, SFZ (S0203) | Badge, Rear, SFZ (S0204) | Accessory, Rear Bumper Protector (VTB) | Grille, Gloss Black, VAT (VAT) | Accessory, Bowties, SFZ, 3DEXCITE USE ONLY NO GEO (SFZ) | OSRVM, Cap, Chrome, VKU (VKU)", 
+                        "enableCodes": {
+                            "packaging and accessories": "VKU&VTB", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "PEF", 
+                        "condition": "", 
+                        "label": "Floor Liner Package", 
+                        "hoverText": "PEF - Accessory, Cargo Liner, CAV (CAV) | Accessory, All Weather Floor Liners (RIA)", 
+                        "view": "INT", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "CAV&RIA", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "WPV", 
+                        "condition": "(1XR26|1XY26)&(1LT|1RS)", 
+                        "label": "LT Safety Package", 
+                        "hoverText": "WPV - OSRVM, Remote Control, Heated, Manual Fold, Turn Signal (DWK) | OSRVM, Turn Signal (DWK) | Camera, Lower with 360 View, Front, UV2 (S0268) | Confidence & Convenience Package (PCP), 360 View, UV2 (S0201) | OSRVM, UV2 (S0268) | Camera, UV2, RS (S0245) | Confidence & Convenience Package (PCP)"
+                    }, 
+                    {
+                        "code": "WPZ", 
+                        "condition": "(1XR26|1XY26)&(1LT|1RS)", 
+                        "label": "Infotainment Package", 
+                        "hoverText": "WPZ - Steering Wheel Icon, Confidence & Convenience Package (PCP) | LT Safety Package (WPV), Heated, UVD (UVD) | Liftgate, Power (TB5) | Front Console, Dual USB, Single AUX, SD Card (MCR) | Radio, Uplevel, NAV, IOU (IOU) | Electrical Receptacle, Rear Console, 120v, KI6 (KI6) | LT Safety Package (WPV)"
+                    }, 
+                    {
+                        "code": "Y3W", 
+                        "condition": "(1XZ26|1XS26)&1LZ", 
+                        "label": "Infotainment II Package", 
+                        "hoverText": "Y3W - Speakers, Branded (UQA) | Radio, Uplevel, NAV, IOU (IOU) | Confidence & Convenience II Package (PCV)", 
+                        "view": "INT", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "UQA", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "ZQ2", 
+                        "condition": "(1XR26|1XY26)&1LT", 
+                        "label": "Driver Convenience Package", 
+                        "hoverText": "ZQ2 - HVAC, Auto with Heated Seats, KA1 CJ2 (KA1) | Steering Wheel, Leather (N34) | Liftgate, Power (TB5)", 
+                        "view": "INT", 
+                        "enableCodes": {
+                            "packaging and accessories": "T3U", 
+                            "attach": "KA1&N34&TB5", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "ZQ3", 
+                        "condition": "(1XZ26|1XS26)&1LZ", 
+                        "label": "Convenience II Package", 
+                        "hoverText": "ZQ3 - Steering Wheel Icon, Heated, UVD (UVD) | HVAC, Auto  with Heated and Vented Seats, KU9 KA1 CJ2 (KU1) | Seat Adjuster, Passenger, Power (AG2)", 
+                        "view": "INT", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "UVD&AG2&KU1", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "assiststeps", 
+                "label": "Assist Steps", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VXW", 
+                        "condition": "", 
+                        "label": "Assist Steps", 
+                        "hoverText": "VXW", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "badges", 
+                "label": "Badges", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Misc1", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "misc1", 
+                        "elements": [
+                            {
+                                "code": "R88", 
+                                "condition": "", 
+                                "label": "Badge Front Bowtie Illuminated Black R88", 
+                                "hoverText": "R88", 
+                                "view": "EXT"
+                            }, 
+                            {
+                                "code": "RN2", 
+                                "condition": "", 
+                                "label": "Badge Front Bowtie Illuminated RN2", 
+                                "hoverText": "RN2", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Side Badges2", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "sidebadges2", 
+                        "elements": [
+                            {
+                                "code": "RIK", 
+                                "condition": "", 
+                                "label": "Badges Black RIK NO GEO", 
+                                "hoverText": "RIK", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "None", 
+                        "type": "none", 
+                        "multipleSelection": false, 
+                        "subGroup": "badges-none", 
+                        "elements": [
+                            {
+                                "code": "SFZ", 
+                                "condition": "", 
+                                "label": "Badge Bowties Black SFZ NO GEO", 
+                                "hoverText": "SFZ", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "cargo", 
+                "label": "Cargo", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Bed Accessories2", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "bedaccessories2", 
+                        "elements": [
+                            {
+                                "code": "AP9", 
+                                "condition": "", 
+                                "label": "Cargo Net", 
+                                "hoverText": "AP9", 
+                                "view": "INT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Cargo Accessories1", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "cargoaccessories1", 
+                        "elements": [
+                            {
+                                "code": "VLI", 
+                                "condition": "", 
+                                "label": "Trunk Mat", 
+                                "hoverText": "VLI", 
+                                "view": "INT"
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Cargo Accessories3", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "cargoaccessories3", 
+                        "elements": [
+                            {
+                                "code": "RWU", 
+                                "condition": "", 
+                                "label": "Cargo Organizer", 
+                                "hoverText": "RWU", 
+                                "view": "INT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "doors", 
+                "label": "Doors", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "RDI", 
+                        "condition": "", 
+                        "label": "ACC Keyless Entry", 
+                        "hoverText": "RDI", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "engine", 
+                "label": "Engine", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "K05", 
+                        "condition": "", 
+                        "label": "Engine Heater K05 NO GEO", 
+                        "hoverText": "K05", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "floormats", 
+                "label": "Floor Mats", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VAV", 
+                        "condition": "", 
+                        "label": "Floor Mats All Weather", 
+                        "hoverText": "VAV", 
+                        "view": "INT"
+                    }, 
+                    {
+                        "code": "VYW", 
+                        "condition": "", 
+                        "label": "Floor Mats Premium Carpet w Chevrolet Logo", 
+                        "hoverText": "VYW", 
+                        "view": "INT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "frontgrille", 
+                "label": "Front Grille", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SJ9", 
+                        "condition": "", 
+                        "label": "Grille Gloss Black SJ9", 
+                        "hoverText": "SJ9", 
+                        "view": "EXT"
+                    }, 
+                    {
+                        "code": "VAT", 
+                        "condition": "~(1XZ26|1XS26)&(1LT|1LS)", 
+                        "label": "Grille Gloss Black VAT", 
+                        "hoverText": "VAT", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "licenseplates", 
+                "label": "License Plates", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VK3", 
+                        "condition": "", 
+                        "label": "License Plate Front VK3", 
+                        "hoverText": "VK3", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "mirrors", 
+                "label": "Mirrors", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "S4X", 
+                        "condition": "(1XR26|1XY26)&(1LT|1RS)", 
+                        "label": "OSRVM Painted Caps Painted Black S4X", 
+                        "hoverText": "S4X"
+                    }, 
+                    {
+                        "code": "VKU", 
+                        "condition": "~(1XZ26|1XS26)&(1LT|1LS)", 
+                        "label": "OSRVM Chrome Caps VKU", 
+                        "hoverText": "VKU"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "molding", 
+                "label": "Molding", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VTB", 
+                        "condition": "~1RS", 
+                        "label": "Rear Bumper Protector", 
+                        "hoverText": "VTB", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "multimedia", 
+                "label": "Multimedia", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SR2", 
+                        "condition": "", 
+                        "label": "Headrest Rear Seat Infotainment SR2", 
+                        "hoverText": "SR2", 
+                        "view": "INT", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }, 
+                    {
+                        "code": "SR3", 
+                        "condition": "", 
+                        "label": "Headrest Rear Seat Infotainment w DVD SR3", 
+                        "hoverText": "SR3", 
+                        "view": "INT", 
+                        "enableCodes": {
+                            "packaging and accessories": "", 
+                            "attach": "", 
+                            "wheels": "", 
+                            "leather": "", 
+                            "color": ""
+                        }
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "roof", 
+                "label": "Roof", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "C3U", 
+                        "condition": "~(1XP26|1XX26)&~1LS", 
+                        "label": "Roof Sunroof", 
+                        "hoverText": "C3U"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "roofaccessories", 
+                "label": "Roof Accessories", 
+                "hybridSelection": true, 
+                "groupElements": [
+                    {
+                        "label": "Cross Rails", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "crossrails", 
+                        "elements": [
+                            {
+                                "code": "VLL", 
+                                "condition": "~(1XP26|1XX26)&~1LS", 
+                                "label": "Roof Rack Cross Rails", 
+                                "hoverText": "VLL", 
+                                "view": "EXT", 
+                                "enableCodes": {
+                                    "packaging and accessories": "V2P", 
+                                    "attach": "", 
+                                    "wheels": "", 
+                                    "leather": "", 
+                                    "color": ""
+                                }
+                            }
+                        ]
+                    }, 
+                    {
+                        "label": "Roof Rails", 
+                        "type": "radio", 
+                        "multipleSelection": false, 
+                        "subGroup": "roofrails", 
+                        "elements": [
+                            {
+                                "code": "V2P", 
+                                "condition": "~(1XP26|1XX26)&~1LS", 
+                                "label": "Luggage Carrier Roof Rails V2P NO GEO", 
+                                "hoverText": "V2P", 
+                                "view": "EXT"
+                            }
+                        ]
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "seats", 
+                "label": "Seats", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "KA6", 
+                        "condition": "(1XZ26|1XS26)&1LZ", 
+                        "label": "Heated Seats Rear", 
+                        "hoverText": "KA6", 
+                        "view": "INT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "trailering", 
+                "label": "Trailering", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "SDE", 
+                        "condition": "", 
+                        "label": "ACC Trailer Hitch", 
+                        "hoverText": "SDE", 
+                        "view": "EXT"
+                    }
+                ]
+            }, 
+            {
+                "type": "group", 
+                "group": "wheelsplashguards", 
+                "label": "Wheel Splash Guards", 
+                "multipleSelection": false, 
+                "groupElements": [
+                    {
+                        "code": "VQK", 
+                        "condition": "", 
+                        "label": "Splash Guards Front Rear VQK", 
+                        "hoverText": "VQK", 
+                        "view": "EXT"
+                    }
+                ]
+            }
+        ], 
+        "show": false, 
+        "icon": "./assets/icons/accesories.png"
+    }
+]
